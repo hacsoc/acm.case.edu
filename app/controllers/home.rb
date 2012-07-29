@@ -1,5 +1,5 @@
 Cabal.controller do
   get :root, :map => '/' do
-    "Welcome Home (doo doo, dooo do doooooo...)"
+    render 'home/index'
   end
 end

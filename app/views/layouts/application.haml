@@ -1,0 +1,15 @@
+!!! 5
+%html
+  %head
+    %title EECS @ CWRU
+    = stylesheet_link_tag 'global.css'
+  %body
+    .site-banner
+      .container
+        %ul
+          %li EECS
+          %li ACM
+          %li IEEE
+          %li other stuff
+    .container
+      =yield

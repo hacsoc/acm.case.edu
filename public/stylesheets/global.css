@@ -1,0 +1,38 @@
+/* Reset stuff */
+body,html,ul,li {
+  margin: 0; padding: 0;
+}
+
+body,html {
+  background-color: #222;
+  color: #EFEFEF;
+  font-family: Helvetica, sans-serif;
+}
+.container {
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Top Banner */
+.site-banner {
+  background-color: #4E6189;
+  margin-bottom: 30px;
+  overflow: hidden;
+  width: 100%;
+}
+.site-banner ul {
+  list-style: none;
+  margin: auto;
+}
+.site-banner li {
+  float: left;
+  padding: 10px 50px 10px 0;
+}
+
+/* Page styles */
+h1 {
+  font-size: 78px;
+  text-shadow: 2px 2px 1px #000;
+  margin-bottom: 40px;
+}
