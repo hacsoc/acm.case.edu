@@ -7,9 +7,13 @@
     .site-banner
       .container
         %ul
-          %li EECS
-          %li ACM
-          %li IEEE
-          %li other stuff
+          %li
+            %a{:href => '/'} EECS@CWRU
+          %li
+            %a{:href => '/acm'} ACM
+          %li
+            %a{:href => '/ieee'} IEEE
+          %li
+            %a{:href => '/hacsoc'} HacSoc
     .container
       =yield
