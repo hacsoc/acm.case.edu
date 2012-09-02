@@ -27,7 +27,15 @@ body,html {
 }
 .site-banner li {
   float: left;
-  padding: 10px 50px 10px 0;
+  padding: 0 50px 0 0;
+  line-height: 36px;
+}
+.site-banner a {
+  color: #91a0c0;
+  text-decoration: none;
+}
+.site-banner a:hover {
+  color: #c0b191;
 }
 
 /* Page styles */
