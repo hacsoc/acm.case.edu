@@ -6,6 +6,7 @@ source :rubygems
 
 # Project requirements
 gem 'rake'
+gem 'rdiscount'
 gem 'sinatra-flash', :require => 'sinatra/flash'
 
 # Component requirements

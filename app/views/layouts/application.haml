@@ -4,16 +4,18 @@
     %title EECS @ CWRU
     = stylesheet_link_tag 'global.css'
   %body
-    .site-banner
+    %header.site-banner
       .container
+        %span.brace {
         %ul
           %li
-            %a{:href => '/'} EECS@CWRU
+            %a{:href => '/'} EECS
           %li
             %a{:href => '/acm'} ACM
           %li
             %a{:href => '/ieee'} IEEE
           %li
             %a{:href => '/hacsoc'} HacSoc
+        %span.brace } @ CWRU
     .container
       =yield
