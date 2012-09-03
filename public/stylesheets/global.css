@@ -1,12 +1,17 @@
 /* Reset stuff */
-body,html,ul,li {
+body,html,ul,li,dt,dl,dd {
   margin: 0; padding: 0;
 }
 
+/* Global Styles */
 body,html {
   background-color: #222;
   color: #EFEFEF;
   font-family: Helvetica, sans-serif;
+  color: #ddd;
+}
+p {
+  line-height: 1.4em;
 }
 .container {
   width: 940px;
@@ -19,6 +24,7 @@ body,html {
   background-color: #4E6189;
   margin-bottom: 30px;
   overflow: hidden;
+  line-height: 36px;
   width: 100%;
 }
 .site-banner ul {
@@ -27,8 +33,15 @@ body,html {
 }
 .site-banner li {
   float: left;
-  padding: 0 50px 0 0;
-  line-height: 36px;
+  margin-left: 50px;
+}
+.site-banner li:first-child {
+  margin-left: 0;
+}
+.site-banner .brace {
+  float: left;
+  margin: auto 20px;
+  color: #6a7ea9;
 }
 .site-banner a {
   color: #91a0c0;
@@ -43,4 +56,31 @@ h1 {
   font-size: 78px;
   text-shadow: 2px 2px 1px #000;
   margin-bottom: 40px;
+  color: #fff;
+}
+/* Contact Box */
+.contact-list {
+  list-style: none;
+}
+.contact-list li {
+  line-height: 1.6em;
+}
+.contact-list a {
+  color: #999;
+  text-decoration: none;
+}
+.contact-list .name {
+  float: left;
+  margin-right: 14px;
+}
+.contact-list .position {
+  color: #ccc;
+  text-transform: lowercase;
+  font-style: italic;
+}
+
+/* Presentational Styles */
+.right {
+  float: right;
+  margin: 0 0 20px 20px;
 }
