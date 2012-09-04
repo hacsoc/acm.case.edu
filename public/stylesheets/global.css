@@ -5,7 +5,8 @@ body,html,ul,li,dt,dl,dd {
 
 /* Global Styles */
 body,html {
-  background-color: #222;
+  background-color: #25252F;
+  background-image: url('../images/bg.png');
   color: #EFEFEF;
   font-family: Helvetica, sans-serif;
   color: #ddd;
@@ -21,7 +22,9 @@ p {
 
 /* Top Banner */
 .site-banner {
-  background-color: #4E6189;
+  background-color: #102039;
+  opacity: 0.8;
+  border-bottom: 1px solid #0A0A0A;
   margin-bottom: 30px;
   overflow: hidden;
   line-height: 36px;
@@ -41,14 +44,15 @@ p {
 .site-banner .brace {
   float: left;
   margin: auto 20px;
-  color: #6a7ea9;
+  color: #2a4e79;
 }
 .site-banner a {
   color: #91a0c0;
+  font-weight: 700;
   text-decoration: none;
 }
 .site-banner a:hover {
-  color: #c0b191;
+  color: #b0d191;
 }
 
 /* Page styles */
