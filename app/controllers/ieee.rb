@@ -1,5 +1,5 @@
-Cabal.controller do
-  get :ieee, :map => '/ieee' do
-    render 'ieee/home'
+Cabal.controller :ieee do
+  get :index do
+    render 'ieee/index'
   end
 end
