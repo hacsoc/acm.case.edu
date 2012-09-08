@@ -1,5 +1,5 @@
-Cabal.controller do
-  get :root, :map => '/' do
+Cabal.controller :home do
+  get :index, :map => '/' do
     render 'home/index'
   end
 end

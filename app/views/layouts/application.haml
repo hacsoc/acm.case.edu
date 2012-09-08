@@ -10,13 +10,13 @@
         %span.brace {
         %ul
           %li
-            %a{:href => '/'} EECS
+            %a{href: url_for(:home, :index)} EECS
           %li
-            %a{:href => '/acm'} ACM
+            %a{href: url_for(:acm, :index)} ACM
           %li
-            %a{:href => '/ieee'} IEEE
+            %a{href: url_for(:ieee, :index)} IEEE
           %li
-            %a{:href => '/hacsoc'} HacSoc
+            %a{href: url_for(:hacsoc, :index)} HacSoc
         %span.brace } @ CWRU
     .container
       =yield

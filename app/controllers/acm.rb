@@ -1,9 +1,9 @@
-Cabal.controller do
-  get :acm, :map => '/acm' do
-    render 'acm/home'
+Cabal.controller :acm do
+  get :index do
+    render 'acm/index'
   end
 
-  get '/acm/conference' do
+  get :conference do
     render 'acm/conference'
   end
 end

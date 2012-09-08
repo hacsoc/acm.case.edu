@@ -1,5 +1,5 @@
-Cabal.controller do
-  get :hacsoc, :map => '/hacsoc' do
-    render 'hacsoc/home'
+Cabal.controller :hacsoc do
+  get :index do
+    render 'hacsoc/index'
   end
 end
