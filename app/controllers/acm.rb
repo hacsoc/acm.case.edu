@@ -9,5 +9,6 @@ Cabal.controller :acm do
   end
 
   get :servers do
+    render 'acm/servers'
   end
 end
