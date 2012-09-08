@@ -1,3 +1,5 @@
+@import 'fonts/font.css'
+
 /* Reset stuff */
 body,html,ul,li,dt,dl,dd {
   margin: 0; padding: 0;
@@ -5,10 +7,10 @@ body,html,ul,li,dt,dl,dd {
 
 /* Global Styles */
 body,html {
-  background-color: #25252F;
+  background-color: #25252f;
   background-image: url('../images/bg.png');
-  color: #EFEFEF;
-  font-family: Helvetica, sans-serif;
+  color: #efefef;
+  font-family: 'OpenSans', Helvetica, sans-serif;
   color: #ddd;
 }
 p {
@@ -20,8 +22,13 @@ p {
   margin-right: auto;
 }
 
+h1.root:after {
+  content: '@CWRU';
+  opacity: 0.3;
+}
+
 .container a {
-  color: #adf;
+  color: #6cf;
   text-decoration: none;
   text-shadow: 0 0 1px #000;
 }
@@ -34,7 +41,7 @@ p {
 .site-banner {
   background-color: #102039;
   opacity: 0.8;
-  border-bottom: 1px solid #0A0A0A;
+  border-bottom: 1px solid #0a0a0a;
   margin-bottom: 30px;
   overflow: hidden;
   line-height: 36px;
