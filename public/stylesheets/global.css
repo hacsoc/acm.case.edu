@@ -51,6 +51,10 @@ h1.root:after {
   text-shadow: 0 0 1px #777;
 }
 
+.container ul {
+  padding-left: 15px;
+}
+
 /* Top Banner */
 .site-banner {
   background-color: #102039;
