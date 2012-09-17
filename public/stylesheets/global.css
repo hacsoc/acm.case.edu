@@ -55,6 +55,10 @@ h1.root:after {
   padding-left: 15px;
 }
 
+.container h2 {
+  margin-top: 40px;
+}
+
 /* Top Banner */
 .site-banner {
   background-color: #102039;
