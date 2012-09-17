@@ -10,7 +10,7 @@ body,html {
   background-color: #25252f;
   background-image: url('../images/bg.png');
   color: #efefef;
-  font-family: 'OpenSans', Helvetica, sans-serif;
+  font-family: 'OpenSansRegular', Helvetica, sans-serif;
   color: #ddd;
   padding-bottom: 40px;
 }
@@ -83,8 +83,8 @@ h1.root:after {
 }
 .site-banner a {
   color: #91a0c0;
-  font-weight: 700;
   text-decoration: none;
+  font-family: 'OpenSansSemibold', Helvetica, sans-serif;
 }
 .site-banner a:hover {
   color: #b0d191;
@@ -97,6 +97,8 @@ h1 {
   text-shadow:  1px 0 0 #222, 0 -1px 0 #222, 0 1px 0 #222, -1px 0 0 #222, 0 0 160px #fff;
   margin-bottom: 40px;
   color: #fff;
+  font-family: 'OpenSansBold', Helvetica, sans-serif;
+  font-weight: normal;
 }
 
 /* Aside Box */
