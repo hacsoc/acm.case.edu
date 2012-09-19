@@ -12,10 +12,22 @@ body,html {
   color: #efefef;
   font-family: 'OpenSans', Helvetica, sans-serif;
   color: #ddd;
+  padding-bottom: 40px;
 }
+
 p {
   line-height: 1.4em;
 }
+
+table {
+  border: 1px solid;
+  border-collapse: collapse;
+}
+
+table td, th {
+  padding: 5px;
+}
+
 .container {
   width: 940px;
   margin-left: auto;
@@ -24,7 +36,8 @@ p {
 
 h1.root:after {
   content: '@CWRU';
-  opacity: 0.3;
+  color: #999;
+  opacity: 0.15;
 }
 
 .container a {
@@ -35,6 +48,7 @@ h1.root:after {
 
 .container a:hover {
   color: #5df;
+  text-shadow: 0 0 1px #777;
 }
 
 /* Top Banner */
@@ -70,12 +84,13 @@ h1.root:after {
 }
 .site-banner a:hover {
   color: #b0d191;
+  text-shadow: 0 0 1px #111;
 }
 
 /* Page styles */
 h1 {
   font-size: 78px;
-  text-shadow: 2px 2px 1px #000;
+  text-shadow:  1px 0 0 #222, 0 -1px 0 #222, 0 1px 0 #222, -1px 0 0 #222, 0 0 160px #fff;
   margin-bottom: 40px;
   color: #fff;
 }
@@ -105,4 +120,25 @@ h1 {
 .right {
   float: right;
   margin: 0 0 20px 20px;
+}
+
+/* TODO(bstack): This is a dumb way to do these styles... fix later */
+.announcement {
+  display: block;
+  font-size: 1.7em;
+  width: 500px;
+  padding: 5px;
+  border: 3px double #ddc;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #111;
+}
+
+.announcement:hover {
+  cursor: pointer;
+  cursor: hand;
+}
+
+#schedule td, th{
+  text-align: center;
 }
