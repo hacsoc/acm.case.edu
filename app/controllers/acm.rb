@@ -11,4 +11,8 @@ Cabal.controller :acm do
   get :servers do
     render 'acm/servers'
   end
+
+  get :conference_signup do
+    render 'acm/conference_signup'
+  end
 end
