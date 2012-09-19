@@ -7,11 +7,83 @@
       .value October 27, 2012
       %span.key Time:
       .value 9:00AM-7:00PM
+      %span.key Location:
+      .value
+        %a{:href => 'http://goo.gl/maps/Qbpq1'} Nord Hall, CWRU Campus
+      %span.key Contact:
+      .value
+        %a{:href => 'mailto:jrg149@case.edu'} John Gunderman
 
-%h1 Link-State 2012
+%h1 Link-State 2012 <small><a href="#{url_for(:acm, :conference, :signup)}">Sign up!</a></small>
 :markdown
   ACM at Case Western Reserve University is proud to present our *first annual*
   conference. We invite you to listen to speakers, meet fellow computer
   scientists, and have a great time.
 
-  We should put more stuff here later.
+  This page is a living document, it will be updated with information over time, **important update will be emailed to you if you have signed up**.
+
+%h2 Schedule
+%table#schedule{:border => 1}
+  %thead
+    %th Time
+    %th Nord 400
+    %th Nord 410
+    %th Nord 300
+  %tr
+    %td 9:00am
+    %td{:colspan => 3} Check-in and Breakfast
+  %tr
+    %td 9:45am
+    %td John from Google
+    %td A Speaker from Microsoft
+    %td
+  %tr
+    %td 11:00am
+    %td Fred Hatfull from Yelp
+    %td Joe Daw from Jones Day
+    %td
+  %tr
+    %td 12:15pm
+    %td{:colspan => 3} Lunch
+  %tr
+    %td 1:30pm
+    %td
+    %td
+    %td Lightning Talks
+  %tr
+    %td 2:25pm
+    %td A Speaker from LeanDog
+    %td Shijie from Google
+    %td
+  %tr
+    %td 3:30pm
+    %td
+    %td
+    %td Keynote
+  %tr
+    %td 5:00pm
+    %td
+    %td
+    %td Closing Remarks
+  %tr
+    %td 5:10pm
+    %td{:colspan => 3} Dinner
+  %tr
+    %td 6:30pm
+    %td{:colspan => 3} Programming Comp. and Social Events
+
+
+:javascript
+  $(document).ready( function() {
+    $('#schedule td').each( function(index, el) {
+      var el = $(el);
+      el.hover(
+        function() {
+          //handle in
+        },
+        function() {
+          //handle out
+        }
+      );
+    });
+  });
