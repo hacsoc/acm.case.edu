@@ -152,3 +152,38 @@ h1 {
 #schedule td, th{
   text-align: center;
 }
+
+/* Conference Page Styles: */
+.container .speaker-list {
+  padding-left: 0;
+}
+.speaker-list li {
+  float: left;
+  width: 45%;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+.speaker-list li:nth-child(odd) {
+  clear: left;
+  margin-right: 5%;
+}
+.speaker-list h3 {
+  float: left;
+  margin: 0;
+}
+.speaker-list .affiliation {
+  text-align: right;
+  font-style: italic;
+  float: right;
+}
+.speaker-list h3, .speaker-list .affiliation {
+  line-height: 26px;
+}
+.speaker-list .title {
+  clear: both;
+  margin-bottom: 10px;
+}
+.speaker-list .bio {
+  font-size: 14px;
+}

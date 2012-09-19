@@ -34,13 +34,17 @@
     %td{:colspan => 3} Check-in and Breakfast
   %tr
     %td 9:45am
-    %td John Tantalo from Google
-    %td A Speaker from Microsoft
+    %td
+      %a{:href => '#Tantalo'} John Tantalo (Google)
+    %td
+      %a{:href => '#Microsoft'} [A Speaker from Microsoft]
     %td
   %tr
     %td 11:00am
-    %td Fred Hatfull from Yelp
-    %td Joe Daw from Jones Day
+    %td
+      %a{:href => '#Hatfull'} Fred Hatfull (Yelp)
+    %td
+      %a{:href => '#Daw'} Joe Daw (Jones Day)
     %td
   %tr
     %td 12:15pm
@@ -52,14 +56,17 @@
     %td Lightning Talks
   %tr
     %td 2:25pm
-    %td A Speaker from LeanDog
-    %td Shijie Zhang from Google
+    %td
+      %a{:href => '#LeanDog'} [A Speaker from LeanDog]
+    %td
+      %a{:href => '#Zhang'} Shijie Zhang (Google)
     %td
   %tr
     %td 3:30pm
     %td
     %td
-    %td Keynote with Chet Ramey
+      %td
+        %a{:href => 'Ramey'} Chet Ramey (Keynote, CWRU)
   %tr
     %td 5:00pm
     %td
@@ -72,6 +79,82 @@
     %td 6:30pm
     %td{:colspan => 3} Programming Comp. and Social Events
 
+%h2 Speakers
+%ul.speaker-list
+  %li#Tantalo
+    %h3 John Tantalo
+    .affiliation Google
+    .title This Talk Has a Title: It can be Long or Short!
+    .bio
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed placerat
+      aliquet leo rhoncus vehicula. Curabitur non augue in tortor imperdiet
+      tristique vitae ac quam. Sed fringilla tincidunt augue non aliquam. Quisque
+      in odio justo. Sed at tellus mi, a faucibus tellus. Mauris elit dui, rhoncus
+      at auctor dictum, aliquam eu arcu. Nullam in ligula eu leo interdum luctus.
+      Cras vitae felis quis sapien aliquam aliquet vitae sollicitudin sem.
+      Praesent iaculis pulvinar sapien at lobortis.
+  %li#Microsoft
+    %h3 [Unnamed Speaker]
+    .affiliation Microsoft
+    .title Unknown Speaker...
+    .bio
+      in odio justo. Sed at tellus mi, a faucibus tellus. Mauris elit dui, rhoncus
+      at auctor dictum, aliquam eu arcu. Nullam in ligula eu leo interdum luctus.
+      Cras vitae felis quis sapien aliquam aliquet vitae sollicitudin sem.
+      Praesent iaculis pulvinar sapien at lobortis.
+  %li#Hatfull
+    %h3 Fred Hatfull
+    .affiliation Yelp
+    .title How to Be Awesome: Talk Name Forthcoming
+    .bio
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed placerat
+      aliquet leo rhoncus vehicula. Curabitur non augue in tortor imperdiet
+      tristique vitae ac quam. Sed fringilla tincidunt augue non aliquam. Quisque
+      in odio justo.
+  %li#Daw
+    %h3 Joe Daw
+    .affiliation Jones Day
+    .title Talk Title Here
+    .bio
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed placerat
+      aliquet leo rhoncus vehicula. Curabitur non augue in tortor imperdiet
+      tristique vitae ac quam. Sed fringilla tincidunt augue non aliquam. Quisque
+      in odio justo. Sed at tellus mi, a faucibus tellus. Mauris elit dui, rhoncus
+      at auctor dictum, aliquam eu arcu. Nullam in ligula eu leo interdum luctus.
+      Cras vitae felis quis sapien aliquam aliquet vitae sollicitudin sem.
+      Praesent iaculis pulvinar sapien at lobortis.
+  %li#Leandog
+    %h3 [Unnamed Speaker]
+    .affiliation LeanDog
+    .title Talk Title Here
+    .bio
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed placerat
+      aliquet leo rhoncus vehicula. Curabitur non augue in tortor imperdiet
+      tristique vitae ac quam. Sed fringilla tincidunt augue non aliquam. Quisque
+      in odio justo. Sed at tellus mi, a faucibus tellus. Mauris elit dui, rhoncus
+      at auctor dictum, aliquam eu arcu. Nullam in ligula eu leo interdum luctus.
+      Cras vitae felis quis sapien aliquam aliquet vitae sollicitudin sem.
+      Praesent iaculis pulvinar sapien at lobortis.
+  %li#Zhang
+    %h3 Shijie Zhang
+    .affiliation Google
+    .title This Talk Has a Title: It can be Long or Short!
+    .bio
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed placerat
+      aliquet leo rhoncus vehicula. Curabitur non augue in tortor imperdiet
+      tristique vitae ac quam. Sed fringilla tincidunt augue non aliquam. Quisque
+      in odio justo. Sed at tellus mi, a faucibus tellus. Mauris elit dui, rhoncus
+      at auctor dictum, aliquam eu arcu. Nullam in ligula eu leo interdum luctus.
+      Cras vitae felis quis sapien aliquam aliquet vitae sollicitudin sem.
+      Praesent iaculis pulvinar sapien at lobortis.
+  %li#Ramey
+    %h3 Chet Ramey (keynote)
+    .affiliation CWRU
+    .title This Talk Has a Title: It can be Long or Short!
+    .bio
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed placerat
+      aliquet leo rhoncus vehicula. Curabitur non augue in tortor imperdiet
+      tristique vitae ac quam. Sed fringilla tincidunt augue non aliquam. Quisque
 
 :javascript
   $(document).ready( function() {
