@@ -10,9 +10,15 @@ body,html {
   background-color: #25252f;
   background-image: url('../images/bg.png');
   color: #efefef;
-  font-family: 'OpenSans', Helvetica, sans-serif;
+  font-family: 'OpenSansRegular', Helvetica, sans-serif;
   color: #ddd;
   padding-bottom: 40px;
+}
+::selection {
+  background: #2A4E79;
+}
+::-moz-selection {
+  background: #2A4E79;
 }
 
 p {
@@ -51,6 +57,14 @@ h1.root:after {
   text-shadow: 0 0 1px #777;
 }
 
+.container ul {
+  padding-left: 15px;
+}
+
+.container h2 {
+  margin-top: 40px;
+}
+
 /* Top Banner */
 .site-banner {
   background-color: #102039;
@@ -79,8 +93,8 @@ h1.root:after {
 }
 .site-banner a {
   color: #91a0c0;
-  font-weight: 700;
   text-decoration: none;
+  font-family: 'OpenSansSemibold', Helvetica, sans-serif;
 }
 .site-banner a:hover {
   color: #b0d191;
@@ -93,6 +107,13 @@ h1 {
   text-shadow:  1px 0 0 #222, 0 -1px 0 #222, 0 1px 0 #222, -1px 0 0 #222, 0 0 160px #fff;
   margin-bottom: 40px;
   color: #fff;
+  font-family: 'OpenSansBold', Helvetica, sans-serif;
+  font-weight: normal;
+}
+
+h2 {
+  font-weight: normal;
+  font-family: 'OpenSansSemibold', Helvetica, sans-serif;
 }
 
 /* Aside Box */
@@ -141,4 +162,43 @@ h1 {
 
 #schedule td, th{
   text-align: center;
+}
+#schedule th {
+  font-weight: normal;
+  font-family: 'OpenSansBold', Helvetica, sans-serif;
+}
+
+/* Conference Page Styles: */
+.container .speaker-list {
+  padding-left: 0;
+}
+.speaker-list li {
+  float: left;
+  width: 45%;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+.speaker-list li:nth-child(odd) {
+  clear: left;
+  margin-right: 5%;
+}
+.speaker-list h3 {
+  float: left;
+  margin: 0;
+}
+.speaker-list .affiliation {
+  text-align: right;
+  font-style: italic;
+  float: right;
+}
+.speaker-list h3, .speaker-list .affiliation {
+  line-height: 26px;
+}
+.speaker-list .title {
+  clear: both;
+  margin-bottom: 10px;
+}
+.speaker-list .bio {
+  font-size: 14px;
 }

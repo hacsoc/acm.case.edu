@@ -34,13 +34,17 @@
     %td{:colspan => 3} Check-in and Breakfast
   %tr
     %td 9:45am
-    %td John Tantalo from Google
-    %td A Speaker from Microsoft
+    %td
+      %a{:href => '#Tantalo'} John Tantalo (Google)
+    %td
+      %a{:href => '#Microsoft'} [A Speaker from Microsoft]
     %td
   %tr
     %td 11:00am
-    %td Fred Hatfull from Yelp
-    %td Joe Daw from Jones Day
+    %td
+      %a{:href => '#Hatfull'} Fred Hatfull (Yelp)
+    %td
+      %a{:href => '#Daw'} Joe Daw (Jones Day)
     %td
   %tr
     %td 12:15pm
@@ -52,14 +56,17 @@
     %td Lightning Talks
   %tr
     %td 2:25pm
-    %td A Speaker from LeanDog
-    %td Shijie Zhang from Google
+    %td
+      %a{:href => '#LeanDog'} [A Speaker from LeanDog]
+    %td
+      %a{:href => '#Zhang'} Shijie Zhang (Google)
     %td
   %tr
     %td 3:30pm
     %td
     %td
-    %td Keynote with Chet Ramey
+      %td
+        %a{:href => 'Ramey'} Chet Ramey (Keynote, CWRU)
   %tr
     %td 5:00pm
     %td
@@ -72,6 +79,69 @@
     %td 6:30pm
     %td{:colspan => 3} Programming Comp. and Social Events
 
+%h2 Speakers
+%ul.speaker-list
+  %li#Tantalo
+    %h3 John Tantalo
+    .affiliation Google
+    .title Pushing Websites (Google Maps) to New Heights With WebGL
+    .bio
+      %p
+        Google is pushing the boundaries of modern web browsers to make Google
+        Maps faster, smoother, and more dynamic. WebGL is a new standard based on
+        OpenGL that allows Web applications to deliver hardware-accelerated 3D
+        graphics in the browser. By choosing WebGL to power Google Maps, Google
+        has created an incentive for browser developers to improve WebGL support.
+      %p
+        John Tantalo is a Software Engineer at Google in Seattle working on Google
+        Maps. He graduated from Case School of Engineering in 2007 with a BS in
+        Computer Science. Before joining Google, John was an engineer at Eventful
+        in San Diego. John's favorite things to do are cooking and having fun with
+        his wife and two young kids.
+      %p
+        %a{:href => 'http://github.johntantalo.com/'} http://github.johntantalo.com/
+  %li#Microsoft
+    %h3 To Be Determined
+    .affiliation Microsoft
+    .title To Be Determined
+    .bio
+      Microsoft will be giving a talk; we will update this as we learn the
+      details.
+  %li#Hatfull
+    %h3 Fred Hatfull
+    .affiliation Yelp
+    .title To Be Determined
+    .bio
+      Fred Hatfull from Yelp will be giving a talk; we will update this as we
+      learn the details.
+  %li#Daw
+    %h3 Joe Daw
+    .affiliation Jones Day
+    .title To Be Determined
+    .bio
+      Joe Daw from Jones Day will be giving a talk; we will update this as we
+      learn the details.
+  %li#Leandog
+    %h3 To Be Determined
+    .affiliation LeanDog
+    .title Managing Servers Has Never Been Easier: Puppet and Chef
+    .bio
+      Someone from LeanDog will be giving a talk on automated server management
+      with Puppet and Chef. We will update this as we learn the details.
+  %li#Zhang
+    %h3 Shijie Zhang
+    .affiliation Google
+    .title To Be Determined
+    .bio
+      Shijie Zhang from Google will be giving a talk; we will update this as we
+      learn the details.
+  %li#Ramey
+    %h3 Chet Ramey (keynote)
+    .affiliation CWRU
+    .title To Be Determined
+    .bio
+      Chet Ramey, the current maintainer of Bash, will give us a talk. We will
+      update this as we learn the details.
 
 :javascript
   $(document).ready( function() {
