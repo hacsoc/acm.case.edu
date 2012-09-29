@@ -57,7 +57,7 @@
   %tr
     %td 2:25pm
     %td
-      %a{:href => '#LeanDog'} [A Speaker from LeanDog]
+      %a{:href => '#barendt'} Nick Barendt (LeanDog)
     %td
       %a{:href => '#Zhang'} Shijie Zhang (Google)
     %td
@@ -66,7 +66,7 @@
     %td
     %td
       %td
-        %a{:href => 'Ramey'} Chet Ramey (Keynote, CWRU)
+        %a{:href => '#keynote'} Chet Ramey (Keynote, CWRU)
   %tr
     %td 5:00pm
     %td
@@ -78,6 +78,11 @@
   %tr
     %td 6:30pm
     %td{:colspan => 3} Programming Comp. and Social Events
+
+#keynote.hilite
+  %h2 Keynote -- Chet Ramey (CWRU)
+  The longtime maintainer of Bash will be speaking about the popular
+  shell.
 
 %h2 Speakers
 %ul.speaker-list
@@ -118,6 +123,19 @@
       systems used to monitor that software. Fred graduated from the Case School
       of Engineering with a BS in Computer Science and enjoys visualizing data,
       playing his guitar, and exploring San Francisco.
+  %li#barendt
+    %h3 Nick Barendt
+    .affiliation LeanDog
+    .title A Practical Introduction to DevOps with Chef
+    .bio
+      Nick is a wayward electrical engineer, having spent his career in software.
+      Combining expertise in both real-time, embedded systems and scalable cloud
+      computing, he is a jack of all trades (perhaps a master of none).  His
+      interest in continuous learning and passion for startups led him to
+      LeanDog Software, where he leads Labs, focusing on assisting early stage
+      tech startups.  He is also an adjunct faculty member in the Department
+      of Electrical Engineering and Computer Science at Case Western Reserve
+      University in Cleveland, Ohio.
   %li#Daw
     %h3 Joe Daw
     .affiliation Jones Day
@@ -149,19 +167,6 @@
       %p
         CISSP certified and currently the President of the Cleveland ISC2
         chapter
-  %li#Leandog
-    %h3 Nick Barendt
-    .affiliation LeanDog
-    .title A Practical Introduction to DevOps with Chef
-    .bio
-      Nick is a wayward electrical engineer, having spent his career in software.
-      Combining expertise in both real-time, embedded systems and scalable cloud
-      computing, he is a jack of all trades (perhaps a master of none).  His
-      interest in continuous learning and passion for startups led him to
-      LeanDog Software, where he leads Labs, focusing on assisting early stage
-      tech startups.  He is also an adjunct faculty member in the Department
-      of Electrical Engineering and Computer Science at Case Western Reserve
-      University in Cleveland, Ohio.
   %li#Zhang
     %h3 Shijie Zhang
     .affiliation Google
@@ -190,13 +195,6 @@
         Bioinformatics, Computer Vision, and Recommendation Systems. She has
         published a number of research papers and filed a few patents. Now
         she works at Google as a software engineer.
-  %li#Ramey
-    %h3 Chet Ramey (keynote)
-    .affiliation CWRU
-    .title To Be Determined
-    .bio
-      Chet Ramey, the current maintainer of Bash, will give us a talk. We will
-      update this as we learn the details.
 
 :javascript
   $(document).ready( function() {

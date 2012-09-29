@@ -160,6 +160,15 @@ h2 {
   cursor: hand;
 }
 
+.hilite {
+  background-color: #111220;
+  color: #ddf;
+  border-radius: 5px;
+  margin: 11px;
+  box-shadow: 0 0 1px 1px #fff;
+  text-align: center;
+}
+
 #schedule td, th{
   text-align: center;
 }
