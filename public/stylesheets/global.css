@@ -236,3 +236,11 @@ h2 {
   margin-right: 20px;
   display: inline;
 }
+
+.btn {
+  padding: 13px;
+  background-color: #445;
+  border-radius: 15px;
+  border: 1px solid #222;
+  padding-top: 9px;
+}
