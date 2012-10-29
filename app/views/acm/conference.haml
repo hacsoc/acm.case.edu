@@ -50,7 +50,7 @@
     %td
       %a{:href => '#Tantalo'} John Tantalo (Google)
     %td
-      %a{:href => '#Microsoft'} Ben Kaplan (Microsoft) 
+      %a{:href => '#Kaplan'} Ben Kaplan (Microsoft)
     %td
   %tr
     %td 11:00am
@@ -70,7 +70,7 @@
   %tr
     %td 2:25pm
     %td
-      %a{:href => '#barendt'} Nick Barendt (LeanDog)
+      %a{:href => '#Barendt'} Nick Barendt (LeanDog)
     %td
       %a{:href => '#Zhang'} Shijie Zhang (Google)
     %td
@@ -79,7 +79,7 @@
     %td
     %td
       %td
-        %a{:href => '#keynote'} Chet Ramey (Keynote, CWRU)
+        %a{:href => '#Ramey'} Chet Ramey (Keynote, CWRU)
   %tr
     %td 5:00pm
     %td
@@ -106,7 +106,7 @@
   %h2 Speakers
   %ul.speaker-list
     - @speakers.each do |s|
-      %li{ :id => s['name'] }
+      %li{ :id => s['name'].split.last }
         %h3= s['name']
         -if s['twitter']
           %span.twitter= s['twitter']
