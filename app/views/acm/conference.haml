@@ -35,6 +35,60 @@
   %li
     %a{:href => '#parking'} Meals
 
+:javascript
+  var youTubeEmbedLink = function(id) {
+    return 'http://www.youtube.com/embed/' + id;
+  }
+  var hideAllMediaContainers = function() {
+    $('.media-container').hide();
+  };
+  var showMediaContainer = function(speakers_last_name) {
+    hideAllMediaContainers();
+    $container = $('#' + speakers_last_name);
+    var initialYouTubeId = $container.find('.playVideo').first().data('video-id');
+    var scribdId = $container.find('.scribd_iframe_embed').data('scribd-id');
+    $container.find('.player').attr('src', youTubeEmbedLink(initialYouTubeId));
+    $container.find('.scribd_iframe_embed').attr('src', 'http://www.scribd.com/embeds/' + scribdId + '/content?start_page=1&view_mode=slideshow&access_key=key-1srs9stk1x1wvj41y0bh');
+    $container.show();
+    $('body,html').animate({
+      scrollTop: $container.position().top
+    }, 1500)
+  };
+  var playVideoHandler = function(ev) {
+    $container = $(ev.target).parents('.media-container');
+    if ($player = $container.find('.player')) {
+      $player.attr('src', youTubeEmbedLink($(ev.target).data('video-id')));
+    }
+  };
+  $(function() {
+    $('.playVideo').each(function(i) {
+      $(this).on('click', playVideoHandler);
+    });
+
+    if (window.location.hash.indexOf("#Talk-") == 0) {
+      showMediaContainer(window.location.hash.split('-')[1]);
+    }
+  });
+-@speakers.each do |s|
+  -last_name = s['name'].split.last
+  .media-container{ :id => last_name }
+    %h2 Presentation Viewer &mdash; #{s['name']}
+    .video
+      -if s['youtube']
+        %iframe.player{ :width => '420', :height => '315', :src => '', :frameborder => 0, :allowfullscreen => '' }
+        %ul
+          -s['youtube'].sort_by{ |x| x['order'] }.each do |yt|
+            %li{ :id => "#{last_name}-#{yt['order']}" }
+              %a.playVideo{ :href => "#Talk-#{last_name}", :'data-video-id' => yt['youtube_id'] } Part #{yt['order']}
+      -else
+        .none
+          No Video Available
+    .slides
+      -if s['scribd_id']
+        %iframe.scribd_iframe_embed{ :'data-scribd-id' => s['scribd_id'], 'data-aspect-ratio' => '1.29936305732484', 'data-auto-height' => 'false', :frameborder => '0', :height => '315', :scrolling => 'no', :src => "", :width => '420' }
+      -else
+        .none
+          No Slides Available
 %h2 Schedule
 %table#schedule{:border => 1}
   %thead
@@ -48,16 +102,16 @@
   %tr
     %td 9:45am
     %td
-      %a{:href => '#Tantalo'} John Tantalo (Google)
+      %a{:href => '#Tantalo-desc'} John Tantalo (Google)
     %td
-      %a{:href => '#Kaplan'} Ben Kaplan (Microsoft)
+      %a{:href => '#Kaplan-desc'} Ben Kaplan (Microsoft)
     %td
   %tr
     %td 11:00am
     %td
-      %a{:href => '#Hatfull'} Fred Hatfull (Yelp)
+      %a{:href => '#Hatfull-desc'} Fred Hatfull (Yelp)
     %td
-      %a{:href => '#Daw'} Joe Daw (Jones Day)
+      %a{:href => '#Daw-desc'} Joe Daw (Jones Day)
     %td
   %tr
     %td 12:15pm
@@ -70,16 +124,16 @@
   %tr
     %td 2:25pm
     %td
-      %a{:href => '#Barendt'} Nick Barendt (LeanDog)
+      %a{:href => '#Barendt-desc'} Nick Barendt (LeanDog)
     %td
-      %a{:href => '#Zhang'} Shijie Zhang (Google)
+      %a{:href => '#Zhang-desc'} Shijie Zhang (Google)
     %td
   %tr
     %td 3:30pm
     %td
     %td
       %td
-        %a{:href => '#Ramey'} Chet Ramey (Keynote, CWRU)
+        %a{:href => '#Ramey-desc'} Chet Ramey (Keynote, CWRU)
   %tr
     %td 5:00pm
     %td
@@ -102,16 +156,17 @@
     :markdown
       #{@keynote['bio']}
 
-
   %h2 Speakers
   %ul.speaker-list
     - @speakers.each do |s|
-      %li{ :id => s['name'].split.last }
+      -last_name = s['name'].split.last
+      %li{ :id => "#{last_name}-desc" }
         %h3= s['name']
         -if s['twitter']
           %span.twitter= s['twitter']
         .affiliation= s['affiliation']
         .title= s['title']
+        %a{ :href => "#Talk-#{last_name}", :onclick => "javascript:showMediaContainer(\"#{last_name}\");" } View Presentation
         .bio
           :markdown
             #{s['bio']}

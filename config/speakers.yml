@@ -18,14 +18,32 @@ speakers:
       in San Diego. John's favorite things to do are cooking and having fun with
       his wife and two young kids.
     website: http://github.johntantalo.com/
+    youtube:
+    - youtube_id: MMNyiXnq9zA
+      order: 1
+    - youtube_id: _vuuvcTKlvA
+      order: 2
+    - youtube_id: 3GnoYjij4Hc
+      order: 3
+    scribd_id: 111458272
   - name: Ben Kaplan
     affiliation: Microsoft
-    title: Moving the Cloud 
+    title: Moving the Cloud
     bio: >
-      Ben is a software developer for the Windows Live Safety Platform, currently working with the Family Safety team. He's a very recent CWRU alum (Class of 2012) and is excited to be back. 
+      Ben is a software developer for the Windows Live Safety Platform,
+      currently working with the Family Safety team. He's a very recent CWRU
+      alum (Class of 2012) and is excited to be back.
 
 
-      There's all sorts of information out there about how to build your cloud app from the ground up. But sometimes, you're not starting from scratch. In this talk, Ben will discuss the challenges presented when migrating an existing web service to a scalable cloud environment and some of the unexpected differences between running your own service and hosting it in a public data center.
+      There's all sorts of information out there about how to build your cloud
+      app from the ground up. But sometimes, you're not starting from scratch.
+      In this talk, Ben will discuss the challenges presented when migrating an
+      existing web service to a scalable cloud environment and some of the
+      unexpected differences between running your own service and hosting it in
+      a public data center.
+    youtube:
+    - youtube_id: t1la3egaNcY
+      order: 1
   - name: Fred Hatfull
     affiliation: Yelp
     twitter: '@fredhatfull'
@@ -37,6 +55,14 @@ speakers:
       systems used to monitor that software. Fred graduated from the Case School
       of Engineering with a BS in Computer Science and enjoys visualizing data,
       playing his guitar, and exploring San Francisco.
+    youtube:
+    - youtube_id: BqZZN3dEzZY
+      order: 1
+    - youtube_id: CMFPtV6y0Ak
+      order: 2
+    - youtube_id: fgAI3CkZvAE
+      order: 3
+    scribd_id: 111410070
   - name: Joe Daw
     affiliation: Cleveland ISC2
     title: A Day in the Life of an Information Security Professional
@@ -71,6 +97,10 @@ speakers:
 
       CISSP certified and currently the President of the Cleveland ISC2
       chapter
+    youtube:
+    - youtube_id: xr8VSWbZS6c
+      order: 1
+    scribd_id: 111457567
   - name: Nick Barendt
     affiliation: LeanDog
     twitter: '@nickbarendt'
@@ -84,6 +114,12 @@ speakers:
       tech startups.  He is also an adjunct faculty member in the Department
       of Electrical Engineering and Computer Science at Case Western Reserve
       University in Cleveland, Ohio.
+    youtube:
+    - youtube_id: LLrmDVwNMFk
+      order: 1
+    - youtube_id: j6Yja9uKt5g
+      order: 2
+    scribd_id: 111469666
   - name: Shijie Zhang
     affiliation: Google
     title: MapReduce and Google's Pregel Framework
@@ -112,7 +148,7 @@ speakers:
       Bioinformatics, Computer Vision, and Recommendation Systems. She has
       published a number of research papers and filed a few patents. Now
       she works at Google as a software engineer.
-      
+    scribd_id: 111458415
   - name: Chet Ramey
     affiliation: CWRU
     keynote: true
@@ -123,3 +159,4 @@ speakers:
       Free Software Foundation volunteer for more than twenty years.  He
       maintains two widely-used free software products: bash, the GNU shell, and
       the Readline library.
+    scribd_id: 111458274
