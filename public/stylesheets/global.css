@@ -244,3 +244,8 @@ h2 {
   border: 1px solid #222;
   padding-top: 9px;
 }
+
+.twitter {
+  margin-left: 10px;
+  opacity: 0.3;
+}
