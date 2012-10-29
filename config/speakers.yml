@@ -1,0 +1,125 @@
+---
+speakers:
+  - name: John Tantalo
+    affiliation: Google
+    twitter: '@tantalor'
+    title: Pushing Websites (Google Maps) to New Heights With WebGL
+    bio: >
+      Google is pushing the boundaries of modern web browsers to make Google
+      Maps faster, smoother, and more dynamic. WebGL is a new standard based on
+      OpenGL that allows Web applications to deliver hardware-accelerated 3D
+      graphics in the browser. By choosing WebGL to power Google Maps, Google
+      has created an incentive for browser developers to improve WebGL support.
+
+
+      John Tantalo is a Software Engineer at Google in Seattle working on Google
+      Maps. He graduated from Case School of Engineering in 2007 with a BS in
+      Computer Science. Before joining Google, John was an engineer at Eventful
+      in San Diego. John's favorite things to do are cooking and having fun with
+      his wife and two young kids.
+    website: http://github.johntantalo.com/
+  - name: Ben Kaplan
+    affiliation: Microsoft
+    title: Moving the Cloud 
+    bio: >
+      Ben is a software developer for the Windows Live Safety Platform, currently working with the Family Safety team. He's a very recent CWRU alum (Class of 2012) and is excited to be back. 
+
+
+      There's all sorts of information out there about how to build your cloud app from the ground up. But sometimes, you're not starting from scratch. In this talk, Ben will discuss the challenges presented when migrating an existing web service to a scalable cloud environment and some of the unexpected differences between running your own service and hosting it in a public data center.
+  - name: Fred Hatfull
+    affiliation: Yelp
+    twitter: '@fredhatfull'
+    title: 'The Dirty Work: Scaling Out Websites With Your Own Two Hands'
+    bio: >
+      Fred Hatfull is a software engineer on Yelp's Infrastructure team in San
+      Francisco. He develops and maintains the software infrastructure that
+      serves more than 78 million unique visitors each month, as well as the
+      systems used to monitor that software. Fred graduated from the Case School
+      of Engineering with a BS in Computer Science and enjoys visualizing data,
+      playing his guitar, and exploring San Francisco.
+  - name: Joe Daw
+    affiliation: Cleveland ISC2
+    title: A Day in the Life of an Information Security Professional
+    bio: >
+      Joe Daw has more than 15 years in providing successful corporate security
+      leadership, infrastructure management, regulatory compliance and risk
+      management in various industries.  Joe has built and successfully managed
+      an Information Security Program from the ground up for several Firms
+      within industries including banking, insurance, health and legal.  Joe
+      deals effectively with customers, executives, and stockholders on a
+      regular basis. All of these achievements are critical to firms that must
+      compete in today's difficult economy and maintain information security
+      and compliance through appropriate risk management.
+
+
+      Highlights:
+
+
+      Sarbanes-Oxley (SOX) compliance for a fortune 500 insurance company
+      Head of Information Security for many Firms (Insurance and Legal)
+
+
+      Payment Card Industry (PCI) - Managed, assessed and implemented a PCI
+      compliance program, a standard that deals with credit card payment
+      requirements
+
+
+      Recruited for expertise in information technology management,
+      communication skills and ability to design and implement a corporate
+      information security program
+
+
+      CISSP certified and currently the President of the Cleveland ISC2
+      chapter
+  - name: Nick Barendt
+    affiliation: LeanDog
+    twitter: '@nickbarendt'
+    title: A Practical Introduction to DevOps with Chef
+    bio: >
+      Nick is a wayward electrical engineer, having spent his career in software.
+      Combining expertise in both real-time, embedded systems and scalable cloud
+      computing, he is a jack of all trades (perhaps a master of none).  His
+      interest in continuous learning and passion for startups led him to
+      LeanDog Software, where he leads Labs, focusing on assisting early stage
+      tech startups.  He is also an adjunct faculty member in the Department
+      of Electrical Engineering and Computer Science at Case Western Reserve
+      University in Cleveland, Ohio.
+  - name: Shijie Zhang
+    affiliation: Google
+    title: MapReduce and Google's Pregel Framework
+    bio: >
+      The talk starts with a brief introduction of the MapReduce system. The
+      MapReduce system makes it easy to parallelize a particular form of
+      computation across a large data set. It automates the process of
+      splitting up and coordinating that computation and its data to run on
+      thousands of machines at once. Although the implementation of
+      MapReduce is complex, understanding MapReduce is actually not hard.
+
+
+      Next, the Pregel project will be introduced. The objective of the
+      Pregel project is to provide a unified framework for performing
+      large-scale graph computations at Google that enables users to focus
+      on the actual algorithm, leaving many details to the Pregel framework,
+      such as distributed and multi-threaded execution, load-balancing,
+      fault tolerance, data representation. This introduction explains the
+      basics of defining, running, and testing a graph algorithm using
+      Pregel, as well as how the system is designed.
+
+
+      Shijie Zhang received her BE in Computer Science from Shanghai Jiao
+      Tong University, and Ph.D. from Case Western Reserve University. Her
+      research ranged from Data Mining, Graph Indexing Algorithms,
+      Bioinformatics, Computer Vision, and Recommendation Systems. She has
+      published a number of research papers and filed a few patents. Now
+      she works at Google as a software engineer.
+      
+  - name: Chet Ramey
+    affiliation: CWRU
+    keynote: true
+    twitter: '@chetramey'
+    title: Twenty-plus years with a Free Software project
+    bio: >
+      Chet Ramey is a longtime employee of Case Western Reserve University and a
+      Free Software Foundation volunteer for more than twenty years.  He
+      maintains two widely-used free software products: bash, the GNU shell, and
+      the Readline library.
