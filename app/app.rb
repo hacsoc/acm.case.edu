@@ -5,6 +5,8 @@ class Cabal < Padrino::Application
 
   enable :sessions
 
+  set :speakers, YAML::load(File.read('config/speakers.yml'))['speakers']
+
   ##
   # Caching support
   #
