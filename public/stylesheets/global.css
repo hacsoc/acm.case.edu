@@ -249,3 +249,24 @@ h2 {
   margin-left: 10px;
   opacity: 0.3;
 }
+
+.video {
+  margin-right: 5%;
+  float: left;
+}
+.slides {
+  float: right;
+}
+.media-container {
+  clear: both;
+  display: none;
+  overflow: hidden;
+}
+.media-container .none {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 420px;
+  height: 315px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}

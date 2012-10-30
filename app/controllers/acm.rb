@@ -8,6 +8,8 @@ Cabal.controller :acm do
 
   get :conference do
     @name = 'Link-State'
+    @speakers = Cabal.speakers
+    @keynote = @speakers.select{ |x| x['keynote'] }.first
     render 'acm/conference'
   end
 
