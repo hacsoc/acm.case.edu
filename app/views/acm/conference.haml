@@ -31,9 +31,13 @@
 
 %ul.toc
   %li
+    %a{href: '#sponsors'} Sponsors
+  %li
     %a{:href => '#speakers'} Schedule 
   %li
     %a{:href => '#parking'} Parking
+  %li
+    %a{:href => '#travel'} Travel
   %li
     %a{:href => '#parking'} Meals
   %li
@@ -93,95 +97,116 @@
       -else
         .none
           No Slides Available
-%h2 Schedule (TBA)
--#
-  %table#schedule{:border => 1}
-    %thead
-      %th Time
-      %th Clapp 108
-      %th Millis Schmidt Auditorium
-    %tr
-      %td 2:00pm
-      %td{:colspan => 3} Check-in w/ food
-    %tr
-      %td 2:30pm
-      %td
-        %a{:href => '#Google-desc'} TBA (Google)
-      %td
-        %a{:href => '#Microsoft-desc'} TBA (Microsoft)
-      %td
-    %tr
-      %td 11:00am
-      %td
-        %a{:href => '#Stack-desc'} Brian Stack (Yelp)
-      %td
-        %a{:href => '#Daw-desc'} Tim (Sociogram)
-      %td
-    %tr
-      %td 12:15pm
-      %td{:colspan => 3} Lunch
-    %tr
-      %td 1:30pm
-      %td
-      %td
-      %td Lightning Talks
-    %tr
-      %td 2:25pm
-      %td
-        %a{:href => '#Barendt-desc'} Nick Barendt (LeanDog)
-      %td
-        %a{:href => '#Zhang-desc'} Shijie Zhang (Google)
-      %td
-    %tr
-      %td 3:30pm
-      %td
-      %td
+
+#sponsors
+  %h2 Sponsors
+  This event couldn't happen without the help of all of our awesome sponsors.
+  #usg-sponsor
+    %a{href: 'http://usg.case.edu'}
+      = image_tag 'usg-logo.png', width: '200px', alt: 'USG', title: 'USG'
+  #yelp-sponsor
+    %a{href: 'http://www.yelp.com'}
+      = image_tag 'yelp.png', width: '200px', alt: 'Yelp', title: 'Yelp'
+  #google-sponsor
+    %a{href: 'http://www.google.com'}
+      = image_tag 'google-logo.png', width: '200px', alt: 'Google', title: 'Google'
+
+#speakers
+  %h2 Schedule (TBA)
+  -#
+    %table#schedule{:border => 1}
+      %thead
+        %th Time
+        %th Clapp 108
+        %th Millis Schmidt Auditorium
+      %tr
+        %td 2:00pm
+        %td{:colspan => 3} Check-in w/ food
+      %tr
+        %td 2:30pm
         %td
-          %a{:href => '#Ramey-desc'} Chet Ramey (Keynote, CWRU)
-    %tr
-      %td 5:00pm
-      %td
-      %td
-      %td Closing Remarks
-    %tr
-      %td 5:10pm
-      %td{:colspan => 3} Dinner
-    %tr
-      %td 6:30pm
-      %td{:colspan => 3} Hackathon and Social Events
+          %a{:href => '#Google-desc'} TBA (Google)
+        %td
+          %a{:href => '#Microsoft-desc'} TBA (Microsoft)
+        %td
+      %tr
+        %td 11:00am
+        %td
+          %a{:href => '#Stack-desc'} Brian Stack (Yelp)
+        %td
+          %a{:href => '#Daw-desc'} Tim (Sociogram)
+        %td
+      %tr
+        %td 12:15pm
+        %td{:colspan => 3} Lunch
+      %tr
+        %td 1:30pm
+        %td
+        %td
+        %td Lightning Talks
+      %tr
+        %td 2:25pm
+        %td
+          %a{:href => '#Barendt-desc'} Nick Barendt (LeanDog)
+        %td
+          %a{:href => '#Zhang-desc'} Shijie Zhang (Google)
+        %td
+      %tr
+        %td 3:30pm
+        %td
+        %td
+          %td
+            %a{:href => '#Ramey-desc'} Chet Ramey (Keynote, CWRU)
+      %tr
+        %td 5:00pm
+        %td
+        %td
+        %td Closing Remarks
+      %tr
+        %td 5:10pm
+        %td{:colspan => 3} Dinner
+      %tr
+        %td 6:30pm
+        %td{:colspan => 3} Hackathon and Social Events
 
-    #speakers
-      #keynote.hilite
-        %h2
-          Keynote: #{@keynote['title']}
-          %br
-          with #{@keynote['name']} (#{@keynote['affiliation']})
-          %span.twitter= @keynote['twitter']
-        :markdown
-          #{@keynote['bio']}
+      #speakers
+        #keynote.hilite
+          %h2
+            Keynote: #{@keynote['title']}
+            %br
+            with #{@keynote['name']} (#{@keynote['affiliation']})
+            %span.twitter= @keynote['twitter']
+          :markdown
+            #{@keynote['bio']}
 
-      %h2 Speakers
-      %ul.speaker-list
-        - @speakers.each do |s|
-          -last_name = s['name'].split.last
-          %li{ :id => "#{last_name}-desc" }
-            %h3= s['name']
-            -if s['twitter']
-              %span.twitter= s['twitter']
-            .affiliation= s['affiliation']
-            .title= s['title']
-            %a{ :href => "#Talk-#{last_name}", :onclick => "javascript:showMediaContainer(\"#{last_name}\");" } View Presentation
-            .bio
-              :markdown
-                #{s['bio']}
-            -if s['website']
-              %a{ :href => s['website'] }= s['website']
+        %h2 Speakers
+        %ul.speaker-list
+          - @speakers.each do |s|
+            -last_name = s['name'].split.last
+            %li{ :id => "#{last_name}-desc" }
+              %h3= s['name']
+              -if s['twitter']
+                %span.twitter= s['twitter']
+              .affiliation= s['affiliation']
+              .title= s['title']
+              %a{ :href => "#Talk-#{last_name}", :onclick => "javascript:showMediaContainer(\"#{last_name}\");" } View Presentation
+              .bio
+                :markdown
+                  #{s['bio']}
+              -if s['website']
+                %a{ :href => s['website'] }= s['website']
 
 #parking
   %h2 Parking
   :markdown
     Visitor parking is available in <a href="http://goo.gl/maps/qDdWW">lots 29 and 53</a>.  Standard parking charges an hourly rate for parking in these lots.  More information on parking can be found on <a href="http://www.case.edu/accessservices/parking_rates.html">standard parking's website</a>(scroll to the bottom for hourly rates).
 
+#travel
+  %h2 Travel
+  :markdown
+    Information on travel and lodging can be found on Case westerns
+    [Visiting CWRU page](http://www.case.edu/finadmin/security/travel/visit.html).
+  
 #meals
   %h2 Meals
   :markdown
