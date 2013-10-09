@@ -110,15 +110,23 @@
 #sponsors
   %h2 Sponsors
   This event couldn't happen without the help of all of our awesome sponsors.
-  #usg-sponsor
+  %br
+  #lead-sponsor
     %a{href: 'http://usg.case.edu'}
       = image_tag 'usg-logo.png', width: '200px', alt: 'USG', title: 'USG'
-  #yelp-sponsor
-    %a{href: 'http://www.yelp.com'}
-      = image_tag 'yelp.png', width: '200px', alt: 'Yelp', title: 'Yelp'
-  #google-sponsor
-    %a{href: 'http://www.google.com'}
-      = image_tag 'google-logo.png', width: '200px', alt: 'Google', title: 'Google'
+  #main-sponsors
+    .sponsor
+      %a{href: 'http://www.yelp.com'}
+        = image_tag 'yelp-logo.png', width: '200px', alt: 'Yelp', title: 'Yelp'
+    .sponsor
+      %a{href: 'http://www.causes.com'}
+        = image_tag 'causes-logo.png', width: '200px', alt: 'Causes', title: 'Causes'
+    .sponsor
+      %a{href: 'http://www.google.com'}
+        = image_tag 'google-logo.png', width: '200px', alt: 'Google', title: 'Google'
+    .sponsor
+      %a{href: 'http://www.microsoft.com'}
+        = image_tag 'microsoft-logo.png', width: '200px', alt: 'Microsoft', title: 'Microsoft'
 
 #speakers
   %h2 Schedule (TBA)

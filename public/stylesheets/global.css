@@ -212,6 +212,22 @@ h2 {
   font-size: 14px;
 }
 
+#lead-sponsor {
+  width: 200px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+#main-sponsors {
+  width: 875px;
+  margin: 0 auto;
+}
+.sponsor {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 5px;
+}
+
 #parking {
   clear: both;
 }
