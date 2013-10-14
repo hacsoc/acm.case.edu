@@ -1,162 +1,172 @@
 ---
 speakers:
-  - name: John Tantalo
+  - name: John Gunderman
     affiliation: Google
-    twitter: '@tantalor'
-    title: Pushing Websites (Google Maps) to New Heights With WebGL
+    title: 'SPDY: Making the Web Faster'
+    email: 'johngunderman@google.com'
     bio: >
-      Google is pushing the boundaries of modern web browsers to make Google
-      Maps faster, smoother, and more dynamic. WebGL is a new standard based on
-      OpenGL that allows Web applications to deliver hardware-accelerated 3D
-      graphics in the browser. By choosing WebGL to power Google Maps, Google
-      has created an incentive for browser developers to improve WebGL support.
+      We'll take a look at the future of HTTP, and how Google's SPDY protocol
+      addresses the shortcomings of HTTP 1.1. Come learn about how SPDY is
+      behind the scenes, speeding up your web browsing!
 
 
-      John Tantalo is a Software Engineer at Google in Seattle working on Google
-      Maps. He graduated from Case School of Engineering in 2007 with a BS in
-      Computer Science. Before joining Google, John was an engineer at Eventful
-      in San Diego. John's favorite things to do are cooking and having fun with
-      his wife and two young kids.
-    website: http://github.johntantalo.com/
-    youtube:
-    - youtube_id: MMNyiXnq9zA
-      order: 1
-    - youtube_id: _vuuvcTKlvA
-      order: 2
-    - youtube_id: 3GnoYjij4Hc
-      order: 3
-    scribd_id: 111458272
-  - name: Ben Kaplan
-    affiliation: Microsoft
-    title: Moving the Cloud
-    bio: >
-      Ben is a software developer for the Windows Live Safety Platform,
-      currently working with the Family Safety team. He's a very recent CWRU
-      alum (Class of 2012) and is excited to be back.
+      John Gunderman graduated from CWRU in 2013 with a degree in Computer Science.
+      He interned twice at Google, working on Google's MySQL deployment. John now
+      works full time on one of Google's technical infrastructure teams. In his
+      free time, John enjoys juggling, long backpacking trips in the Sierras,
+      and fine whiskys.
 
-
-      There's all sorts of information out there about how to build your cloud
-      app from the ground up. But sometimes, you're not starting from scratch.
-      In this talk, Ben will discuss the challenges presented when migrating an
-      existing web service to a scalable cloud environment and some of the
-      unexpected differences between running your own service and hosting it in
-      a public data center.
-    youtube:
-    - youtube_id: t1la3egaNcY
-      order: 1
-  - name: Fred Hatfull
+  - name: Brian Stack
     affiliation: Yelp
-    twitter: '@fredhatfull'
-    title: 'The Dirty Work: Scaling Out Websites With Your Own Two Hands'
+    title: Is it Working? Lessons Learned about Monitoring Large Web Applications
+    email: 'bstack@yelp.com'
     bio: >
-      Fred Hatfull is a software engineer on Yelp's Infrastructure team in San
-      Francisco. He develops and maintains the software infrastructure that
-      serves more than 78 million unique visitors each month, as well as the
-      systems used to monitor that software. Fred graduated from the Case School
-      of Engineering with a BS in Computer Science and enjoys visualizing data,
-      playing his guitar, and exploring San Francisco.
-    youtube:
-    - youtube_id: BqZZN3dEzZY
-      order: 1
-    - youtube_id: CMFPtV6y0Ak
-      order: 2
-    - youtube_id: fgAI3CkZvAE
-      order: 3
-    scribd_id: 111410070
-  - name: Joe Daw
-    affiliation: Cleveland ISC2
-    title: A Day in the Life of an Information Security Professional
+      You've built the site, now how do you know it's working?  Modern websites
+      are made up of a myriad of moving parts that all must work in harmony.  How
+      can you know that your website is working and how can you figure out what's
+      wrong as quickly as possible when your website inevitably breaks?  A robust
+      and performant monitoring infrastructure makes a world of difference for your
+      infrastructure and developers alike.  Come learn about how Yelp monitors
+      its infrastructure and makes sure the website works!
+
+
+      Brian Stack graduated from CWRU in 2013 with a BS in Computer Science.
+      He started an internship at Yelp the summer after his junior year and hasn't
+      looked back since.  He came back to the infrastructure team after finishing
+      his senior year and has been working to keep the site fast and keeping
+      developers productive ever since.  While in school he worked on figuring out
+      how networks actually work with Mark Allman (neither of them have quite
+      figured it out yet).
+
+  - name: Tom Dooner
+    affiliation: Causes
+    title: 'Putting Mobile First: Increasing Performance with Progressive Enhancement'
+    twitter: '@tomdooner'
+    email: 'tomdooner@gmail.com'
     bio: >
-      Joe Daw has more than 15 years in providing successful corporate security
-      leadership, infrastructure management, regulatory compliance and risk
-      management in various industries.  Joe has built and successfully managed
-      an Information Security Program from the ground up for several Firms
-      within industries including banking, insurance, health and legal.  Joe
-      deals effectively with customers, executives, and stockholders on a
-      regular basis. All of these achievements are critical to firms that must
-      compete in today's difficult economy and maintain information security
-      and compliance through appropriate risk management.
+      40% of users will abandon websites that take over three seconds to load.
+      Even if your web application is straddling this boundary, by adopting a mobile-first
+      design paradigm your web application will be more responsive on all browsers
+      and devices. This talk will cover some common progressive enhancement techniques
+      and how to make sure you're not leaving any users behind.
 
 
-      Highlights:
+      Tom Dooner is a Software Engineer at Causes, the world's largest online campaigning
+      platform. Born and raised a web developer, he recently moved from Cleveland to
+      San Francisco to follow his dream of writing code that empowers its users.
+      He has helped engineer Causes's recent relaunch and is looking forward to
+      building exciting features in the future. Tom is a recent graduate of CWRU.
 
-
-      Sarbanes-Oxley (SOX) compliance for a fortune 500 insurance company
-      Head of Information Security for many Firms (Insurance and Legal)
-
-
-      Payment Card Industry (PCI) - Managed, assessed and implemented a PCI
-      compliance program, a standard that deals with credit card payment
-      requirements
-
-
-      Recruited for expertise in information technology management,
-      communication skills and ability to design and implement a corporate
-      information security program
-
-
-      CISSP certified and currently the President of the Cleveland ISC2
-      chapter
-    youtube:
-    - youtube_id: xr8VSWbZS6c
-      order: 1
-    scribd_id: 111457567
-  - name: Nick Barendt
-    affiliation: LeanDog
-    twitter: '@nickbarendt'
-    title: A Practical Introduction to DevOps with Chef
+  - name: Matt O'Donnell
+    affiliation: Leandog
+    title: Stateless / Immutable Webapps - Stealing Ideas from Functional Patterns
     bio: >
-      Nick is a wayward electrical engineer, having spent his career in software.
-      Combining expertise in both real-time, embedded systems and scalable cloud
-      computing, he is a jack of all trades (perhaps a master of none).  His
-      interest in continuous learning and passion for startups led him to
-      LeanDog Software, where he leads Labs, focusing on assisting early stage
-      tech startups.  He is also an adjunct faculty member in the Department
-      of Electrical Engineering and Computer Science at Case Western Reserve
-      University in Cleveland, Ohio.
-    youtube:
-    - youtube_id: LLrmDVwNMFk
-      order: 1
-    - youtube_id: j6Yja9uKt5g
-      order: 2
-    scribd_id: 111469666
-  - name: Shijie Zhang
-    affiliation: Google
-    title: MapReduce and Google's Pregel Framework
+      How can we utilize functional principles(SOC, data-in-data-out functions, etc...),
+      while still keeping standard but very non-functional tools while working within the
+      python ecosystem. How can these drasticly different paradigms fit together?
+
+
+      Some great things happened through a years worth of experimentation. Tests are fast,
+      small, and easy(less use of mocks and other advanced testing tools) out of the box.
+      What data a view or function actually needs is readably apparent, mocking database calls
+      become completely unnecessary (due to the makeup of the new data models), other kind of
+      data sources were trivial to convert; data just looked like data no matter where it
+      came from(the file system, an ORM, redis, mongo).
+
+
+      What might we discover by looking at a codebase from a different perspective? I would
+      like to share some of this journey, talk about separating data from functionality(the
+      good times, the bad times), some of the code that emerged, and things we can take
+      away from this grand experiment.  
+
+
+      Matt is a web developer at LeanDog in Cleveland, Ohio. By day, he makes engaging
+      and useful things for the web. By night, he hacks on python in search of a
+      better understanding around the definition and practice of "craftsmanship".
+
+  - name: Tim Downs
+    affiliation: Sociagram
+    title: 'Adventures in Service Oriented Architecture: How Sociagram Transcodes and Delivers Video Messages Without Losing Sleep.'
     bio: >
-      The talk starts with a brief introduction of the MapReduce system. The
-      MapReduce system makes it easy to parallelize a particular form of
-      computation across a large data set. It automates the process of
-      splitting up and coordinating that computation and its data to run on
-      thousands of machines at once. Although the implementation of
-      MapReduce is complex, understanding MapReduce is actually not hard.
+      A look into how Sociagram's architectrue provides real time availability
+      of their customers' videos while transcoding and optimizing their content.
 
 
-      Next, the Pregel project will be introduced. The objective of the
-      Pregel project is to provide a unified framework for performing
-      large-scale graph computations at Google that enables users to focus
-      on the actual algorithm, leaving many details to the Pregel framework,
-      such as distributed and multi-threaded execution, load-balancing,
-      fault tolerance, data representation. This introduction explains the
-      basics of defining, running, and testing a graph algorithm using
-      Pregel, as well as how the system is designed.
+      Tim is an engineer obsessed with building highly available web applications.
+      He joined the team in March of 2013 from Cleveland based Urbancode. Before
+      Urbancode he worked to create industry defining social media marketing and
+      analytics tools at HubSpot in Cambridge, MA and loyalty platform management
+      tools at ePrize in Pleasant Ridge, MI. Tim has a degree in Computer Science
+      from Kettering University in Flint, MI. He is an average hockey player, an
+      enthusiastic traveller, and devoted bulldog owner.
+
+  - name: Dan Saks
+    affiliation: Saks & Associates
+    title: Measuring Instead of Speculating
+    bio: >
+      C is clearly the dominant language for programming embedded
+      systems, in large part because it provides convenient and efficient access
+      to hardware devices.  C++ offers additional object-oriented facilities
+      that provide higher levels of abstraction, yet it remains a distant second
+      choice for embedded programming.  Many practicing C programmers assert
+      without proof that using C++ objects for hardware accesses is too costly
+      to use.  This session explains how to actually measure such claims.  It
+      also presents actual measurements showing that some widely-used C
+      techniques can actually be much slower than straightforward C++ techniques.
 
 
-      Shijie Zhang received her BE in Computer Science from Shanghai Jiao
-      Tong University, and Ph.D. from Case Western Reserve University. Her
-      research ranged from Data Mining, Graph Indexing Algorithms,
-      Bioinformatics, Computer Vision, and Recommendation Systems. She has
-      published a number of research papers and filed a few patents. Now
-      she works at Google as a software engineer.
-    scribd_id: 111458415
-  - name: Chet Ramey
-    affiliation: CWRU
+      Dan Saks is the president of Saks & Associates, which offers training
+      and consulting in C and C++ and their use in developing embedded systems.
+      Dan writes the Programming Pointers column for Embedded.com online.  He
+      has written columns for several other publications including The C/C++
+      Users Journal, The C++ Report, Embedded Systems Design, and Software
+      Development.  With Thomas Plum, he wrote C++ Programming Guidelines, which
+      won a Computer Language Magazine Productivity Award as one of the best
+      books of 1992.  Dan served as secretary of the ANSI and ISO C++ Standards
+      committees and as a member of the ANSI C Standards committee.  More
+      recently, he contributed to the CERT Secure C Coding Standard and the CERT
+      Secure C++ Coding Standard.  He is also a Microsoft MVP (Most Valuable
+      Professional).  Dan has a BS in Mathematics from CWRU and an MSE in
+      Computer Science from the University of Pennsylvania.
+
+  - name: Chris Gammell
+    affiliation: The Amp Hour
+    title: A Day In The Life Of An Open Source Analog Electrical Engineer
+    bio: >
+      Coming Soon
+
+  - name: TBA
+    affiliation: Microsoft
+    title: Coming Soon
+    bio: >
+      Coming Soon
+
+  - name: John Dearborn
+    affiliation: Vertical Knowledge
+    title: Coming Soon
+    bio: >
+      Coming Soon
+
+  - name: TBA
+    affiliation: Vertical Knowledge
+    title: Coming Soon
+    bio: >
+      Coming Soon
+
+  - name: Eric Meyer
     keynote: true
-    twitter: '@chetramey'
-    title: Twenty-plus years with a Free Software project
+    title: "Doing Fun and Unnatural Things With '@font-face{}' in CSS"
+    twitter: '@meyerweb'
     bio: >
-      Chet Ramey is a longtime employee of Case Western Reserve University and a
-      Free Software Foundation volunteer for more than twenty years.  He
-      maintains two widely-used free software products: bash, the GNU shell, and
-      the Readline library.
-    scribd_id: 111458274
+      Eric Meyer is an American web design consultant and author. He is best known
+      for his advocacy work on behalf of web standards, most notably Cascading Style
+      Sheets (CSS). Meyer has written a number of books and articles on CSS and
+      given many presentations promoting its use.
+
+
+      Meyer graduated from Case Western Reserve University in 1992 with a BA in
+      History, and minors in artificial intelligence, astronomy, and English.
+      In 2001, he joined Netscape as an Internet applications manager and remained
+      with the company until 2003.  Meyer is currently a consultant for Complex
+      Spiral Consulting as well as a founding member of the Global Multimedia
+      Protocols Group.

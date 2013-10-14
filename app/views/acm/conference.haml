@@ -35,7 +35,7 @@
   %li
     %a{href: '#sponsors'} Sponsors
   %li
-    %a{:href => '#speakers'} Schedule 
+    %a{:href => '#schedule'} Schedule 
   %li
     %a{:href => '#parking'} Parking
   %li
@@ -109,7 +109,6 @@
 
 #sponsors
   %h2 Sponsors
-  This event couldn't happen without the help of all of our awesome sponsors.
   %br
   #lead-sponsor
     %a{href: 'http://usg.case.edu'}
@@ -127,91 +126,117 @@
     .sponsor
       %a{href: 'http://www.microsoft.com'}
         = image_tag 'microsoft-logo.png', width: '200px', alt: 'Microsoft', title: 'Microsoft'
+    .sponsor
+      %a{href: 'http://www.vkcareers.com'}
+        = image_tag 'vklogo.png', width: '200px', alt: 'Vertical Knowledge', title: 'Vertical Knowledge'
+
+%h2 Schedule
+%table#schedule{:border => 1}
+  %thead
+    %th Time
+    %th Clapp 108
+    %th Degrace 312
+    %th Hovorka Atrium
+    %th Nord Atrium
+  %thead
+    %th{colspan: 5} Saturday
+  %tr
+    %td 12:00pm
+    %td
+    %td
+    %td
+    %td Networking Event (w/ Lunch served)
+  %tr
+    %td 2:00pm
+    %td
+      %a{:href => '#Stack-desc'} Brian Stack (Yelp)
+    %td
+      %a{:href => '#Gammel-desc'} Chris Gammel (Amp Hour)
+    %td
+    %td
+  %tr
+    %td 3:00pm
+    %td
+      %a{:href => '#Saks-desc'} Dan Saks
+    %td
+      %a{:href => '#Dearborn-desc'} John Dearborn (Vertical Knowledge)
+    %td
+    %td
+  %tr
+    %td 4:00pm
+    %td
+      %a{:href => '#ODonnell-desc'} Matt O'Donnell (Leandog)
+    %td
+      %a{:href => '#Gunderman-desc'} Gunderman (Google)
+    %td
+    %td
+  %tr
+    %td 5:00pm
+    %td
+    %td
+      %a{href: '#Meyer-desc'} Eric Meyer - Keynote
+    %td
+    %td
+  %tr
+    %td 6:00pm
+    %td Lightning Talks
+    %td
+    %td Dinner Served
+    %td
+  %tr
+    %th{colspan: 5} Sunday
+  %tr
+    %td 11:00am
+    %td
+      %a{href: '#msft-desc'} TBA (Microsoft)
+    %td
+      %a{:href => '#Dooner-desc'} Tom Dooner (Causes)
+    %td
+    %td
+  %tr
+    %td 12:00pm
+    %td
+      %a{href: '#VK2-desc'} TBA (Vertical Knowledge)
+    %td
+      %a{href: 'Downs-desc'} Tim Downs (Sociagram)
+    %td
+    %td
+  %tr
+    %td 1:00pm
+    %td Lightning Talks
+    %td 
+    %td Lunch Served
+    %td
 
 #speakers
-  %h2 Schedule (TBA)
-  -#
-    %table#schedule{:border => 1}
-      %thead
-        %th Time
-        %th Clapp 108
-        %th Millis Schmidt Auditorium
-      %tr
-        %td 2:00pm
-        %td{:colspan => 3} Check-in w/ food
-      %tr
-        %td 2:30pm
-        %td
-          %a{:href => '#Google-desc'} TBA (Google)
-        %td
-          %a{:href => '#Microsoft-desc'} TBA (Microsoft)
-        %td
-      %tr
-        %td 11:00am
-        %td
-          %a{:href => '#Stack-desc'} Brian Stack (Yelp)
-        %td
-          %a{:href => '#Daw-desc'} Tim (Sociogram)
-        %td
-      %tr
-        %td 12:15pm
-        %td{:colspan => 3} Lunch
-      %tr
-        %td 1:30pm
-        %td
-        %td
-        %td Lightning Talks
-      %tr
-        %td 2:25pm
-        %td
-          %a{:href => '#Barendt-desc'} Nick Barendt (LeanDog)
-        %td
-          %a{:href => '#Zhang-desc'} Shijie Zhang (Google)
-        %td
-      %tr
-        %td 3:30pm
-        %td
-        %td
-          %td
-            %a{:href => '#Ramey-desc'} Chet Ramey (Keynote, CWRU)
-      %tr
-        %td 5:00pm
-        %td
-        %td
-        %td Closing Remarks
-      %tr
-        %td 5:10pm
-        %td{:colspan => 3} Dinner
-      %tr
-        %td 6:30pm
-        %td{:colspan => 3} Hackathon and Social Events
+  #keynote.hilite
+    %h2
+      Keynote: #{@keynote['title']}
+      %br
+      with #{@keynote['name']}
+      %span.twitter= @keynote['twitter']
+    :markdown
+      #{@keynote['bio']}
 
-      #speakers
-        #keynote.hilite
-          %h2
-            Keynote: #{@keynote['title']}
-            %br
-            with #{@keynote['name']} (#{@keynote['affiliation']})
-            %span.twitter= @keynote['twitter']
+  %h2 Speakers
+  %ul.speaker-list
+    - @speakers.each do |s|
+      -last_name = s['name'].split.last.gsub(/\W/,'').gsub(/\W/,'')
+      %li{ :id => "#{last_name}-desc" }
+        - if s['email']
+          %a{ href: "mailto:#{s['email']}"}
+            %h3= s['name']
+        - else
+          %h3= s['name']
+        -if s['twitter']
+          %span.twitter= s['twitter']
+        .affiliation= s['affiliation']
+        .title= s['title']
+        .bio
           :markdown
-            #{@keynote['bio']}
-
-        %h2 Speakers
-        %ul.speaker-list
-          - @speakers.each do |s|
-            -last_name = s['name'].split.last
-            %li{ :id => "#{last_name}-desc" }
-              %h3= s['name']
-              -if s['twitter']
-                %span.twitter= s['twitter']
-              .affiliation= s['affiliation']
-              .title= s['title']
-              %a{ :href => "#Talk-#{last_name}", :onclick => "javascript:showMediaContainer(\"#{last_name}\");" } View Presentation
-              .bio
-                :markdown
-                  #{s['bio']}
-              -if s['website']
-                %a{ :href => s['website'] }= s['website']
+            #{s['bio']}
+        -if s['website']
+          %a{ :href => s['website'] }= s['website']
 
 #parking
   %h2 Parking
