@@ -133,7 +133,30 @@ speakers:
     affiliation: The Amp Hour
     title: A Day In The Life Of An Open Source Analog Electrical Engineer
     bio: >
-      Coming Soon
+      In the past, getting your electronics project started and out the door
+      quickly meant you either had a huge team at your disposal or you were
+      paying a lot for design tools that would allow you to complete a task
+      quickly and effectively. More recently, teams, project schedules and
+      budgets seem to shrink on a daily basis, with more expected from the final
+      output. What is a designer to do? Much like the tools that have revolutionized
+      how software designers create their projects, these tools have begun trickling
+      into the lives of hardware designers, both in how they create and share their
+      projects. Chris Gammell will share how he has utilized many of these open
+      source tools and projects to create an educational course around analog
+      sensors and how the output of the course will be open source hardware. 
+
+      Chris Gammell is a full time analog electrical engineer and part time
+      talker/blogger/podcaster/vidcaster. A 2006 graduate from CWRU, Chris has
+      worked in fields such as RF, DSP, silicon manufacturing, precise test and
+      measurement manufacturing and most recently, large scale industrial process
+      control. Outside of work, Chris has a podcast called The Amp Hour with Dave
+      Jones of the EEVblog. This weekly transpacific show (Dave lives in Sydney
+      Australia) covers industry news, open source projects, interviews with a
+      wide range of guests and fun banter about electronics. Most recently, Chris
+      has started a new endeavor called Contextual Electronics, which is a 10
+      week course teaching people how to design and build electronics with a
+      practical, hands on approach. All products developed through CE are licensed
+      as Open Source Hardware to be shared and modified (or sold!) by anyone in the world.
 
   - name: TBA
     affiliation: Microsoft
