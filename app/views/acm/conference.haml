@@ -110,10 +110,10 @@
 #sponsors
   %h2 Sponsors
   %br
-  #lead-sponsor
-    %a{href: 'http://usg.case.edu'}
-      = image_tag 'usg-logo.png', width: '200px', alt: 'USG', title: 'USG'
   #main-sponsors
+    .sponsor
+      %a{href: 'http://usg.case.edu'}
+        = image_tag 'usg-logo.png', width: '200px', alt: 'USG', title: 'USG'
     .sponsor
       %a{href: 'http://www.yelp.com'}
         = image_tag 'yelp-logo.png', width: '200px', alt: 'Yelp', title: 'Yelp'
@@ -129,6 +129,9 @@
     .sponsor
       %a{href: 'http://www.vkcareers.com'}
         = image_tag 'vklogo.png', width: '200px', alt: 'VK', title: 'VK'
+    .sponsor
+      %a{href: 'http://www.leandog.com'}
+        = image_tag 'leandog.png', width: '200px', alt: 'LeanDog', title: 'LeanDog'
 
 %h2 Schedule
 %table#schedule{:border => 1}
