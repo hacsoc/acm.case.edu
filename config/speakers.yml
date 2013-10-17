@@ -63,7 +63,7 @@ speakers:
     bio: >
       How can we utilize functional principles(SOC, data-in-data-out functions, etc...),
       while still keeping standard but very non-functional tools while working within the
-      python ecosystem. How can these drasticly different paradigms fit together?
+      python ecosystem. How can these drastically different paradigms fit together?
 
 
       Some great things happened through a years worth of experimentation. Tests are fast,
@@ -88,7 +88,7 @@ speakers:
     affiliation: Sociagram
     title: 'Adventures in Service Oriented Architecture: How Sociagram Transcodes and Delivers Video Messages Without Losing Sleep.'
     bio: >
-      A look into how Sociagram's architectrue provides real time availability
+      A look into how Sociagram's architecture provides real time availability
       of their customers' videos while transcoding and optimizing their content.
 
 
