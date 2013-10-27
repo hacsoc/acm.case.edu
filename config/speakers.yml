@@ -160,9 +160,36 @@ speakers:
 
   - name: Isaac White
     affiliation: Microsoft
-    title: Coming Soon
+    title: Lessons Learned from a Career in Technology
     bio: >
-      Coming Soon
+      Good engineers always perform a lessons learned activity after completing
+      a project in order to improve performance on future projects.  Yet, engineers
+      don’t always apply this technique to their lives and careers as they reach
+      various milestones.  How much did good grades matter?  What kept me up past
+      midnight?  What did moped congestion in Thailand teach me about building
+      smarter cars? Together, we will explore how our education, passions, and
+      experiences can be leveraged to make us more effective problem solvers.
+
+
+      Isaac White graduated with a BS in Computer Engineering from Case Western
+      Reserve in 2005 where he was a four year member of the men’s basketball team.
+      He began his career working for Lockheed Martin as a software engineer in
+      the Washington, DC area.  During that time he served in a number of roles
+      including software developer, security and database administrator, and
+      technical proposal manager while working on contracts for the IRS and TSA.
+      In 2010 he earned a MS in information Systems from Johns Hopkins University.
+      In May of 2013 he joined Microsoft’s Productivity, Access, and Identity Experience
+      (PAIX) group in Redmond, WA where he serves as a software design engineer.
+
+
+      Prior to leaving the Washington, DC area Isaac served as the head coach of
+      the DC Vipers youth men’s basketball program.  He also founded Out of Bounds,
+      a non-profit organization, which focuses on educating high school student
+      athletes about college athletic scholarship eligibility.  Isaac is an avid
+      basketball player, a photo hobbyist, and is enthusiastic about web design 
+      and mobile technology.   His passions include talking to young people about
+      life and their careers, and using technology to solve the world’s problems.
+       
 
   - name: Kendall Wouters
     affiliation: VK
