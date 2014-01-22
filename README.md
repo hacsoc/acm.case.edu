@@ -7,7 +7,7 @@ University.
 
 Traditionally, the student groups have worked closely together to plan events
 and improve student life. This website unifies all EECS Cabal groups (namely
-ACM, IEEE, and Hacker's Society) under one umbrella.
+ACM, IEEE, and Hacker Society) under one umbrella.
 
 The Only Limitation Is Yourself...
 --------------------------------------
