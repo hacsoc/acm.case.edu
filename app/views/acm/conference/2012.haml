@@ -1,0 +1,198 @@
+%aside.right
+  = image_tag 'link-state.png'
+  %h2 Important Info
+  %ul.aside-list
+    %li
+      %span.key Date:
+      .value October 27, 2012
+      %span.key Time:
+      .value 9:00AM-7:00PM
+      %span.key Location:
+      .value
+        %a{:href => 'http://goo.gl/maps/Qbpq1'} Nord Hall, CWRU Campus
+      %span.key Contact:
+      .value
+        %a{:href => 'mailto:linkstate+questions@case.edu'} John Gunderman
+      %span.key Twitter:
+      .value
+        %a{:href => 'https://twitter.com/cwruacm'} @cwruacm 
+      %span.key Hashtag:
+      .value #linkstate
+
+%h1 Link-State 2012
+:markdown
+  ACM at Case Western Reserve University is proud to present our *first annual*
+  conference. We invite you to listen to speakers, meet fellow computer
+  scientists, and have a great time.
+
+%ul.toc
+  %li
+    %a{:href => '#speakers'} Speakers 
+  %li
+    %a{:href => '#parking'} Parking
+  %li
+    %a{:href => '#parking'} Meals
+
+:javascript
+  var youTubeEmbedLink = function(id) {
+    return 'http://www.youtube.com/embed/' + id;
+  }
+  var hideAllMediaContainers = function() {
+    $('.media-container').hide();
+  };
+  var showMediaContainer = function(speakers_last_name) {
+    hideAllMediaContainers();
+    $container = $('#' + speakers_last_name);
+    var initialYouTubeId = $container.find('.playVideo').first().data('video-id');
+    var scribdId = $container.find('.scribd_iframe_embed').data('scribd-id');
+    $container.find('.player').attr('src', youTubeEmbedLink(initialYouTubeId));
+    $container.find('.scribd_iframe_embed').attr('src', 'http://www.scribd.com/embeds/' + scribdId + '/content?start_page=1&view_mode=slideshow&access_key=key-1srs9stk1x1wvj41y0bh');
+    $container.show();
+    $('body,html').animate({
+      scrollTop: $container.position().top
+    }, 1500)
+  };
+  var playVideoHandler = function(ev) {
+    $container = $(ev.target).parents('.media-container');
+    if ($player = $container.find('.player')) {
+      $player.attr('src', youTubeEmbedLink($(ev.target).data('video-id')));
+    }
+  };
+  $(function() {
+    $('.playVideo').each(function(i) {
+      $(this).on('click', playVideoHandler);
+    });
+
+    if (window.location.hash.indexOf("#Talk-") == 0) {
+      showMediaContainer(window.location.hash.split('-')[1]);
+    }
+  });
+-@speakers.each do |s|
+  -last_name = s['name'].split.last
+  .media-container{ :id => last_name }
+    %h2 Presentation Viewer &mdash; #{s['name']}
+    .video
+      -if s['youtube']
+        %iframe.player{ :width => '420', :height => '315', :src => '', :frameborder => 0, :allowfullscreen => '' }
+        %ul
+          -s['youtube'].sort_by{ |x| x['order'] }.each do |yt|
+            %li{ :id => "#{last_name}-#{yt['order']}" }
+              %a.playVideo{ :href => "#Talk-#{last_name}", :'data-video-id' => yt['youtube_id'] } Part #{yt['order']}
+      -else
+        .none
+          No Video Available
+    .slides
+      -if s['scribd_id']
+        %iframe.scribd_iframe_embed{ :'data-scribd-id' => s['scribd_id'], 'data-aspect-ratio' => '1.29936305732484', 'data-auto-height' => 'false', :frameborder => '0', :height => '315', :scrolling => 'no', :src => "", :width => '420' }
+      -else
+        .none
+          No Slides Available
+%h2 Schedule
+%table#schedule{:border => 1}
+  %thead
+    %th Time
+    %th Nord 400
+    %th Nord 410
+    %th Nord 300
+  %tr
+    %td 9:00am
+    %td{:colspan => 3} Check-in
+  %tr
+    %td 9:45am
+    %td
+      %a{:href => '#Tantalo-desc'} John Tantalo (Google)
+    %td
+      %a{:href => '#Kaplan-desc'} Ben Kaplan (Microsoft)
+    %td
+  %tr
+    %td 11:00am
+    %td
+      %a{:href => '#Hatfull-desc'} Fred Hatfull (Yelp)
+    %td
+      %a{:href => '#Daw-desc'} Joe Daw (Jones Day)
+    %td
+  %tr
+    %td 12:15pm
+    %td{:colspan => 3} Lunch
+  %tr
+    %td 1:30pm
+    %td
+    %td
+    %td Lightning Talks
+  %tr
+    %td 2:25pm
+    %td
+      %a{:href => '#Barendt-desc'} Nick Barendt (LeanDog)
+    %td
+      %a{:href => '#Zhang-desc'} Shijie Zhang (Google)
+    %td
+  %tr
+    %td 3:30pm
+    %td
+    %td
+      %td
+        %a{:href => '#Ramey-desc'} Chet Ramey (Keynote, CWRU)
+  %tr
+    %td 5:00pm
+    %td
+    %td
+    %td Closing Remarks
+  %tr
+    %td 5:10pm
+    %td{:colspan => 3} Dinner
+  %tr
+    %td 6:30pm
+    %td{:colspan => 3} Hackathon and Social Events
+
+#speakers
+  #keynote.hilite
+    %h2
+      Keynote: #{@keynote['title']}
+      %br
+      with #{@keynote['name']} (#{@keynote['affiliation']})
+      %span.twitter= @keynote['twitter']
+    :markdown
+      #{@keynote['bio']}
+
+  %h2 Speakers
+  %ul.speaker-list
+    - @speakers.each do |s|
+      -last_name = s['name'].split.last
+      %li{ :id => "#{last_name}-desc" }
+        %h3= s['name']
+        -if s['twitter']
+          %span.twitter= s['twitter']
+        .affiliation= s['affiliation']
+        .title= s['title']
+        %a{ :href => "#Talk-#{last_name}", :onclick => "javascript:showMediaContainer(\"#{last_name}\");" } View Presentation
+        .bio
+          :markdown
+            #{s['bio']}
+        -if s['website']
+          %a{ :href => s['website'] }= s['website']
+
+#parking
+  %h2 Parking
+  :markdown
+    Visitor parking is available in <a href="http://goo.gl/maps/qDdWW">lots 29 and 53</a>.  Standard parking charges an hourly rate for parking in these lots.  More information on parking can be found on <a href="http://www.case.edu/accessservices/parking_rates.html">standard parking's website</a>(scroll to the bottom for hourly rates).
+
+#meals
+  %h2 Meals
+  :markdown
+    There will be catered lunch and dinner.  The signup form has a field for dietary restrictions!
+
+
+:javascript
+  $(document).ready( function() {
+    $('#schedule td').each( function(index, el) {
+      var el = $(el);
+      el.hover(
+        function() {
+          //handle in
+        },
+        function() {
+          //handle out
+        }
+      );
+    });
+  });

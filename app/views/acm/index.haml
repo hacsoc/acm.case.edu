@@ -3,23 +3,22 @@
   %h2 Contact Us
   %ul.aside-list
     %li
-      %a.key{ href: 'mailto:agn31@case.edu' } Aaron Neyer
-      .value president
-    %li
-      %a.key{ href: 'mailto:jrk126@case.edu' } Jason Kuster
-      .value vice president
-    %li
-      %a.key{ href: 'mailto:drw75@case.edu' } Diego Waxemberg
-      .value treasurer
+      %a.key{ href: 'mailto:daj40@case.edu' } David Jannotta
+      .value President
     %li
       %a.key{ href: 'mailto:jdd49@case.edu' } John Dulin
-      .value secretary
+      .value Vice President
+    %li
+      %a.key{ href: 'mailto:drw75@case.edu' } Diego Waxemberg
+      .value Treasurer
+    %li
+      %a.key{ href: 'mailto:jdd49@case.edu' } Brendan Higgins
+      .value Secretary
+    %li
+      %a.key{ href: 'mailto:slh74@case.edu' } Stephanie Hippo
+      .value PR Chair
 
 %h1.root ACM
-
-%a.announcement{:href => @acm_conference_url}
-  :markdown
-    Information for the Link-State 2013 conference
 
 :markdown
   We _really_ love computers. We also know that one of the most important parts
@@ -31,18 +30,17 @@
   Below is an abbreviated list of what is on our plate for this semester. *If
   you are interested in being involved in one of these projects (even if you
   aren't a Computer Science major), drop the project leader an e-mail!*
-%h2#conference ACM Conference: Link-State 2013
+%h2#conference ACM Conference: Link-State
 :markdown
-  After a successful conference last year, we're hosting our second annual
-  ACM Link State conference on Saturday, October 26th and Sunday, October 27th.
-  We will have speakers from several tech companies, as well as a networking
-  event for students to talk with some of the companies there.
+  Every fall ACM holds our Link-State conference, where we bring together people
+  from around the country to get together, talk about Computer Science, and hear
+  talks from various awesome speakers.
 
   For more information:
 
-  * Conference Organizers: [ John Dulin ](mailto:jdd49@case.edu),
-  [ Aaron Neyer](mailto:agn31@case.edu)
-  * Website: <#{@acm_conference_url}>
+  * Conference Organizer: [ David Janotta ](mailto:daj40@case.edu)
+  * [Read more about the conference](#{url_for('acm/conference/about')})
+  * [Get details about the next Link-State conference](#{url_for('acm/conference')})
 %h2#servers ACM Servers
 :markdown
   Thanks to the generous donation from various students and alumni, we
