@@ -1,5 +1,29 @@
 ---
-speakers_2014: []
+speakers_2014:
+  - name: Sarah Dutkiewicz
+    affiliation: Cleveland Tech Consulting
+    twitter: '@sadukie'    
+    title: 'The Case for the UX Developer'
+    email: 'sarah@codinggeekette.com'
+    bio: >
+      Sarah will be talking about why developers need to care about user experience
+      and how to make developers more user-friendly.
+
+
+      Sarah is a pillar in the Cleveland Tech community, so odds are that you've
+      already met her, heard of her, or have seen her work. In addition to being 
+      an author, a Microsoft Visual C# MVP, and a business owner, she organizes, 
+      speaks at, and attends events likd CodeMash, SQL Saturday, StirTrek, ClevelandGiveCamp,
+      PyOhio, and devLink, all while still finding the time to developer her own projects.
+  - name: Gary Bernhardt
+    affiliation: Destroy All Software
+    title: 'Coming Soon'
+    twitter: '@garybernhardt'
+    bio: >
+      He's a top-notch Ruby and Python test-driven developer, but has plenty of solid
+      advice to offer everyone. Not only that, but we think you're going to love his sense
+      of humor. Check out his website, Destroy All Software, to read his blog, check out
+      his screen casts, or take a peak at his past talks. 
 speakers_2013:
   - name: John Gunderman
     affiliation: Google

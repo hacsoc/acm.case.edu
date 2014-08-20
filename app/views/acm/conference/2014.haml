@@ -19,7 +19,8 @@
       %span.key Hashtag:
       .value #linkstate
       %span.key Facebook Event:
-      .value TBA
+      .value 
+        %a{:href => 'https://www.facebook.com/events/1388438538076240/'} Link-State 2014
 %h1 Link-State 2014
 :markdown
   ACM at Case Western Reserve University is proud to present our *third annual*
@@ -51,7 +52,7 @@
   %tr
     %td 11:00am
     %td
-      Speaker TBA
+      Gary Bernhardt
     %td
       Speaker TBA
     %td
@@ -71,7 +72,7 @@
   %tr
     %td 2:30pm
     %td
-      Speaker TBA
+      Sarah Dutkiewicz
     %td
       Speaker TBA
     %td
@@ -101,3 +102,24 @@
       Closing Remarks
     %td
     %td Dinner Served
+#speakers
+  %h2 Speakers
+  %ul.speaker-list
+    - @speakers.each do |s|
+      -last_name = s['name'].split.last.gsub(/\W/,'').gsub(/\W/,'')
+      %li{ :id => "#{last_name}-desc" }
+        - if s['email']
+          %a{ href: "mailto:#{s['email']}"}
+            %h3= s['name']
+        - else
+          %h3= s['name']
+        -if s['twitter']
+          %span.twitter= s['twitter']
+        .affiliation= s['affiliation']
+        .title= s['title']
+        .bio
+          :markdown
+            #{s['bio']}
+        -if s['website']
+          %a{ :href => s['website'] }= s['website']
+
