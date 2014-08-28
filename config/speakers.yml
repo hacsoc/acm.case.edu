@@ -17,9 +17,21 @@ speakers_2014:
       PyOhio, and devLink, all while still finding the time to developer her own projects.
   - name: Gary Bernhardt
     affiliation: Destroy All Software
-    title: 'Coming Soon'
+    title: Turning The Design Clock Back
     twitter: '@garybernhardt'
     bio: >
+      Object-oriented design principles haven't had the effect we hoped for. The
+      SOLID principles are excellent design guidelines, but experience shows that
+      programmers find them difficult to follow. What do we do about this?
+      Surprisingly, the Structured Design literature of forty years ago contains
+      compelling solutions to many current design problems. They're simple and
+      easy to understand, but were lost in the noise as OO rose to popularity.
+      We'll reinterpret these simple design ideas in a modern context, finding
+      that many of our most promising new design ideas resemble them. Rapid web
+      application development, the area of professional programming in most dire
+      need of design improvements, will serve as an example.
+
+
       He's a top-notch Ruby and Python test-driven developer, but has plenty of solid
       advice to offer everyone. Not only that, but we think you're going to love his sense
       of humor. Check out his website, Destroy All Software, to read his blog, check out
