@@ -36,7 +36,7 @@ speakers_2014:
       advice to offer everyone. Not only that, but we think you're going to love his sense
       of humor. Check out his website, Destroy All Software, to read his blog, check out
       his screen casts, or take a peak at his past talks. 
-- name: Stephanie Hippo and Jason Kuster
+  - name: Stephanie Hippo and Jason Kuster
     affiliation: CWRU Co-Op Office sponsored by the Hartman Foundation
     twitter: '@stephhippo'    
     title: 'Co-Op Experiences from Explorys and Facebook'
@@ -54,7 +54,7 @@ speakers_2014:
       at Explorys as a Software Testing Engineer. Steph continues to work at Explorys throughout
       the academic year, and there are few things she loves more than breaking software 
       before customers do.      
-- name: Adam Crompton
+  - name: Adam Crompton
     title: Computers and Secuirty
     bio: >
       Adam is an Attack and Penetration Test / RED TEAM Tester. He'll be talking all about
@@ -62,7 +62,7 @@ speakers_2014:
       completed his degree in Computer Science. If all that wasn't impressive enough, he's
       a former member of the USA Fencing team. He's an attack research, a developer, passtionate,
       and dettermined.     
-- name: Lynn Nickels and Paula Hidalgo
+  - name: Lynn Nickels and Paula Hidalgo
     affiliation: Rockwell AUtomation
     title: Paying it Forward and So, You're Interested in a Career in Computer Science
     bio: >
