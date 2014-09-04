@@ -16,6 +16,7 @@ speakers_2014:
       speaks at, and attends events likd CodeMash, SQL Saturday, StirTrek, ClevelandGiveCamp,
       PyOhio, and devLink, all while still finding the time to developer her own projects.
   - name: Gary Bernhardt
+    keynote: true
     affiliation: Destroy All Software
     title: Turning The Design Clock Back
     twitter: '@garybernhardt'
@@ -57,11 +58,13 @@ speakers_2014:
   - name: Adam Crompton
     title: Computers and Security
     bio: >
-      Adam is an Attack and Penetration Test / RED TEAM Tester. He'll be talking all about
-      computer security (and the lack of it). He's an Ohio State University grad, where he
-      completed his degree in Computer Science. If all that wasn't impressive enough, he's
-      a former member of the USA Fencing team. He's an attack researcher, a developer, passionate,
-      and determined.
+      Adam is an Attack and Penetration Test / RED TEAM Tester. He considers himself to be
+      a passionate and determined attack researcher and developer. 
+      
+      He'll be talking all about computer security (and the lack of it). Adam is an Ohio 
+      State University grad, where he completed his degree in Computer Science as well as 
+      fenced on OSU's men's sabre team. If all that wasn't impressive enough, he's also 
+      a former member of the USA Fencing team. 
   - name: Lynn Nickels and Paula Hidalgo
     affiliation: Rockwell Automation
     title: Paying it Forward and So, You're Interested in a Career in Computer Science
