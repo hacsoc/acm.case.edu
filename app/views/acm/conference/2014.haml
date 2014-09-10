@@ -61,14 +61,15 @@
     %td
       Rockwell Automation
     %td
-      Speaker TBA
+      Tim Downs
     %td
   %tr
     %td 12:00pm
     %td
       Adam Crompton
     %td
-      Speaker TBA
+      Co-Op Office
+      
     %td
   %tr
     %td 1:00pm
@@ -88,28 +89,30 @@
     %td
       Leandog 
     %td
-      Speaker TBA
+      Victor Marmol
     %td
   %tr
     %td 4:30pm
-    %td
-      Co-Op Office
-    %td
-      Speaker TBA
-    %td
-  %tr
-    %td 5:30pm
     %td
       Gary Bernhardt
     %td
     %td
   %tr
-    %td 6:30pm
+    %td 5:30pm
     %td
       Closing Remarks
     %td
     %td Dinner Served
 #speakers
+  #keynote.hilite
+    %h2
+      Keynote: #{@keynote['title']}
+      %br
+      with #{@keynote['name']}
+      %span.twitter= @keynote['twitter']
+    :markdown
+      #{@keynote['bio']}
+
   %h2 Speakers
   %ul.speaker-list
     - @speakers.each do |s|
