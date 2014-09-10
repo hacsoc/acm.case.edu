@@ -42,7 +42,25 @@
 #sponsors
   %h2 Sponsors
   %br
-  The full sponsor list will be announced shortly.
+  #main-sponsors
+    .sponsor
+      %a{href: 'http://usg.case.edu'}
+        = image_tag 'usg-logo.png', width: '200px', alt: 'USG', title: 'USG'
+    .sponsor
+      %a{href: 'http://www.yelp.com'}
+        = image_tag 'yelp-logo.png', width: '200px', alt: 'Yelp', title: 'Yelp'
+    .sponsor
+      %a{href: 'http://engineering.case.edu/coop/'}
+        = image_tag 'coop-logo.jpg', width: '200px', alt: 'Co-op', title: 'Co-op'
+    .sponsor
+      %a{href: 'https://www.boxcast.com/'}
+        = image_tag 'boxcast.png', width: '200px', alt: 'BoxCast', title: 'BoxCast'
+    .sponsor
+      %a{href: 'http://framed.io'}
+        = image_tag 'framed-data.png', width: '200px', alt: 'Framed Data', title: 'Framed Data'
+    .sponsor
+      %a{href: 'https://www.cameralends.com/'}
+        = image_tag 'cameralends.png', width: '200px', alt: 'CameraLends', title: 'CameraLends'
 
 %h2 Schedule
 %table#schedule{border: 1, style: 'width: 100%'}
