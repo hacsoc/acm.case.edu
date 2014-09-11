@@ -8,6 +8,8 @@ class Cabal < Padrino::Application
   set :speakers_2012, YAML::load(File.read('config/speakers.yml'))['speakers_2012']
   set :speakers_2013, YAML::load(File.read('config/speakers.yml'))['speakers_2013']
   set :speakers_2014, YAML::load(File.read('config/speakers.yml'))['speakers_2014']
+  set :sponsors_2013, YAML::load(File.read('config/sponsors.yml'))['sponsors_2013']
+  set :sponsors_2014, YAML::load(File.read('config/sponsors.yml'))['sponsors_2014']
 
   ##
   # Caching support
