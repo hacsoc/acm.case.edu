@@ -29,20 +29,26 @@ speakers_2014:
       technical! 
   - name: Tim Downs
     affiliation: Mongoose
-    title: 'Coming Soon'
+    title: KING PUSH - My deploy is my deploy
     bio: >
+      Happier customers, increased quality and decreased defects from the same
+      old legacy codebase. All made possible by empowered developers leaning on
+      simple automation. Sound impossible? Listen to this sweet serenade and
+      start putting numbers on the boards.
+
+
       Tim is an engineer obsessed with building highly available web applications.
-      Before joining Mongoose Metrics, he worked to create industry defining
-      social media marketing and analytics tools at HubSpot in Cambridge, MA
-      and loyalty platform management tools at ePrize in Pleasant Ridge, MI.,
-      in addition to building a powerful video messaging API at Sociagram and
-      an international incentives based marketing campaign at ePrize.
+      At Mongoose Metrics he is working to make voice based marketing automation
+      more accessible. Before joining Mongoose Metrics, Tim helped create a powerful
+      video messaging API at Sociagram. Prior to moving to Cleveland he worked to
+      create industry defining social media marketing and analytics tools at
+      HubSpot in Cambridge, MA.
 
 
       Tim has a degree in Computer Science from Kettering University in Flint, MI.
 
 
-      He is an average hockey player, an enthusiastic traveller, and devoted bulldog owner.
+      He is an average hockey player, an enthusiastic traveler, and devoted bulldog owner.
   - name: Adam Crompton
     title: Computers and Security
     bio: >
