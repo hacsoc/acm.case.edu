@@ -130,7 +130,7 @@
       Keynote: #{@keynote['title']}
       %br
       with #{@keynote['name']}
-      %span.twitter= @keynote['twitter']
+      %a{href: "https://twitter.com/#{s['twitter']}"}.twitter= @keynote['twitter']
     :markdown
       #{@keynote['bio']}
 
@@ -145,7 +145,7 @@
         - else
           %h3= s['name']
         -if s['twitter']
-          %span.twitter= s['twitter']
+          %a{href: "https://twitter.com/#{s['twitter']}"}.twitter= s['twitter']
         .affiliation= s['affiliation']
         .title= s['title']
         .bio
