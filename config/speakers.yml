@@ -146,9 +146,22 @@ speakers_2014:
       to deliver meaningful products.
   - name: Victor Marmol
     affiliation: Google
-    title: Coming Soon
+    title: Containers and Google
     bio: >
-      Coming Soon
+      Containers let us separate software into components we can isolate, reuse,
+      and easily manage. They are rapidly becoming the standard unit for applications
+      in cloud computing. In this talk we'll talk about what containers are, how
+      they work, how they're used at Google, and how they're changing the way we
+      develop and deploy software.
+
+
+      Victor is a Senior Software Engineer at Google. He is part of the containers
+      infrastructure team which runs all of Google's compute jobs across the world;
+      starting over 2 billion containers per week. Recently, he has begun open
+      sourcing some of Google's containers infrastructure through two projects:
+      lmctfy and cAdvisor. He is also a core maintainer of Docker's libcontainer
+      and an active contributor of Google's Kubernetes. He has a bachelors in
+      Computer Science and masters in Software Engineering from Carnegie Mellon University.
   - name: Gary Bernhardt
     keynote: true
     affiliation: Destroy All Software
