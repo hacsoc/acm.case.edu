@@ -98,6 +98,29 @@ speakers_2014:
       an author, a Microsoft Visual C# MVP, and a business owner, she organizes, 
       speaks at, and attends events likd CodeMash, SQL Saturday, StirTrek, ClevelandGiveCamp,
       PyOhio, and devLink, all while still finding the time to developer her own projects.
+  - name: Paul Jacobs
+    affiliation: MIM Software
+    title: "Progress in Radiation Oncology: A Software Story"
+    bio: >
+        Treating cancer using radiation is a technology that is over a century old,
+        and the first treatment that used a linear particle accelerator dates back
+        to 1953.  However, there has been an explosion in the types and complexity
+        of radiation treatment over the past two decades, and it's not largely a
+        story of improved accelerator hardware.  Rather, much like the Apollo landings
+        were enabled by then-recent advances in computer technology, radiation oncology
+        has been revolutionized by new algorithms whose routine use is made possible
+        by the exponential growth in computational power.  This is a story that
+        brings together the influences that computing hardware, robotics, algorithms
+        research, high-performance computing, and user-interface design have had
+        on the process of shooting radiation at patients - and the challenges that
+        this added complexity has brought for doctors and developers.
+
+
+        Paul Jacobs is the Engineering Team Lead for the Research Engineering Team
+        at MIM Software, Inc, a Cleveland-area company that develops products for
+        the radiation oncology, radiology, and nuclear medicine markets.  MIM performs
+        algorithms research into registration, segmentation, cardiology and neurology
+        imaging analysis, and radiation treatment planning and analysis.
   - name: Nick Barendt and Nicole Capuana
     affiliation: LeanDog
     title: The magic of loops, markets and moxie
