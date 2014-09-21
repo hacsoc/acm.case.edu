@@ -181,10 +181,11 @@ speakers_2014:
       need of design improvements, will serve as an example.
 
 
-      Gary is a top-notch Ruby and Python test-driven developer, but has plenty of solid
-      advice to offer everyone. Not only that, but we think you're going to love his sense
-      of humor. Check out his website, Destroy All Software, to read his blog, check out
-      his screen casts, or take a peak at his past talks. 
+      Gary Bernhardt is a creator and destroyer of software compelled to understand
+      both sides of heated software debates: Vim and Emacs; Python and Ruby; Git
+      and Mercurial. He runs Destroy All Software, which publishes advanced screencasts
+      for serious developers covering Unix, OO design, TDD, and dynamic languages.
+      Gary is also a CWRU alumnus.
 speakers_2013:
   - name: John Gunderman
     affiliation: Google
