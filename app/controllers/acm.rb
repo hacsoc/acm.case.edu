@@ -12,7 +12,7 @@ Cabal.controller :acm do
   get 'conference/2012' do
     @name = 'Link-State'
     @speakers = Cabal.speakers_2012
-    @keynote = @speakers.select{ |x| x['keynote'] }.first
+    @keynote = @speakers.find{ |x| x['keynote'] }
     render 'acm/conference/2012'
   end
 
@@ -20,7 +20,7 @@ Cabal.controller :acm do
     @name = 'Link-State'
     @speakers = Cabal.speakers_2013
     @sponsors = Cabal.sponsors_2013
-    @keynote = @speakers.select{ |x| x['keynote'] }.first
+    @keynote = @speakers.find{ |x| x['keynote'] }
     render 'acm/conference/2013'
   end
 
@@ -28,7 +28,7 @@ Cabal.controller :acm do
     @name = 'Link-State'
     @speakers = Cabal.speakers_2014
     @sponsors = Cabal.sponsors_2014
-    @keynote = @speakers.select{ |x| x['keynote'] }.first
+    @keynote = @speakers.find{ |x| x['keynote'] }
     render 'acm/conference/2014'
   end
 
