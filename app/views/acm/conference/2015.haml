@@ -1,0 +1,103 @@
+%aside.right
+  = image_tag 'link-state.png'
+  %h2 Important Info
+  %ul.aside-list
+    %li
+      %span.key Date:
+      .value Saturday, October 3rd, 2015
+      %span.key Time:
+      .value TBD, ca. 10:00AM-7:00PM
+      %span.key Location:
+      .value
+        %a{:href => 'http://goo.gl/xsJQRd'} Hovorka Atrium, Agnar Pytte Science Center, Case Western Reserve University
+      %span.key Contact:
+      .value
+        #{mail_to "trm70@case.edu", "Thomas Murphy"}
+      %span.key Twitter:
+      .value
+        %a{:href => 'https://twitter.com/cwruacm'} @cwruacm 
+      %span.key Hashtag:
+      .value #linkstate
+      %span.key Facebook Event:
+      .value 
+        %a{:href => '#TODO'} Link-State 2015
+-# TOOD: ^ Fill in the Facebook event
+
+%h1 Link-State 2015
+:markdown
+  ACM at Case Western Reserve University is proud to present our *fourth annual*
+  Link-State conference. The conference is still in the planning stages, but
+  more details are to come.
+
+  For now, you can check out details of previous conferences at our Schedule
+  [archive](#{url_for('/acm/conference/about#archive')}).
+  
+-# TODO: links to anchors of Register/Sponsors/Schedule/Speakers
+
+%ul.toci
+  %li
+    %a{:href => '#sponsors'} Sponsors
+  %li
+    %a{:href => '#schedule'} Schedule 
+  
+-# TODO: Eventbrite registration iFrame and image
+  
+-# TODO: Sponsors list, see: config/sponsors.yml, section sponsors_2015
+
+#sponsors
+  %h2 Sponsors
+  %br
+  The full sponsor list will be announced. We are still seeking sponsors at this time! Contact #{mail_to "hacsoc-officers@case.edu", "the team", subject:"CWRU Hacker Society Link-State 2015 Sponsorship Opportunities" } to learn more about sponsorship opportunities.
+
+-# TODO: Schedule of events, put a table here
+#schedule
+%h2 Preliminary Schedule
+%table#schedule{border: 1, style: 'width: 100%'}
+  %thead
+    %th Time
+    %th Schmitt
+    %th Clapp
+    %th Hovorka Atrium
+  %tr
+    %td 10:00am
+    %td
+    %td
+    %td 
+  %tr
+    %td 11:00am
+    %td
+    %td
+    %td
+  %tr
+    %td 12:00pm
+    %td
+    %td      
+    %td
+  %tr
+    %td 1:00pm
+    %td
+    %td
+    %td Lunch + Networking
+  %tr
+    %td 2:30pm
+    %td
+    %td
+    %td
+  %tr
+    %td 3:30pm
+    %td
+    %td
+    %td
+  %tr
+    %td 4:30pm
+    %td
+    %td
+    %td
+  %tr
+    %td 5:30pm
+    %td
+      Closing Remarks
+    %td
+    %td Dinner Served
+
+-# TODO: Speakers list, including talk description and links, see: config/speakers.yml, section speakers_2015
