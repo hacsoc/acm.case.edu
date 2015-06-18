@@ -20,6 +20,9 @@ gem 'padrino', '0.10.7'
 group :development do
   gem 'shotgun'
   gem 'pry'
+end 
+group :production do
+  gem 'unicorn'
 end
 
 # Or Padrino Edge
