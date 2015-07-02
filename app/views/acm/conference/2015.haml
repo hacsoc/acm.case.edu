@@ -31,18 +31,19 @@
 
   You can check out details of previous conferences at our Schedule
   [archive](#{url_for('/acm/conference/about#archive')}).
-  
--# TODO: links to anchors of Register/Sponsors/Schedule/Speakers
 
 %ul.toci
   %li
     %a{:href => '#sponsors'} Sponsors
   %li
     %a{:href => '#schedule'} Schedule 
-  
--# TODO: Eventbrite registration iFrame and image
 
-#speakers
+-# TODO: links to anchors of Register/Schedule/Speakers sections
+
+-# TODO: Eventbrite registration iFrame and image
+#register
+
+#callforspeakers
   %h2 Call for Speakers
   %br
   We are seeking proposals from individuals with professional and
@@ -55,6 +56,7 @@
   for more information or to submit a proposal.
   
 -# TODO: Sponsors list, see: config/sponsors.yml, section sponsors_2015
+-# Be sure to put logos under public/images/sponsors_ls_2015
 
 #sponsors
   %h2 Sponsors
@@ -68,7 +70,9 @@
   %br
   Watch for updates here as we confirm more sponsors.
 
--# TODO: Schedule of events, put a table here
+-# Put the code to render logos here once sponsors.yml has entries for 2015
+
+-# TODO: Complete schedule of events; filling in table
 #schedule
 %h2 Preliminary Schedule
 %table#schedule{border: 1, style: 'width: 100%'}
@@ -114,9 +118,9 @@
     %td
   %tr
     %td 5:30pm
-    %td
-      Closing Remarks
+    %td Closing Remarks
     %td
     %td Dinner Served
 
 -# TODO: Speakers list, including talk description and links, see: config/speakers.yml, section speakers_2015
+#speakers
