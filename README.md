@@ -22,7 +22,7 @@ Instructions
    `rvm use 2.2.1`. Consider setting it as default with
    `rvm --default use 2.2.1`.
 3. When you've got that all squared-away, [fork this
-   repository](https://help.github.com/articles/fork-a-repo). From your fork,
+   repository](https://github.com/cwruacm/acm.case.edu/fork). From your fork,
    clone to your computer and navigate your terminal to the new clone.
 4. With the correct version of Ruby active, install this application's
    dependencies with `gem install bundler`, and then `bundle install`.
