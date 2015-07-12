@@ -1,33 +1,38 @@
 ---
 speakers_2015:
+
+
 speakers_2014:
   - name: Lynn Nickels and Paula Hidalgo
     affiliation: Rockwell Automation
     title: Paying it Forward and So, You're Interested in a Career in Computer Science
     bio: >
-      Paula will talk about what it means to work in industry within the Computer Science 
-      arena. You can hear what it's like to work as a programmer/analyst, an information 
-      technology lead, and a project manager. Paula is currently a Project Manager at 
-      Rockwell Automation and has a passion for improving organizational effectiveness and
-      mentoring others. Her strengths are in taking complexity and constraints and 
-      translating them into effective and actionable steps to deliver project results. She 
-      holds a BS Chemical Engineering from Rensselaer Polytechnic Institute and an MS 
-      Chemical Engineering from CWRU.
-      
+      Paula will talk about what it means to work in industry within the
+      Computer Science arena. You can hear what it's like to work as a
+      programmer/analyst, an information technology lead, and a project manager.
+      Paula is currently a Project Manager at Rockwell Automation and has a
+      passion for improving organizational effectiveness and mentoring others.
+      Her strengths are in taking complexity and constraints and translating
+      them into effective and actionable steps to deliver project results. She
+      holds a BS Chemical Engineering from Rensselaer Polytechnic Institute and
+      an MS Chemical Engineering from CWRU.
 
-      Lynn's love for all things technical and her goal of never putting all of her career
-      eggs in one basket has led her down a winding road with stops along the way that include
-      CAD design, technical writing, teaching computer programing, and now, marketing 
-      industrial automation products. What else is a non-engineer type to do but race toward
-      promoting STEM education and technical careers? Let's face it, working for free never
-      ends and can pay you back in a way that you never thought possible! A full-time Global
-      Marketing Communicator at Rockwell Automation, Lynn also moonlights as an Academic
-      Relations Representative for local colleges and an online newsletter editor for the 
-      Northeast Ohio Society for TEchnical Communicators. She is also a member of the Cleveland
-      Professional Women's Group team at Rockwell, but her favorite stop has to be her STEM
-      initiatives participation with events like Girls Go Science, Engineers Week and Manufacturing Day,
-      and the value received from helping young people develop a love like hers - for all things
-      technical! 
+      Lynn's love for all things technical and her goal of never putting all of
+      her career eggs in one basket has led her down a winding road with stops
+      along the way that include CAD design, technical writing, teaching
+      computer programing, and now, marketing industrial automation products.
+      What else is a non-engineer type to do but race toward promoting STEM
+      education and technical careers? Let's face it, working for free never
+      ends and can pay you back in a way that you never thought possible! A
+      full-time Global Marketing Communicator at Rockwell Automation, Lynn also
+      moonlights as an Academic Relations Representative for local colleges and
+      an online newsletter editor for the Northeast Ohio Society for TEchnical
+      Communicators. She is also a member of the Cleveland Professional Women's
+      Group team at Rockwell, but her favorite stop has to be her STEM
+      initiatives participation with events like Girls Go Science, Engineers
+      Week and Manufacturing Day, and the value received from helping young
+      people develop a love like hers - for all things technical!
+
   - name: Tim Downs
     affiliation: Mongoose
     title: KING PUSH - My deploy is my deploy
@@ -37,133 +42,146 @@ speakers_2014:
       simple automation. Sound impossible? Listen to this sweet serenade and
       start putting numbers on the boards.
 
+      Tim is an engineer obsessed with building highly available web
+      applications. At Mongoose Metrics, he is working to make voice based
+      marketing automation more accessible. Before joining Mongoose Metrics, Tim
+      helped create a powerful video messaging API at Sociagram. Prior to moving
+      to Cleveland, he worked to create industry-defining social media marketing
+      and analytics tools at HubSpot in Cambridge, MA.
 
-      Tim is an engineer obsessed with building highly available web applications.
-      At Mongoose Metrics, he is working to make voice based marketing automation
-      more accessible. Before joining Mongoose Metrics, Tim helped create a powerful
-      video messaging API at Sociagram. Prior to moving to Cleveland, he worked to
-      create industry-defining social media marketing and analytics tools at
-      HubSpot in Cambridge, MA.
+      Tim has a degree in Computer Science from Kettering University in Flint,
+      MI.
 
+      He is an average hockey player, an enthusiastic traveler, and devoted
+      bulldog owner.
 
-      Tim has a degree in Computer Science from Kettering University in Flint, MI.
-
-
-      He is an average hockey player, an enthusiastic traveler, and devoted bulldog owner.
   - name: Adam Crompton
     title: Computers and Security
     bio: >
-      Adam is an Attack and Penetration Test / RED TEAM Tester. He considers himself to be
-      a passionate and determined attack researcher and developer. 
-      
-      He'll be talking all about computer security (and the lack of it). Adam is an Ohio 
-      State University grad, where he completed his degree in Computer Science, as well as
-      fenced on OSU's men's sabre team. If all that wasn't impressive enough, he's also 
-      a former member of the USA Fencing team. 
+      Adam is an Attack and Penetration Test / RED TEAM Tester. He considers
+      himself to be a passionate and determined attack researcher and developer.
+
+      He'll be talking all about computer security (and the lack of it). Adam is
+      an Ohio State University grad, where he completed his degree in Computer
+      Science, as well as fenced on OSU's men's sabre team. If all that wasn't
+      impressive enough, he's also a former member of the USA Fencing team.
+
   - name: Stephanie Hippo and Jason Kuster
     affiliation: CWRU Co-Op Office sponsored by the Hartman Foundation
-    twitter: '@stephhippo'    
+    twitter: '@stephhippo'
     title: 'Co-Op Experiences from Explorys and Facebook'
     bio: >
-      Hear about what two Computer Science students were able to accomplish on their Co-Op
-      experiences. Find out how and why you should work a Co-Op into your time at CWRU, and
-      get advice from those who have already done it. Steph chose to work in Cleveland, while
-      Jason took off for warmer weather, but we assure you the opportunities are everywhere.
+      Hear about what two Computer Science students were able to accomplish on
+      their Co-Op experiences. Find out how and why you should work a Co-Op into
+      your time at CWRU, and get advice from those who have already done it.
+      Steph chose to work in Cleveland, while Jason took off for warmer weather,
+      but we assure you the opportunities are everywhere.
 
+      Steph is a senior Computer Science student who is dedicated to using
+      technology to improve healthcare. If her name sounds familiar, you
+      probably know her as the Hacker Society PR Director, the CWRU Fencing
+      Club's women sabre captain, or the Co-Op Office's student assistant.
+      She'll tell you all about the work she completed on her 8-month Co-Op at
+      Explorys as a Software Testing Engineer. Steph continues to work at
+      Explorys throughout the academic year, and there are few things she loves
+      more than breaking software before customers do.
 
-      Steph is a senior Computer Science student who is dedicated to using technology to 
-      improve healthcare. If her name sounds familiar, you probably know her as the Hacker
-      Society PR Director, the CWRU Fencing Club's women sabre captain, or the Co-Op Office's
-      student assistant. She'll tell you all about the work she completed on her 8-month Co-Op
-      at Explorys as a Software Testing Engineer. Steph continues to work at Explorys throughout
-      the academic year, and there are few things she loves more than breaking software 
-      before customers do.      
-      
+      Jason Kuster is a former Vice President of the ACM. Currently in his fifth
+      year at Case, he is pursuing a double major in Computer Science and
+      Theatre (Technical Concentration). He has interned at companies such as
+      Microsoft and Facebook and will be starting full-time at Google Seattle in
+      the fall of 2015. He is a member of Speakeasy, CWRU's premiere all-male a
+      cappella singing group, a teaching assistant at think[box], the
+      hackerspace on campus, and a proud brother of Theta Chi Fraternity.
 
-      Jason Kuster is a former Vice President of the ACM. Currently in his fifth year at 
-      Case, he is pursuing a double major in Computer Science and Theatre (Technical Concentration).
-      He has interned at companies such as Microsoft and Facebook and will be starting 
-      full-time at Google Seattle in the fall of 2015. He is a member of Speakeasy, CWRU's 
-      premiere all-male a cappella singing group, a teaching assistant at think[box], 
-      the hackerspace on campus, and a proud brother of Theta Chi Fraternity.
   - name: Sarah Dutkiewicz
     affiliation: Cleveland Tech Consulting
-    twitter: '@sadukie'    
+    twitter: '@sadukie'
     title: 'The Case for the UX Developer'
     bio: >
-      Sarah will be talking about why developers need to care about user experience
-      and how to make developers more user-friendly.
-
+      Sarah will be talking about why developers need to care about user
+      experience and how to make developers more user-friendly.
 
       Sarah is a pillar in the Cleveland Tech community, so odds are that you've
-      already met her, heard of her, or have seen her work. In addition to being 
-      an author, a Microsoft Visual C# MVP, and a business owner, she organizes, 
-      speaks at, and attends events likd CodeMash, SQL Saturday, StirTrek, ClevelandGiveCamp,
-      PyOhio, and devLink, all while still finding the time to develop her own projects.
+      already met her, heard of her, or have seen her work. In addition to being
+      an author, a Microsoft Visual C# MVP, and a business owner, she organizes,
+      speaks at, and attends events likd CodeMash, SQL Saturday, StirTrek,
+      ClevelandGiveCamp, PyOhio, and devLink, all while still finding the time
+      to develop her own projects.
+
   - name: Paul Jacobs
     affiliation: MIM Software
     title: "Progress in Radiation Oncology: A Software Story"
     bio: >
-        Treating cancer using radiation is a technology that is over a century old,
-        and the first treatment that used a linear particle accelerator dates back
-        to 1953.  However, there has been an explosion in the types and complexity
-        of radiation treatment over the past two decades, and it's not largely a
-        story of improved accelerator hardware.  Rather, much like the Apollo landings
-        were enabled by then-recent advances in computer technology, radiation oncology
-        has been revolutionized by new algorithms whose routine use is made possible
-        by the exponential growth in computational power.  This is a story that
-        brings together the influences that computing hardware, robotics, algorithms
-        research, high-performance computing, and user-interface design have had
-        on the process of shooting radiation at patients - and the challenges that
-        this added complexity has brought for doctors and developers.
+        Treating cancer using radiation is a technology that is over a century
+        old, and the first treatment that used a linear particle accelerator
+        dates back to 1953.  However, there has been an explosion in the types
+        and complexity of radiation treatment over the past two decades, and
+        it's not largely a story of improved accelerator hardware.  Rather, much
+        like the Apollo landings were enabled by then-recent advances in
+        computer technology, radiation oncology has been revolutionized by new
+        algorithms whose routine use is made possible by the exponential growth
+        in computational power.  This is a story that brings together the
+        influences that computing hardware, robotics, algorithms research,
+        high-performance computing, and user-interface design have had on the
+        process of shooting radiation at patients - and the challenges that this
+        added complexity has brought for doctors and developers.
 
+        Paul Jacobs is the Engineering Team Lead for the Research Engineering
+        Team at MIM Software, Inc, a Cleveland-area company that develops
+        products for the radiation oncology, radiology, and nuclear medicine
+        markets.  MIM performs algorithms research into registration,
+        segmentation, cardiology and neurology imaging analysis, and radiation
+        treatment planning and analysis.
 
-        Paul Jacobs is the Engineering Team Lead for the Research Engineering Team
-        at MIM Software, Inc, a Cleveland-area company that develops products for
-        the radiation oncology, radiology, and nuclear medicine markets.  MIM performs
-        algorithms research into registration, segmentation, cardiology and neurology
-        imaging analysis, and radiation treatment planning and analysis.
   - name: Nick Barendt and Nicole Capuana
     affiliation: LeanDog
     title: The magic of loops, markets and moxie
     bio: >
-      Most businesses fail within the first year or two. How do you improve your odds of success? We’ll
-      review the magic in learning loops, how to understand your users and customer development, and what
-      you need in team dynamics to drive your startup forward and point you in a more successful direction.
+      Most businesses fail within the first year or two. How do you improve your
+      odds of success? We’ll review the magic in learning loops, how to
+      understand your users and customer development, and what you need in team
+      dynamics to drive your startup forward and point you in a more successful
+      direction.
 
+      Nick is a wayward electrical engineer, having spent his career in
+      software. Combining expertise in both real-time, embedded systems and
+      scalable cloud computing, he is a jack of all trades (perhaps a master of
+      none). His interest in continuous learning and passion for startups led
+      him to LeanDog Software, where he helps lead LeanDog Studio, a Product
+      Design and Delivery practice. He is also an adjunct faculty member in the
+      EECS at CWRU.
 
-      Nick is a wayward electrical engineer, having spent his career in software. Combining expertise in both
-      real-time, embedded systems and scalable cloud computing, he is a jack of all trades (perhaps a master
-      of none). His interest in continuous learning and passion for startups led him to LeanDog Software,
-      where he helps lead LeanDog Studio, a Product Design and Delivery practice. He is also an adjunct faculty
-      member in the EECS at CWRU.
+      Nicole leads all things UX on a boat at LeanDog and helps enterprises and
+      startups focus and define well-designed and intuitive systems. Over the
+      last 15 years, she has covered almost the entire spectrum of User
+      Experience - from visual & interaction design to usability testing. She is
+      a founding member and Secretary for Her Ideas in Motion, a local
+      nonprofit, that is working to change the gender ratio in tech by inspiring
+      the next generation of girls through hands-on technology and media
+      workshops. She organizes Cleveland Lean Startup Circle and has been
+      teaching others design thinking and how to understand users to deliver
+      meaningful products.
 
-
-      Nicole leads all things UX on a boat at LeanDog and helps enterprises and startups focus and define
-      well-designed and intuitive systems. Over the last 15 years, she has covered almost the entire spectrum
-      of User Experience - from visual & interaction design to usability testing. She is a founding member and
-      Secretary for Her Ideas in Motion, a local nonprofit, that is working to change the gender ratio in tech by
-      inspiring the next generation of girls through hands-on technology and media workshops. She organizes
-      Cleveland Lean Startup Circle and has been teaching others design thinking and how to understand users
-      to deliver meaningful products.
   - name: Victor Marmol
     affiliation: Google
     title: Containers and Google
     bio: >
       Containers let us separate software into components we can isolate, reuse,
-      and easily manage. They are rapidly becoming the standard unit for applications
-      in cloud computing. In this talk we'll talk about what containers are, how
-      they work, how they're used at Google, and how they're changing the way we
-      develop and deploy software.
+      and easily manage. They are rapidly becoming the standard unit for
+      applications in cloud computing. In this talk we'll talk about what
+      containers are, how they work, how they're used at Google, and how they're
+      changing the way we develop and deploy software.
 
+      Victor is a Senior Software Engineer at Google. He is part of the
+      containers infrastructure team which runs all of Google's compute jobs
+      across the world; starting over 2 billion containers per week. Recently,
+      he has begun open sourcing some of Google's containers infrastructure
+      through two projects: lmctfy and cAdvisor. He is also a core maintainer of
+      Docker's libcontainer and an active contributor of Google's Kubernetes. He
+      has a bachelors in Computer Science and masters in Software Engineering
+      from Carnegie Mellon University.
 
-      Victor is a Senior Software Engineer at Google. He is part of the containers
-      infrastructure team which runs all of Google's compute jobs across the world;
-      starting over 2 billion containers per week. Recently, he has begun open
-      sourcing some of Google's containers infrastructure through two projects:
-      lmctfy and cAdvisor. He is also a core maintainer of Docker's libcontainer
-      and an active contributor of Google's Kubernetes. He has a bachelors in
-      Computer Science and masters in Software Engineering from Carnegie Mellon University.
   - name: Gary Bernhardt
     keynote: true
     affiliation: Destroy All Software
@@ -171,8 +189,8 @@ speakers_2014:
     twitter: '@garybernhardt'
     bio: >
       Object-oriented design principles haven't had the effect we hoped for. The
-      SOLID principles are excellent design guidelines, but experience shows that
-      programmers find them difficult to follow. What do we do about this?
+      SOLID principles are excellent design guidelines, but experience shows
+      that programmers find them difficult to follow. What do we do about this?
       Surprisingly, the Structured Design literature of forty years ago contains
       compelling solutions to many current design problems. They're simple and
       easy to understand, but were lost in the noise as OO rose to popularity.
@@ -181,12 +199,12 @@ speakers_2014:
       application development, the area of professional programming in most dire
       need of design improvements, will serve as an example.
 
+      Gary Bernhardt is a creator and destroyer of software compelled to
+      understand both sides of heated software debates: Vim and Emacs; Python
+      and Ruby; Git and Mercurial. He runs Destroy All Software, which publishes
+      advanced screencasts for serious developers covering Unix, OO design, TDD,
+      and dynamic languages. Gary is also a CWRU alumnus.
 
-      Gary Bernhardt is a creator and destroyer of software compelled to understand
-      both sides of heated software debates: Vim and Emacs; Python and Ruby; Git
-      and Mercurial. He runs Destroy All Software, which publishes advanced screencasts
-      for serious developers covering Unix, OO design, TDD, and dynamic languages.
-      Gary is also a CWRU alumnus.
 speakers_2013:
   - name: John Gunderman
     affiliation: Google
@@ -197,12 +215,11 @@ speakers_2013:
       addresses the shortcomings of HTTP 1.1. Come learn about how SPDY is
       behind the scenes, speeding up your web browsing!
 
-
-      John Gunderman graduated from CWRU in 2013 with a degree in Computer Science.
-      He interned twice at Google, working on Google's MySQL deployment. John now
-      works full time on one of Google's technical infrastructure teams. In his
-      free time, John enjoys juggling, long backpacking trips in the Sierras,
-      and fine whiskys.
+      John Gunderman graduated from CWRU in 2013 with a degree in Computer
+      Science. He interned twice at Google, working on Google's MySQL
+      deployment. John now works full time on one of Google's technical
+      infrastructure teams. In his free time, John enjoys juggling, long
+      backpacking trips in the Sierras, and fine whiskys.
 
   - name: Brian Stack
     affiliation: Yelp
@@ -210,21 +227,20 @@ speakers_2013:
     email: 'bstack@yelp.com'
     bio: >
       You've built the site, now how do you know it's working?  Modern websites
-      are made up of a myriad of moving parts that all must work in harmony.  How
-      can you know that your website is working and how can you figure out what's
-      wrong as quickly as possible when your website inevitably breaks?  A robust
-      and performant monitoring infrastructure makes a world of difference for your
-      infrastructure and developers alike.  Come learn about how Yelp monitors
-      its infrastructure and makes sure the website works!
+      are made up of a myriad of moving parts that all must work in harmony.
+      How can you know that your website is working and how can you figure out
+      what's wrong as quickly as possible when your website inevitably breaks?
+      A robust and performant monitoring infrastructure makes a world of
+      difference for your infrastructure and developers alike.  Come learn about
+      how Yelp monitors its infrastructure and makes sure the website works!
 
-
-      Brian Stack graduated from CWRU in 2013 with a BS in Computer Science.
-      He started an internship at Yelp the summer after his junior year and hasn't
-      looked back since.  He came back to the infrastructure team after finishing
-      his senior year and has been working to keep the site fast and keeping
-      developers productive ever since.  While in school he worked on figuring out
-      how networks actually work with Mark Allman (neither of them have quite
-      figured it out yet).
+      Brian Stack graduated from CWRU in 2013 with a BS in Computer Science. He
+      started an internship at Yelp the summer after his junior year and hasn't
+      looked back since.  He came back to the infrastructure team after
+      finishing his senior year and has been working to keep the site fast and
+      keeping developers productive ever since.  While in school he worked on
+      figuring out how networks actually work with Mark Allman (neither of them
+      have quite figured it out yet).
 
   - name: Tom Dooner
     affiliation: Causes
@@ -233,44 +249,46 @@ speakers_2013:
     email: 'tomdooner@gmail.com'
     bio: >
       40% of users will abandon websites that take over three seconds to load.
-      Even if your web application is straddling this boundary, by adopting a mobile-first
-      design paradigm your web application will be more responsive on all browsers
-      and devices. This talk will cover some common progressive enhancement techniques
-      and how to make sure you're not leaving any users behind.
+      Even if your web application is straddling this boundary, by adopting a
+      mobile-first design paradigm your web application will be more responsive
+      on all browsers and devices. This talk will cover some common progressive
+      enhancement techniques and how to make sure you're not leaving any users
+      behind.
 
-
-      Tom Dooner is a Software Engineer at Causes, the world's largest online campaigning
-      platform. Born and raised a web developer, he recently moved from Cleveland to
-      San Francisco to follow his dream of writing code that empowers its users.
-      He has helped engineer Causes's recent relaunch and is looking forward to
-      building exciting features in the future. Tom is a recent graduate of CWRU.
+      Tom Dooner is a Software Engineer at Causes, the world's largest online
+      campaigning platform. Born and raised a web developer, he recently moved
+      from Cleveland to San Francisco to follow his dream of writing code that
+      empowers its users. He has helped engineer Causes's recent relaunch and is
+      looking forward to building exciting features in the future. Tom is a
+      recent graduate of CWRU.
 
   - name: Matt O'Donnell
     affiliation: Leandog
     title: Stateless / Immutable Webapps - Stealing Ideas from Functional Patterns
     bio: >
-      How can we utilize functional principles(SOC, data-in-data-out functions, etc...),
-      while still keeping standard but very non-functional tools while working within the
-      python ecosystem. How can these drastically different paradigms fit together?
+      How can we utilize functional principles(SOC, data-in-data-out functions,
+      etc...), while still keeping standard but very non-functional tools while
+      working within the python ecosystem. How can these drastically different
+      paradigms fit together?
 
-
-      Some great things happened through a years worth of experimentation. Tests are fast,
-      small, and easy(less use of mocks and other advanced testing tools) out of the box.
-      What data a view or function actually needs is readably apparent, mocking database calls
-      become completely unnecessary (due to the makeup of the new data models), other kind of
-      data sources were trivial to convert; data just looked like data no matter where it
+      Some great things happened through a years worth of experimentation. Tests
+      are fast, small, and easy(less use of mocks and other advanced testing
+      tools) out of the box. What data a view or function actually needs is
+      readably apparent, mocking database calls become completely unnecessary
+      (due to the makeup of the new data models), other kind of data sources
+      were trivial to convert; data just looked like data no matter where it
       came from(the file system, an ORM, redis, mongo).
 
+      What might we discover by looking at a codebase from a different
+      perspective? I would like to share some of this journey, talk about
+      separating data from functionality(the good times, the bad times), some of
+      the code that emerged, and things we can take away from this grand
+      experiment.
 
-      What might we discover by looking at a codebase from a different perspective? I would
-      like to share some of this journey, talk about separating data from functionality(the
-      good times, the bad times), some of the code that emerged, and things we can take
-      away from this grand experiment.  
-
-
-      Matt is a web developer at LeanDog in Cleveland, Ohio. By day, he makes engaging
-      and useful things for the web. By night, he hacks on python in search of a
-      better understanding around the definition and practice of "craftsmanship".
+      Matt is a web developer at LeanDog in Cleveland, Ohio. By day, he makes
+      engaging and useful things for the web. By night, he hacks on python in
+      search of a better understanding around the definition and practice of
+      "craftsmanship".
 
   - name: Tim Downs
     affiliation: Sociagram
@@ -279,35 +297,34 @@ speakers_2013:
       A look into how Sociagram's architecture provides real time availability
       of their customers' videos while transcoding and optimizing their content.
 
-
-      Tim is an engineer obsessed with building highly available web applications.
-      He joined the team in March of 2013 from Cleveland based Urbancode. Before
-      Urbancode he worked to create industry defining social media marketing and
-      analytics tools at HubSpot in Cambridge, MA and loyalty platform management
-      tools at ePrize in Pleasant Ridge, MI. Tim has a degree in Computer Science
-      from Kettering University in Flint, MI. He is an average hockey player, an
-      enthusiastic traveller, and devoted bulldog owner.
+      Tim is an engineer obsessed with building highly available web
+      applications. He joined the team in March of 2013 from Cleveland based
+      Urbancode. Before Urbancode he worked to create industry defining social
+      media marketing and analytics tools at HubSpot in Cambridge, MA and
+      loyalty platform management tools at ePrize in Pleasant Ridge, MI. Tim has
+      a degree in Computer Science from Kettering University in Flint, MI. He is
+      an average hockey player, an enthusiastic traveller, and devoted bulldog
+      owner.
 
   - name: Dan Saks
     affiliation: Saks & Associates
     title: Measuring Instead of Speculating
     bio: >
-      C is clearly the dominant language for programming embedded
-      systems, in large part because it provides convenient and efficient access
-      to hardware devices.  C++ offers additional object-oriented facilities
-      that provide higher levels of abstraction, yet it remains a distant second
-      choice for embedded programming.  Many practicing C programmers assert
-      without proof that using C++ objects for hardware accesses is too costly
-      to use.  This session explains how to actually measure such claims.  It
-      also presents actual measurements showing that some widely-used C
-      techniques can actually be much slower than straightforward C++ techniques.
+      C is clearly the dominant language for programming embedded systems, in
+      large part because it provides convenient and efficient access to hardware
+      devices.  C++ offers additional object-oriented facilities that provide
+      higher levels of abstraction, yet it remains a distant second choice for
+      embedded programming.  Many practicing C programmers assert without proof
+      that using C++ objects for hardware accesses is too costly to use.  This
+      session explains how to actually measure such claims.  It also presents
+      actual measurements showing that some widely-used C techniques can
+      actually be much slower than straightforward C++ techniques.
 
-
-      Dan Saks is the president of Saks & Associates, which offers training
-      and consulting in C and C++ and their use in developing embedded systems.
-      Dan writes the Programming Pointers column for Embedded.com online.  He
-      has written columns for several other publications including The C/C++
-      Users Journal, The C++ Report, Embedded Systems Design, and Software
+      Dan Saks is the president of Saks & Associates, which offers training and
+      consulting in C and C++ and their use in developing embedded systems. Dan
+      writes the Programming Pointers column for Embedded.com online.  He has
+      written columns for several other publications including The C/C++ Users
+      Journal, The C++ Report, Embedded Systems Design, and Software
       Development.  With Thomas Plum, he wrote C++ Programming Guidelines, which
       won a Computer Language Magazine Productivity Award as one of the best
       books of 1992.  Dan served as secretary of the ANSI and ISO C++ Standards
@@ -326,58 +343,60 @@ speakers_2013:
       paying a lot for design tools that would allow you to complete a task
       quickly and effectively. More recently, teams, project schedules and
       budgets seem to shrink on a daily basis, with more expected from the final
-      output. What is a designer to do? Much like the tools that have revolutionized
-      how software designers create their projects, these tools have begun trickling
-      into the lives of hardware designers, both in how they create and share their
-      projects. Chris Gammell will share how he has utilized many of these open
-      source tools and projects to create an educational course around analog
-      sensors and how the output of the course will be open source hardware. 
+      output. What is a designer to do? Much like the tools that have
+      revolutionized how software designers create their projects, these tools
+      have begun trickling into the lives of hardware designers, both in how
+      they create and share their projects. Chris Gammell will share how he has
+      utilized many of these open source tools and projects to create an
+      educational course around analog sensors and how the output of the course
+      will be open source hardware.
 
       Chris Gammell is a full time analog electrical engineer and part time
       talker/blogger/podcaster/vidcaster. A 2006 graduate from CWRU, Chris has
       worked in fields such as RF, DSP, silicon manufacturing, precise test and
-      measurement manufacturing and most recently, large scale industrial process
-      control. Outside of work, Chris has a podcast called The Amp Hour with Dave
-      Jones of the EEVblog. This weekly transpacific show (Dave lives in Sydney
-      Australia) covers industry news, open source projects, interviews with a
-      wide range of guests and fun banter about electronics. Most recently, Chris
-      has started a new endeavor called Contextual Electronics, which is a 10
-      week course teaching people how to design and build electronics with a
-      practical, hands on approach. All products developed through CE are licensed
-      as Open Source Hardware to be shared and modified (or sold!) by anyone in the world.
+      measurement manufacturing and most recently, large scale industrial
+      process control. Outside of work, Chris has a podcast called The Amp Hour
+      with Dave Jones of the EEVblog. This weekly transpacific show (Dave lives
+      in Sydney Australia) covers industry news, open source projects,
+      interviews with a wide range of guests and fun banter about electronics.
+      Most recently, Chris has started a new endeavor called Contextual
+      Electronics, which is a 10 week course teaching people how to design and
+      build electronics with a practical, hands on approach. All products
+      developed through CE are licensed as Open Source Hardware to be shared and
+      modified (or sold!) by anyone in the world.
 
   - name: Isaac White
     affiliation: Microsoft
     title: Lessons Learned from a Career in Technology
     bio: >
       Good engineers always perform a lessons learned activity after completing
-      a project in order to improve performance on future projects.  Yet, engineers
-      don’t always apply this technique to their lives and careers as they reach
-      various milestones.  How much did good grades matter?  What kept me up past
-      midnight?  What did moped congestion in Thailand teach me about building
-      smarter cars? Together, we will explore how our education, passions, and
-      experiences can be leveraged to make us more effective problem solvers.
-
+      a project in order to improve performance on future projects.  Yet,
+      engineers don’t always apply this technique to their lives and careers as
+      they reach various milestones.  How much did good grades matter?  What
+      kept me up past midnight?  What did moped congestion in Thailand teach me
+      about building smarter cars? Together, we will explore how our education,
+      passions, and experiences can be leveraged to make us more effective
+      problem solvers.
 
       Isaac White graduated with a BS in Computer Engineering from Case Western
-      Reserve in 2005 where he was a four year member of the men’s basketball team.
-      He began his career working for Lockheed Martin as a software engineer in
-      the Washington, DC area.  During that time he served in a number of roles
-      including software developer, security and database administrator, and
-      technical proposal manager while working on contracts for the IRS and TSA.
-      In 2010 he earned a MS in information Systems from Johns Hopkins University.
-      In May of 2013 he joined Microsoft’s Productivity, Access, and Identity Experience
-      (PAIX) group in Redmond, WA where he serves as a software design engineer.
-
+      Reserve in 2005 where he was a four year member of the men’s basketball
+      team. He began his career working for Lockheed Martin as a software
+      engineer in the Washington, DC area.  During that time he served in a
+      number of roles including software developer, security and database
+      administrator, and technical proposal manager while working on contracts
+      for the IRS and TSA. In 2010 he earned a MS in information Systems from
+      Johns Hopkins University. In May of 2013 he joined Microsoft’s
+      Productivity, Access, and Identity Experience (PAIX) group in Redmond, WA
+      where he serves as a software design engineer.
 
       Prior to leaving the Washington, DC area Isaac served as the head coach of
-      the DC Vipers youth men’s basketball program.  He also founded Out of Bounds,
-      a non-profit organization, which focuses on educating high school student
-      athletes about college athletic scholarship eligibility.  Isaac is an avid
-      basketball player, a photo hobbyist, and is enthusiastic about web design 
-      and mobile technology.   His passions include talking to young people about
-      life and their careers, and using technology to solve the world’s problems.
-       
+      the DC Vipers youth men’s basketball program.  He also founded Out of
+      Bounds, a non-profit organization, which focuses on educating high school
+      student athletes about college athletic scholarship eligibility.  Isaac is
+      an avid basketball player, a photo hobbyist, and is enthusiastic about web
+      design and mobile technology.   His passions include talking to young
+      people about life and their careers, and using technology to solve the
+      world’s problems.
 
   - name: Kendall Wouters
     affiliation: VK
@@ -390,18 +409,18 @@ speakers_2013:
     title: "Doing Fun and Unnatural Things With '@font-face{}' in CSS"
     twitter: '@meyerweb'
     bio: >
-      Eric Meyer is an American web design consultant and author. He is best known
-      for his advocacy work on behalf of web standards, most notably Cascading Style
-      Sheets (CSS). Meyer has written a number of books and articles on CSS and
-      given many presentations promoting its use.
-
+      Eric Meyer is an American web design consultant and author. He is best
+      known for his advocacy work on behalf of web standards, most notably
+      Cascading Style Sheets (CSS). Meyer has written a number of books and
+      articles on CSS and given many presentations promoting its use.
 
       Meyer graduated from Case Western Reserve University in 1992 with a BA in
-      History, and minors in artificial intelligence, astronomy, and English.
-      In 2001, he joined Netscape as an Internet applications manager and remained
+      History, and minors in artificial intelligence, astronomy, and English. In
+      2001, he joined Netscape as an Internet applications manager and remained
       with the company until 2003.  Meyer is currently a consultant for Complex
       Spiral Consulting as well as a founding member of the Global Multimedia
       Protocols Group.
+
 speakers_2012:
   - name: John Tantalo
     affiliation: Google
@@ -413,7 +432,6 @@ speakers_2012:
       OpenGL that allows Web applications to deliver hardware-accelerated 3D
       graphics in the browser. By choosing WebGL to power Google Maps, Google
       has created an incentive for browser developers to improve WebGL support.
-
 
       John Tantalo is a Software Engineer at Google in Seattle working on Google
       Maps. He graduated from Case School of Engineering in 2007 with a BS in
@@ -429,6 +447,7 @@ speakers_2012:
     - youtube_id: 3GnoYjij4Hc
       order: 3
     scribd_id: 111458272
+
   - name: Ben Kaplan
     affiliation: Microsoft
     title: Moving the Cloud
@@ -436,7 +455,6 @@ speakers_2012:
       Ben is a software developer for the Windows Live Safety Platform,
       currently working with the Family Safety team. He's a very recent CWRU
       alum (Class of 2012) and is excited to be back.
-
 
       There's all sorts of information out there about how to build your cloud
       app from the ground up. But sometimes, you're not starting from scratch.
@@ -447,6 +465,7 @@ speakers_2012:
     youtube:
     - youtube_id: t1la3egaNcY
       order: 1
+
   - name: Fred Hatfull
     affiliation: Yelp
     twitter: '@fredhatfull'
@@ -466,6 +485,7 @@ speakers_2012:
     - youtube_id: fgAI3CkZvAE
       order: 3
     scribd_id: 111410070
+
   - name: Joe Daw
     affiliation: Cleveland ISC2
     title: A Day in the Life of an Information Security Professional
@@ -480,23 +500,18 @@ speakers_2012:
       compete in today's difficult economy and maintain information security
       and compliance through appropriate risk management.
 
-
       Highlights:
-
 
       Sarbanes-Oxley (SOX) compliance for a fortune 500 insurance company
       Head of Information Security for many Firms (Insurance and Legal)
-
 
       Payment Card Industry (PCI) - Managed, assessed and implemented a PCI
       compliance program, a standard that deals with credit card payment
       requirements
 
-
       Recruited for expertise in information technology management,
       communication skills and ability to design and implement a corporate
       information security program
-
 
       CISSP certified and currently the President of the Cleveland ISC2
       chapter
@@ -504,25 +519,27 @@ speakers_2012:
     - youtube_id: xr8VSWbZS6c
       order: 1
     scribd_id: 111457567
+
   - name: Nick Barendt
     affiliation: LeanDog
     twitter: '@nickbarendt'
     title: A Practical Introduction to DevOps with Chef
     bio: >
-      Nick is a wayward electrical engineer, having spent his career in software.
-      Combining expertise in both real-time, embedded systems and scalable cloud
-      computing, he is a jack of all trades (perhaps a master of none).  His
-      interest in continuous learning and passion for startups led him to
-      LeanDog Software, where he leads Labs, focusing on assisting early stage
-      tech startups.  He is also an adjunct faculty member in the Department
-      of Electrical Engineering and Computer Science at Case Western Reserve
-      University in Cleveland, Ohio.
+      Nick is a wayward electrical engineer, having spent his career in
+      software. Combining expertise in both real-time, embedded systems and
+      scalable cloud computing, he is a jack of all trades (perhaps a master of
+      none).  His interest in continuous learning and passion for startups led
+      him to LeanDog Software, where he leads Labs, focusing on assisting early
+      stage tech startups.  He is also an adjunct faculty member in the
+      Department of Electrical Engineering and Computer Science at Case Western
+      Reserve University in Cleveland, Ohio.
     youtube:
     - youtube_id: LLrmDVwNMFk
       order: 1
     - youtube_id: j6Yja9uKt5g
       order: 2
     scribd_id: 111469666
+
   - name: Shijie Zhang
     affiliation: Google
     title: MapReduce and Google's Pregel Framework
@@ -534,7 +551,6 @@ speakers_2012:
       thousands of machines at once. Although the implementation of
       MapReduce is complex, understanding MapReduce is actually not hard.
 
-
       Next, the Pregel project will be introduced. The objective of the
       Pregel project is to provide a unified framework for performing
       large-scale graph computations at Google that enables users to focus
@@ -544,7 +560,6 @@ speakers_2012:
       basics of defining, running, and testing a graph algorithm using
       Pregel, as well as how the system is designed.
 
-
       Shijie Zhang received her BE in Computer Science from Shanghai Jiao
       Tong University, and Ph.D. from Case Western Reserve University. Her
       research ranged from Data Mining, Graph Indexing Algorithms,
@@ -552,6 +567,7 @@ speakers_2012:
       published a number of research papers and filed a few patents. Now
       she works at Google as a software engineer.
     scribd_id: 111458415
+
   - name: Chet Ramey
     affiliation: CWRU
     keynote: true
@@ -559,7 +575,7 @@ speakers_2012:
     title: Twenty-plus years with a Free Software project
     bio: >
       Chet Ramey is a longtime employee of Case Western Reserve University and a
-      Free Software Foundation volunteer for more than twenty years.  He
+      Free Software Foundation volunteer for more than twenty years. He
       maintains two widely-used free software products: bash, the GNU shell, and
       the Readline library.
     scribd_id: 111458274
