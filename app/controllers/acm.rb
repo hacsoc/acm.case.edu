@@ -1,5 +1,5 @@
 Cabal.controller :acm do
-  
+
   get :index, :map => '/' do
     @name = 'Link-State'
     render 'acm/index'
@@ -34,9 +34,9 @@ Cabal.controller :acm do
 
   get 'conference/2015' do
     @name = 'Link-State'
+    @sponsors = Cabal.sponsors_2015
     render 'acm/conference/2015'
   end
-
 
   get 'conference/about' do
     @name = 'Link-State'

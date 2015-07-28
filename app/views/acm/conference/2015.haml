@@ -15,11 +15,11 @@
         #{mail_to "trm70@case.edu", "Thomas Murphy"}
       %span.key Twitter:
       .value
-        %a{:href => 'https://twitter.com/cwruacm'} @cwruacm 
+        %a{:href => 'https://twitter.com/cwruacm'} @cwruacm
       %span.key Hashtag:
       .value #linkstate
       %span.key Facebook Event:
-      .value 
+      .value
         %a{:href => 'https://www.facebook.com/events/1466688276963755/'} Link-State 2015
 
 %h1 Link-State 2015
@@ -35,7 +35,7 @@
   %li
     %a{:href => '#sponsors'} Sponsors
   %li
-    %a{:href => '#schedule'} Schedule 
+    %a{:href => '#schedule'} Schedule
 
 -# TODO: links to anchors of Register/Schedule/Speakers sections
 
@@ -64,7 +64,7 @@
   We are also planning 5-15 minute Lightning Talks as part of the conference to
   add variety from speakers who would prefer to commit to a smaller
   presentation. Stay tuned for more information.
-  
+
 -# TODO: Sponsors list, see: config/sponsors.yml, section sponsors_2015
 -# Be sure to put logos under public/images/sponsors_ls_2015
 
@@ -79,8 +79,14 @@
   %br
   %br
   Watch for updates here as we confirm more sponsors.
-
--# Put the code to render logos here once sponsors.yml has entries for 2015
+  %br
+  -# Render all of the sponsors loaded in Cabal (app.rb)
+  #main-sponsors
+    - @sponsors.each do |sponsor|
+      .sponsor
+        %a{href: sponsor['website']}
+          = image_tag sponsor['image'], width: '200px',
+            alt: sponsor['name'], title: sponsor['name']
 
 -# TODO: Complete schedule of events; filling in table
 #schedule
@@ -94,8 +100,8 @@
   %tr
     %td 9:00am
     %td Check-In and Breakfast
-    %td 
-    %td 
+    %td
+    %td
   %tr
     %td 10:00am
     %td
@@ -109,13 +115,13 @@
   %tr
     %td 12:00pm
     %td
-    %td      
+    %td
     %td
   %tr
     %td 1:00pm
     %td Lunch + Networking
     %td
-    %td 
+    %td
   %tr
     %td 2:30pm
     %td
@@ -135,7 +141,7 @@
     %td 5:30pm
     %td Dinner Served
     %td Closing Remarks
-    %td 
+    %td
 
 -# TODO: Speakers list, including talk description and links, see: config/speakers.yml, section speakers_2015
 #speakers
