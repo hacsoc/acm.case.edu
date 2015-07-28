@@ -80,14 +80,13 @@
   %br
   Watch for updates here as we confirm more sponsors.
   %br
+  -# Render all of the sponsors loaded in Cabal (app.rb)
   #main-sponsors
     - @sponsors.each do |sponsor|
       .sponsor
         %a{href: sponsor['website']}
           = image_tag sponsor['image'], width: '200px',
             alt: sponsor['name'], title: sponsor['name']
-
--# Put the code to render logos here once sponsors.yml has entries for 2015
 
 -# TODO: Complete schedule of events; filling in table
 #schedule
