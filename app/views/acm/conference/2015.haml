@@ -145,3 +145,32 @@
 
 -# TODO: Speakers list, including talk description and links, see: config/speakers.yml, section speakers_2015
 #speakers
+-#   #keynote.hilite
+-#     %h2
+-#       Keynote: #{@keynote['title']}
+-#       %br
+-#       with #{@keynote['name']}
+-#       %a{href: "https://twitter.com/#{@keynote['twitter']}", class: 'twitter'}= @keynote['twitter']
+-#     :markdown
+-#       #{@keynote['bio']}
+
+  %h2 Speakers
+  %ul.speaker-list
+    - @speakers.each do |s|
+      - unless s['keynote']
+        -last_name = s['name'].split.last.gsub(/\W/,'').gsub(/\W/,'')
+        %li{ :id => "#{last_name}-desc" }
+          - if s['email']
+            %a{ href: "mailto:#{s['email']}"}
+              %h3= s['name']
+          - else
+            %h3= s['name']
+          -if s['twitter']
+            %a{href: "https://twitter.com/#{s['twitter']}", class: 'twitter'}= s['twitter']
+          .affiliation= s['affiliation']
+          .title= s['title']
+          .bio
+            :markdown
+              #{s['bio']}
+          -if s['website']
+            %a{ :href => s['website'] }= s['website']
