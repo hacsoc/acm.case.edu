@@ -3,6 +3,9 @@ sponsors_2015:
   - name: 'GenomOncology'
     website: 'http://www.genomoncology.com/'
     image: 'sponsors_ls_2015/genomoncology-logo.png'
+  - name: 'National Instruments'
+    website: 'http://ni.com/'
+    image: 'sponsors_ls_2015/national_instruments-logo.jpg'
 sponsors_2014:
   # Note that some sponsors re-use 2013 logos
   - name: 'USG'
