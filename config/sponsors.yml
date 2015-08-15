@@ -6,6 +6,9 @@ sponsors_2015:
   - name: 'National Instruments'
     website: 'http://ni.com/'
     image: 'sponsors_ls_2015/national_instruments-logo.jpg'
+  - name: 'Netronome'
+    website: 'http://netronome.com/'
+    image: 'sponsors_ls_2015/netronome-logo.png'
 sponsors_2014:
   # Note that some sponsors re-use 2013 logos
   - name: 'USG'
