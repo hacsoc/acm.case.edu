@@ -34,4 +34,8 @@ Instructions
 
 Deploy Requirements/Process
 --------------------------------------
-[TODO]
+1. `docker build -t acm.case.edu .`
+2. `docker run -p 8080:80 acm.case.edu`
+
+Check the acm docker server documentation for deploying on the official acm 
+server.
