@@ -18,9 +18,9 @@ review your request and open a dialogue with you about your code.
 Instructions
 --------------------------------------
 1. Install a Ruby environment. We recommend using [RVM](https://rvm.io/).
-2. Install and activate Ruby 2.2.1. With rvm, run `rvm install 2.2.1` and
-   `rvm use 2.2.1`. Consider setting it as default with
-   `rvm --default use 2.2.1`.
+2. Install and activate Ruby 2.2.1. With rvm, run `rvm install 2.2.3` and
+   `rvm use 2.2.3`. Consider setting it as default with
+   `rvm --default use 2.2.3`.
 3. When you've got that all squared-away, [fork this
    repository](https://github.com/cwruacm/acm.case.edu/fork). From your fork,
    clone to your computer and navigate your terminal to the new clone.
