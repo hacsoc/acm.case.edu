@@ -33,9 +33,6 @@
   Link-State conference. We are actively organizing everything we need for
   October, so please read on!
 
-  Buy tickets to the event here on our [Eventbrite](
-  https://www.eventbrite.com/e/link-state-2015-tickets-18172451291)!
-
   You can check out details of previous conferences at our Schedule
   [archive](#{url_for('/acm/conference/about#archive')}).
 
@@ -47,8 +44,14 @@
 
 -# TODO: links to anchors of Register/Schedule/Speakers sections
 
--# TODO: Eventbrite registration iFrame and image
 #register
+  %h2 Register
+  :markdown
+    Buy tickets to the event on our [Eventbrite](
+    https://www.eventbrite.com/e/link-state-2015-tickets-18172451291) or using
+    the form below!
+
+  %iframe{:width => '100%', :height => '320', :frameborder => '0', :src => 'http://www.eventbrite.com/tickets-external?eid=18172451291&ref=etckt&v=2', :target => 'HTML' }
 
 #callforspeakers
   %h2 Call for Speakers
