@@ -34,4 +34,10 @@ Instructions
 
 Deploy Requirements/Process
 --------------------------------------
-[TODO]
+Once you pull the file run the following commands in the main directory of the project
+```
+docker build --tag="acmcom" .
+docker run -d -p 8080:80 acmcom
+```
+You can then access the website from the containers IP address at port 8080
+Note that this will run the production version of the container using unicorn and not shotgun.
