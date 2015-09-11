@@ -1,6 +1,29 @@
 ---
 speakers_2015:
+  - name: Charlotte Chang
+    affiliation: LeanDog
+    title: Intro to Agile Software Development
+    bio: >
+      You’ve studied hard. You know how to code. What’s next? Technology is a
+      wide and deep industry with a variety of career paths to choose from. What
+      is it like in the real world? What can you expect working in IT? On a
+      project, more often than not, the questions clients and managers ask
+      technical folks isn’t “how”, but “when”. Project challenges are often not
+      a question of innovation but rather, with process and collaboration. The
+      Agile methodology helps answer the questions; "When will it be done?",
+      “What should we work on next?" and "How hard is it?” Learn strategies for
+      breaking down large requirements into sizable units of work, how to track
+      progress, manage changes in scope, and work on the most valuable thing.
+      Come learn the basics of Agile development process, a technical
+      professional’s best friend to delivering valuable, working software.
 
+      Charlotte is a nerd, dog lover and enthusiast who has 10+ years experience
+      in IT, in the US and abroad! Charlotte's previous tech adventures span
+      across industries, technology platforms, and responsibilities - including
+      UX, BA, QA and IM. Presently, she's a passionate web developer with
+      discerning sense for user-centered design practices at LeanDog. Whatever
+      her role, Charlotte advocates for healthy teams, pragmatic practices and
+      daily creativity.
 
 speakers_2014:
   - name: Lynn Nickels and Paula Hidalgo

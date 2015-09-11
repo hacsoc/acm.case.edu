@@ -105,6 +105,9 @@
 -# TODO: Complete schedule of events; filling in table
 #schedule
 %h2 Preliminary Schedule
+
+This schedule will be filled in as speakers are announced.
+
 %table#schedule{border: 1, style: 'width: 100%'}
   %thead
     %th Time
@@ -119,8 +122,8 @@
   %tr
     %td 10:00am
     %td
-    %td Track 1
-    %td Track 2
+    %td
+    %td
   %tr
     %td 11:00am
     %td
@@ -144,7 +147,7 @@
   %tr
     %td 3:30pm
     %td
-    %td
+    %td Charlotte Chang
     %td
   %tr
     %td 4:30pm
@@ -157,17 +160,7 @@
     %td Closing Remarks
     %td
 
--# TODO: Speakers list, including talk description and links, see: config/speakers.yml, section speakers_2015
 #speakers
--#   #keynote.hilite
--#     %h2
--#       Keynote: #{@keynote['title']}
--#       %br
--#       with #{@keynote['name']}
--#       %a{href: "https://twitter.com/#{@keynote['twitter']}", class: 'twitter'}= @keynote['twitter']
--#     :markdown
--#       #{@keynote['bio']}
--# The following portion doesn't yet execute, it will require speaker data:
   %h2 Speakers
   %ul.speaker-list
     - @speakers.each do |s|
