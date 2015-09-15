@@ -34,4 +34,19 @@ Instructions
 
 Deploy Requirements/Process
 --------------------------------------
-[TODO]
+
+### Local (for docker)
+`docker build -t acm.case.edu .`  
+`docker run --rm -p 8080:80 acm.case.edu`  
+Access at localhost:8080
+
+### Deployment
+1. Push to hacsoc/acm.case.edu master
+2. Wait for hacsoc/acm to build on the docker hub
+3. Be a part of the ‘acm-site’ group on the docker server 
+(currently bentley.case.edu)
+4. Run `sudo /srv/acm/bin/server_acm-site update`
+
+This pulls the image from docker hub, 
+and restarts the service to use the new container
+
