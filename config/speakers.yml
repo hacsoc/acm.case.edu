@@ -1,5 +1,23 @@
 ---
 speakers_2015:
+  - name: Eric Floehr
+    affiliation: Intellovations
+    title: Art and Science With Six Million Timelapse Images and Python
+    bio: >
+      I have been taking a picture every 10 seconds out my window for two years.
+      This talk explores all the cool things you can do with over 4 Terabytes of
+      images to make art and demonstrate science. We'll touch on everything from
+      Raspberry Pi's, Python, pillow, pyephem, Django, Celery, and OpenCV.
+
+       Eric is the founder and CEO of Intellovations, a small company that
+       created ForecastWatch, the only comparative weather forecast verification
+       system in the world. In use by The Weather Channel, AccuWeather, The
+       Weather Network, Foreca, Global Weather Corporation, and others,
+       ForecastWatch has scored over half a trillion weather forecasts since
+       2004. Eric also founded the Central Ohio Python User's Group, and was
+       chair of PyOhio from 2011-2013. Eric attended CWRU for two years when Dr.
+       Agnar Pytte was the new president and lived in Kusch House.
+
   - name: Brian Stack
     title: 'Attacking the Monolith'
     twitter: '@bstack01'
