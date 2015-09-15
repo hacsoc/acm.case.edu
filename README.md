@@ -42,7 +42,9 @@ Access at localhost:8080
 
 ### Deployment
 1. Push to hacsoc/acm.case.edu master
-2. Wait for hacsoc/acm to build on the docker hub
+2. Wait for hacsoc/acm to build on the docker hub 
+(https://hub.docker.com/r/hacsoc/acm/ ; build details: 
+https://hub.docker.com/r/hacsoc/acm/builds/ )
 3. Be a part of the ‘acm-site’ group on the docker server 
 (currently bentley.case.edu)
 4. Run `sudo /srv/acm/bin/server_acm-site update`
