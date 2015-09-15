@@ -1,5 +1,27 @@
 ---
 speakers_2015:
+  - name: Brian Stack
+    title: 'Attacking the Monolith'
+    twitter: '@bstack01'
+    bio: >
+      Software that is designed in a hurry (also known as all software) tends to
+      coalesce into a gigantic ball of mud. Design decisions that once seemed
+      prudent are hammered into all sorts of odd shapes to allow for extra
+      features to be added or bugs to be fixed. This is not strictly a bad
+      thing; most of the software in the world is supposed to create value, not
+      just sit there and be pretty. However, going too far in one direction can
+      drag development to a halt.
+
+       I've spent the last two years of my working life building tools and
+       defining processes that allow developers to tread the fine line between
+       too-ugly and just-ugly-enough. Some of my ideas have worked and some have
+       not. I'd like to share the lessons I've learned with you.
+
+       Brian is a 2013 graduate of CWRU who just moved back to the region after
+       living and working for two years in San Francisco. He worked primarily on
+       building tools for developers such as distributed test running systems
+       that cut test runtimes from tens of hours to minutes.
+
   - name: Charlotte Chang
     affiliation: LeanDog
     title: Intro to Agile Software Development
@@ -17,13 +39,13 @@ speakers_2015:
       Come learn the basics of Agile development process, a technical
       professional’s best friend to delivering valuable, working software.
 
-      Charlotte is a nerd, dog lover and enthusiast who has 10+ years experience
-      in IT, in the US and abroad! Charlotte's previous tech adventures span
-      across industries, technology platforms, and responsibilities - including
-      UX, BA, QA and IM. Presently, she's a passionate web developer with
-      discerning sense for user-centered design practices at LeanDog. Whatever
-      her role, Charlotte advocates for healthy teams, pragmatic practices and
-      daily creativity.
+       Charlotte is a nerd, dog lover and enthusiast who has 10+ years
+       experience in IT, in the US and abroad! Charlotte's previous tech
+       adventures span across industries, technology platforms, and
+       responsibilities - including UX, BA, QA and IM. Presently, she's a
+       passionate web developer with discerning sense for user-centered design
+       practices at LeanDog. Whatever her role, Charlotte advocates for healthy
+       teams, pragmatic practices and daily creativity.
 
 speakers_2014:
   - name: Lynn Nickels and Paula Hidalgo
