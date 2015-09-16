@@ -40,6 +40,27 @@ speakers_2015:
        building tools for developers such as distributed test running systems
        that cut test runtimes from tens of hours to minutes.
 
+  - name: Ben Horstman
+    affiliation: MIM Software Inc.
+    title: 'Java 8 Stream API: Examples from Industry'
+    bio: >
+      Java 8 was released last year with the headline feature of Project Lambda.
+       Including a stream processing API, function literal syntax, and
+      improvements to type inference, Project Lambda enables functional
+      paradigms inside a popular OO language.
+
+       This talk will provide a brief introduction to Project Lambda and explain
+       the motivations behind its development.  Then, I'll demonstrate the API
+       with examples lifted from our production code base - the good, and the
+       bad.  Finally, I'll end with a discussion about potential improvements.
+
+       Benjamin received his masters degree in CS from CWRU in 2010, studying
+       computational genetics.  Since then he's been a Software Team Lead for
+       Beachwood based MIM Software Inc., working on products such as Symphony
+       Brachytherapy and Encore Nuclear Medicine, as well as leading technical
+       initiatives on version control, automated testing, retina (Hi-DPI)
+       rendering, and concurrent/functional programming.
+
   - name: Maha Achour
     affiliation: Polyceed Inc.
     title: 'From Fundamental Research to Successful Commercialization: Steps, Risk, and Challenges'
