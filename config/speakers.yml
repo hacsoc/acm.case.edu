@@ -97,6 +97,27 @@ speakers_2015:
        practices at LeanDog. Whatever her role, Charlotte advocates for healthy
        teams, pragmatic practices and daily creativity.
 
+
+  - name: David Kazdan
+    affiliation: CSE Electrical Engineering and Computer Science
+    title: 'Sending Mail Through the Sewer: Long-Haul Data Transmission on Shortwave Frequencies'
+    bio: >
+      Today's data wireless data transmission emphasis is largely on
+      wide-bandwidth, high-speed links on UHF/SHF bands. HF (shortwave) is
+      different: The conflicting constraints of long distances, noisy channels,
+      narrow-bandwidth and low power budgets require quite different techniques
+      for succesful communications on HF. We will discuss history and
+      contemporary use and state of development on amateur radio bands.
+      Discussion will include minimum-bandwidth phase-shift systems; error
+      correction systems; automatic link establishment; amateur radio email; and
+      methods for low speed signalling in extremely poor signal-to-noise ratio
+      environments.
+
+       David Kazdan has been interested in shortwave communications issues since
+       preparing for his Novice class amateur radio license examination in 1970.
+       He studied electrical engineering at MIT, biomedical engineering here at
+       Case, and other stuff elsewhere--we'll leave it at that.
+
 speakers_2014:
   - name: Lynn Nickels and Paula Hidalgo
     affiliation: Rockwell Automation
