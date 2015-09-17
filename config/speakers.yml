@@ -120,6 +120,7 @@ speakers_2015:
 
   - name: Charlotte Chang & Nicole Capuana
     affiliation: LeanDog
+    twitter: '@ncapuana'
     title: On the Shoulders of Giants - Modern Marvels by Women Today
     bio: >
       From the Apollo space mission to the internet, how much of what you love
@@ -135,6 +136,18 @@ speakers_2015:
        passionate web developer with discerning sense for user-centered design
        practices at LeanDog. Whatever her role, Charlotte advocates for healthy
        teams, pragmatic practices and daily creativity.
+
+       Nicole Capuana leads all things UX on a boat at LeanDog and helps
+       enterprises and startups focus and define well-designed and intuitive
+       systems. Over the last 15 years, she has covered almost the entire
+       spectrum of UX from coding to usability testing. She is a founding member
+       of Her Ideas in Motion, a Cleveland nonprofit, that is working to change
+       the gender ratio in tech by inspiring the next generation of girls
+       through hands-on technology and media workshops. She leads Cleveland Lean
+       Startup Circle and has been teaching others how design thinking, Lean UX,
+       and a bit of Agile make a difference in building and designing great
+       products. Nicole believes that when she does her job well, no one notices
+       because they say “that was easy”.
 
   - name: David Kazdan
     affiliation: CSE Electrical Engineering and Computer Science
