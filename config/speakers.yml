@@ -18,6 +18,20 @@ speakers_2015:
        chair of PyOhio from 2011-2013. Eric attended CWRU for two years when Dr.
        Agnar Pytte was the new president and lived in Kusch House.
 
+  - name: NASA Glenn GVIS
+    affiliation:
+    title: AR, VR and NUIs at the NASA Glenn's Graphics and Visualization Lab
+    bio: >
+      NASA's mission involves solving some of the hardest problems in the world.
+      It is therefore important to try and use the most advanced technology in
+      the world to help solve them. NASA Glenn's Graphics and Visualization
+      (GVIS) Lab uses augmented reality, virtual reality and natural user
+      interfaces to help researchers explore and explain data gathered from
+      technology and missions. This talk will showcase examples of work done at
+      the GVIS Lab and include demonstrations.
+
+       Speaker biographies coming soon.
+
   - name: Brian Stack
     title: 'Attacking the Monolith'
     twitter: '@bstack01'
