@@ -18,6 +18,27 @@ speakers_2015:
        chair of PyOhio from 2011-2013. Eric attended CWRU for two years when Dr.
        Agnar Pytte was the new president and lived in Kusch House.
 
+  - name: Tim Keil
+    title: 'High Efficiency Power Circuits for Embedded Devices'
+    affiliation: National Instruments
+    bio: >
+      Very high efficiency power converters have been essential equipment in the
+      server and telecom markets for decades.  More recently, electric vehicle
+      chargers have been getting a lot of attention from academic research.  Why
+      hasn't the embedded market kept pace?
+
+       This presentation will focus on unique challenges in designing efficient
+       power converters for embedded products.  We'll look at the embedded power
+       market from a high level and compare it to others.  Additionally, we'll
+       look at some low-level, technical ideas to lower the power losses in
+       embedded designs.
+
+        Tim graduated from Case in 2008 with a BS in Electrical Engineering.
+        Afterward, he move to Austin, TX to work at National Instruments on the
+        Controller Architectures team. Now, he's a Senior Hardware Engineer with
+        more than 7 years of experience as a circuit designer specializing in
+        industrial embedded controllers.
+
   - name: Brian Stack
     title: 'Attacking the Monolith'
     twitter: '@bstack01'
