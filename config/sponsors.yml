@@ -9,6 +9,12 @@ sponsors_2015:
   - name: 'Netronome'
     website: 'http://netronome.com/'
     image: 'sponsors_ls_2015/netronome-logo.png'
+  - name: 'Blackstone LaunchPad'
+    website: 'http://cwru.thelaunchpad.org/'
+    image: 'sponsors_ls_2015/blackstone_launchpad-logo.png'
+  - name: 'CWRU Career Center'
+    website: 'https://students.case.edu/careers/'
+    image: 'sponsors_ls_2015/cwru_career_center-logo.png'
 sponsors_2014:
   # Note that some sponsors re-use 2013 logos
   - name: 'USG'
