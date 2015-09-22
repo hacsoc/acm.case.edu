@@ -15,6 +15,9 @@ sponsors_2015:
   - name: 'CWRU Career Center'
     website: 'https://students.case.edu/careers/'
     image: 'sponsors_ls_2015/cwru_career_center-logo.png'
+  - name: 'MIM Software'
+    website: 'http://www.mimsoftware.com/'
+    image: 'sponsors_ls_2015/mim-logo.png'
 sponsors_2014:
   # Note that some sponsors re-use 2013 logos
   - name: 'USG'
