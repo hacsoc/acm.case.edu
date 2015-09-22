@@ -18,6 +18,9 @@ sponsors_2015:
   - name: 'MIM Software'
     website: 'http://www.mimsoftware.com/'
     image: 'sponsors_ls_2015/mim-logo.png'
+  - name: 'Framed'
+    website: 'http://framed.io/'
+    image: 'sponsors_ls_2015/framed-logo.png'
 sponsors_2014:
   # Note that some sponsors re-use 2013 logos
   - name: 'USG'
