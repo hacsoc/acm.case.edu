@@ -82,6 +82,28 @@ speakers_2015:
        initiatives on version control, automated testing, retina (Hi-DPI)
        rendering, and concurrent/functional programming.
 
+  - name: Arron Acosta
+    affiliation: Rise Robotics
+    title: Innovation Apathy and the Pursuit of an Important New Mechanism
+    twitter: '@RiseRobotics'
+    bio: >
+      Most mechanical engineers accept that they have to build their systems
+      with off the shelf components. Some understand the principles of the 507
+      Mechanical Movements well enough to create their own components. Few
+      believe they can create an important new type of mechanism.
+
+       The Cyclone Drive is an important new type of mechanism for mobile
+       products that need to produce powerful linear motion. It is a compact
+       adaptation of the Chinese Windlass.
+
+       The more important story behind the Cyclone Drive is how it came to be.
+       It is a story of desire, intention, obsession, team work, and fun. The
+       purpose of this talk is to encourage engineers to be bold and gather
+       believers in pursuit of big dreams.
+
+       Arron Acosta is the CEO at Rise Robotics where he leads by following
+       first.
+
   - name: Maha Achour
     affiliation: Polyceed Inc.
     title: 'From Fundamental Research to Successful Commercialization: Steps, Risk, and Challenges'
