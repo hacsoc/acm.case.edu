@@ -185,8 +185,8 @@ speakers_2015:
        practices at LeanDog. Whatever her role, Charlotte advocates for healthy
        teams, pragmatic practices and daily creativity.
 
-  - name: NASA Glenn GVIS
-    affiliation:
+  - name: Calvin Robinson & Herb Schilling
+    affiliation: NASA Glenn GVIS
     title: AR, VR and NUIs at the NASA Glenn's Graphics and Visualization Lab
     bio: >
       NASA's mission involves solving some of the hardest problems in the world.
@@ -197,7 +197,17 @@ speakers_2015:
       technology and missions. This talk will showcase examples of work done at
       the GVIS Lab and include demonstrations.
 
-       Speaker biographies coming soon.
+       Calvin Robinson has a degree from the University of Toledo in Computer
+       Science and Engineering. He's worked at NASA Glenn Research Center for
+       five years, focusing on scientific computing. When serving as a member of
+       the Graphics and Visualization Lab, he focuses on tangible user
+       interfaces.
+
+       Herb Schilling has degrees from Case Western Reserve University in
+       Electrical Engineering and Applied Physics. He has worked at the NASA
+       Glenn Research Center for 24 years primarily doing scientific computing.
+       For the past three years he has also been part of the NASA Glenn Graphics
+       and Visualization Lab.
 
        This talk is presented in a cosponsorship with the CWRU Robotics Team.
 
