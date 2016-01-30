@@ -1,7 +1,6 @@
 Cabal.controller :acm do
 
   get :index, :map => '/' do
-    @name = 'Link-State'
     render 'acm/index'
   end
 
