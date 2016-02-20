@@ -44,6 +44,11 @@ Cabal.controller :acm do
     render 'acm/conference/about'
   end
 
+  get 'conference/code' do
+    @name = 'Link-State'
+    render 'acm/conference/code'
+  end
+
   get :servers do
     render 'acm/servers'
   end
