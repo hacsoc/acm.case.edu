@@ -1,0 +1,162 @@
+#{meta_tag "summary", :name => "twitter:card"}
+#{meta_tag "@cwruacm", :name => "twitter:site"}
+#{meta_tag "EECS @ CWRU -- Link-State 2016 Conference", :name => "twitter:title"}
+#{meta_tag "The fourth annual student-run tech conference at Case Western Reserve University taking place all day on Saturday October 3rd, 2015.", :name => "twitter:description"}
+#{meta_tag "http://acm.case.edu" + "#{image_path 'LinkState175px.png'}", :name => "twitter:image"}
+%aside.right
+  = image_tag 'LinkState175px.png'
+  %h2 Important Info
+  %ul.aside-list
+    %li
+      %span.key Date:
+      .value Saturday, October 8th, 2016
+      %span.key Time:
+      .value TBD
+      %span.key Location:
+      .value
+        %a{:href => 'http://goo.gl/xsJQRd'} Hovorka Atrium
+        %br
+        Agnar Pytte Science Center
+        %br
+        Case Western Reserve University
+      %span.key Contact:
+      .value
+        #{mail_to "smb196@case.edu", "Stephen Brennan"}
+      %span.key Twitter:
+      .value
+        %a{:href => 'https://twitter.com/cwruacm'} @cwruacm
+      %span.key Hashtag:
+      .value
+        %a{:href => 'https://twitter.com/hashtag/linkstate'} #linkstate
+-#      %span.key Facebook Event:
+-#      .value
+-#        %a{:href => 'https://www.facebook.com/events/1466688276963755/'} Link-State 2015
+
+%h1 Link-State 2016
+:markdown
+  ACM at Case Western Reserve University is proud to present our *fifth annual*
+  Link-State conference. We look forward to having our speakers on campus!
+
+  You can learn about the history of the conference on the
+  [about](#{url_for('/acm/conference/about')}) page.  You can find our
+  conference code of conduct [here](#{url_for('/acm/conference/code')}).
+
+%ul.toci
+  %li
+    %a{:href => '#register'} Register
+  %li
+    %a{:href => '#sponsors'} Sponsors
+  %li
+    %a{:href => '#schedule'} Schedule
+  %li
+    %a{:href => '#speakers'} Speakers
+
+#register
+  %h2 Register
+  :markdown
+    Registration is not yet open.  Check back soon!
+
+#callforspeakers
+
+  %h2 Call For Speakers
+  :markdown
+    Our call for speakers is not yet open.  Check back soon!
+
+-# Sponsors list, see: config/sponsors.yml, section sponsors_2015
+-# Be sure to put logos under public/images/sponsors_ls_2015
+
+#sponsors
+  %h2 Sponsors
+  %br
+  Sponsors have yet to be determined.  Check back soon!
+  %br
+  %br
+
+  -# Render all of the sponsors loaded in Cabal (app.rb)
+  -# #main-sponsors
+  -#   - @sponsors.each do |sponsor|
+  -#     .sponsor
+  -#       %a{href: sponsor['website']}
+  -#         = image_tag sponsor['image'], height: '75px',
+  -#           alt: sponsor['name'], title: sponsor['name']
+
+#schedule
+%h2 Speaker Schedule
+
+Our schedule is to be determined.  Check back soon!
+
+-# %table#schedule{border: 1, style: 'width: 100%'}
+-#   %thead
+-#     %th Time
+-#     %th Hovorka Atrium
+-#     %th Millis-Schmitt Auditorium
+-#     %th Clapp Lecture Hall
+-#   %tr
+-#     %td 9:00am
+-#     %td Check-In and Breakfast
+-#     %td
+-#     %td
+-#   %tr
+-#     %td 10:00am
+-#     %td
+-#     %td Eric Floehr
+-#     %td Tim Keil
+-#   %tr
+-#     %td 11:00am
+-#     %td
+-#     %td Brian Stack
+-#     %td Lynn Nickels
+-#   %tr
+-#     %td 12:00pm
+-#     %td
+-#     %td Ben Horstman
+-#     %td
+-#   %tr
+-#     %td 1:00pm
+-#     %td Lunch + Networking
+-#     %td
+-#     %td Lightning Talks @1:30pm
+-#   %tr
+-#     %td 2:30pm
+-#     %td
+-#     %td Arron Acosta
+-#     %td Maha Achour
+-#   %tr
+-#     %td 3:30pm
+-#     %td
+-#     %td Charlotte Chang
+-#     %td Calvin Robinson & Herb Schilling
+-#   %tr
+-#     %td 4:30pm
+-#     %td
+-#     %td David Kazdan
+-#     %td Charlotte Chang & Nicole Capuana
+-#   %tr
+-#     %td 5:30pm
+-#     %td Dinner Served
+-#     %td Closing Remarks
+-#     %td
+
+#speakers
+  %h2 Speakers
+  Our speakers have yet to be determined.  Check back soon!
+
+  -# %ul.speaker-list
+  -#   - @speakers.each do |s|
+  -#     - unless s['keynote']
+  -#       -last_name = s['name'].split.last.gsub(/\W/,'').gsub(/\W/,'')
+  -#       %li{ :id => "#{last_name}-desc" }
+  -#         - if s['email']
+  -#           %a{ href: "mailto:#{s['email']}"}
+  -#             %h3= s['name']
+  -#         - else
+  -#           %h3= s['name']
+  -#         -if s['twitter']
+  -#           %a{href: "https://twitter.com/#{s['twitter']}", class: 'twitter'}= s['twitter']
+  -#         .affiliation= s['affiliation']
+  -#         .title= s['title']
+  -#         .bio
+  -#           :markdown
+  -#             #{s['bio']}
+  -#         -if s['website']
+  -#           %a{ :href => s['website'] }= s['website']
