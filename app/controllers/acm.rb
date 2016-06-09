@@ -1,6 +1,6 @@
 Cabal.controller :acm do
 
-  get :index, :map => '/cfp' do
+  get :cfp, :map => '/cfp' do
     redirect 'https://docs.google.com/forms/d/1cVOSDdl7lBGz_yumgkhTZhTZQ5AUrqcIknoJ-KJPOuk/viewform'
   end
 
