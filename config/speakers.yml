@@ -1,5 +1,69 @@
 ---
 speakers_2016:
+  - name: Nathan McKinley
+    affiliation: Google
+    title: Why do neural networks work so well?
+    bio: >
+      Neural networks are perhaps the most commonly-used commercial machine
+      learning algorithm. "Deep learning", which is another way of saying
+      "neural networks with a particular shape", has advanced the state of the
+      art in speech recognition, image recognition, machine translation, winning
+      at Go, and a surprising number of other fields. But unlike "good
+      old-fashioned AI" algorithms, which are usually hand-customized, fully
+      analyzed analytically, and understood by at least someone, almost all
+      neural networks used in practice are understood heuristically (at best).
+      Why is that? And given that, why do they work so well? For that matter,
+      why do they work at all? Talk begins with a brief introduction to neural
+      networks so that everyone can understand why these questions are
+      interesting, before we work on answering them.
+
+       Nathan McKinley graduated from CWRU in 2013. His M.S. work was in natural
+       language processing, and he currently works in the research and machine
+       intelligence division at Google. He has returned to CWRU several times to
+       give talks on various AI-related topics, and this is his first time
+       presenting at Link-State.
+  - name: Scott Seighman
+    affiliation: Red Hat
+    title: Golang-a-Go-Go
+    bio: >
+      Join us as we dance through an introduction of the Go programming
+      language. Under the shimmering light of a disco ball, we'll discuss the
+      benefits (and drawbacks) of Go, explain use cases (including Docker &
+      Kubernetes) and even provide some code examples.
+
+       Scott Seighman is a Solutions Architect at Red Hat, the world’s leading
+       provider of open source software solutions. Based in Cleveland, Scott
+       roams the Ohio Valley creating possibilities, solving problems, and
+       establishing working relationships with Red Hat’s customers and partners.
+  - name: Jason Kuster
+    affiliation: Google
+    title: Distributed Data Processing with Apache Beam
+    bio: >
+      This talk gives an introduction to the Beam model, a unified batch and
+      streaming data processing model which evolved from Google's work on
+      technologies like MapReduce and FlumeJava. Used for running data
+      processing pipelines on systems like Apache Flink, Apache Spark, and
+      Google Cloud Dataflow, Beam represents the future of distributed data
+      processing technologies based on its ability to break data processing into
+      a set of fundamental questions.
+
+       Jason Kuster is a Software Engineer, Tools and Infrastructure (SETI) at
+       Google in Seattle. He graduated from CWRU in Spring 2015 with a double
+       major in Computer Science and Theater (Technical Concentration) and has
+       been with Google since October 2015, working with the data processing and
+       analytics group. Outside of software engineering, he enjoys woodworking,
+       metalworking, and camping. This is his second time speaking at Link
+       State.
+  - name: Lynn Nickels
+    affiliation: Rockwell Automation
+    title: How to Brand YOU!
+    bio: >
+      Personal branding is a necessity in this market. Branding yourself is
+      vital to getting a job and is not always something that comes second
+      nature to everyone. What kinds of content marketing tools can use to BRAND
+      YOU? What do hiring managers look for? What is important on a resume?
+      Let's find out!
+
 speakers_2015:
   - name: Eric Floehr
     affiliation: Intellovations

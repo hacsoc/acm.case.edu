@@ -69,10 +69,9 @@
 
   %h2 Call For Speakers
   :markdown
-    Our call for speakers is now open!  Submit a proposal [here](https://docs.google.com/forms/d/1cVOSDdl7lBGz_yumgkhTZhTZQ5AUrqcIknoJ-KJPOuk/viewform)!
 
--# Sponsors list, see: config/sponsors.yml, section sponsors_2015
--# Be sure to put logos under public/images/sponsors_ls_2015
+    Our call for speakers is still open! Contact [Stephen
+    Brennan](mailto:smb196@case.edu) if you're interested in speaking.
 
 #sponsors
   %h2 Sponsors
@@ -92,80 +91,79 @@
 #schedule
 %h2 Speaker Schedule
 
-Our schedule is to be determined.  Check back soon!
+Here's our current schedule. It's subject to change, so check back every now and
+then.
 
--# %table#schedule{border: 1, style: 'width: 100%'}
--#   %thead
--#     %th Time
--#     %th Hovorka Atrium
--#     %th Millis-Schmitt Auditorium
--#     %th Clapp Lecture Hall
--#   %tr
--#     %td 9:00am
--#     %td Check-In and Breakfast
--#     %td
--#     %td
--#   %tr
--#     %td 10:00am
--#     %td
--#     %td Eric Floehr
--#     %td Tim Keil
--#   %tr
--#     %td 11:00am
--#     %td
--#     %td Brian Stack
--#     %td Lynn Nickels
--#   %tr
--#     %td 12:00pm
--#     %td
--#     %td Ben Horstman
--#     %td
--#   %tr
--#     %td 1:00pm
--#     %td Lunch + Networking
--#     %td
--#     %td Lightning Talks @1:30pm
--#   %tr
--#     %td 2:30pm
--#     %td
--#     %td Arron Acosta
--#     %td Maha Achour
--#   %tr
--#     %td 3:30pm
--#     %td
--#     %td Charlotte Chang
--#     %td Calvin Robinson & Herb Schilling
--#   %tr
--#     %td 4:30pm
--#     %td
--#     %td David Kazdan
--#     %td Charlotte Chang & Nicole Capuana
--#   %tr
--#     %td 5:30pm
--#     %td Dinner Served
--#     %td Closing Remarks
--#     %td
+%table#schedule{border: 1, style: 'width: 100%'}
+  %thead
+    %th Time
+    %th Hovorka Atrium
+    %th Millis-Schmitt Auditorium
+    %th Clapp Lecture Hall
+  %tr
+    %td 9:00am
+    %td Check-In and Breakfast
+    %td
+    %td
+  %tr
+    %td 10:00am
+    %td
+    %td Jason Kuster
+    %td
+  %tr
+    %td 11:00am
+    %td
+    %td Scott Seighman
+    %td
+  %tr
+    %td 12:00pm
+    %td Lunch + Networking
+    %td
+    %td Lightning Talks @1:30pm
+  %tr
+    %td 1:30pm
+    %td
+    %td Nathan McKinley
+    %td
+  %tr
+    %td 2:30pm
+    %td
+    %td Lynn Nickels
+    %td
+  %tr
+    %td 3:30pm
+    %td
+    %td
+    %td
+  %tr
+    %td 4:30pm
+    %td Closing Remarks, Dinner Served
+    %td
+    %td
 
 #speakers
   %h2 Speakers
-  Our speakers have yet to be determined.  Check back soon!
+  Our speaker list is still growing, but here are our confirmed speakers:
 
-  -# %ul.speaker-list
-  -#   - @speakers.each do |s|
-  -#     - unless s['keynote']
-  -#       -last_name = s['name'].split.last.gsub(/\W/,'').gsub(/\W/,'')
-  -#       %li{ :id => "#{last_name}-desc" }
-  -#         - if s['email']
-  -#           %a{ href: "mailto:#{s['email']}"}
-  -#             %h3= s['name']
-  -#         - else
-  -#           %h3= s['name']
-  -#         -if s['twitter']
-  -#           %a{href: "https://twitter.com/#{s['twitter']}", class: 'twitter'}= s['twitter']
-  -#         .affiliation= s['affiliation']
-  -#         .title= s['title']
-  -#         .bio
-  -#           :markdown
-  -#             #{s['bio']}
-  -#         -if s['website']
-  -#           %a{ :href => s['website'] }= s['website']
+  %ul.speaker-list
+    - @speakers.each do |s|
+      - unless s['keynote']
+        -last_name = s['name'].split.last.gsub(/\W/,'').gsub(/\W/,'')
+        %li{ :id => "#{last_name}-desc" }
+          - if s['email']
+            %a{ href: "mailto:#{s['email']}"}
+              %h3= s['name']
+          - else
+            %h3= s['name']
+          -if s['twitter']
+            %a{href: "https://twitter.com/#{s['twitter']}", class: 'twitter'}= s['twitter']
+          .affiliation= s['affiliation']
+          .title= s['title']
+          .bio
+            :markdown
+              #{s['bio']}
+          -if s['website']
+            %a{ :href => s['website'] }= s['website']
+
+-# Sponsors list, see: config/sponsors.yml, section sponsors_2015
+-# Be sure to put logos under public/images/sponsors_ls_2015
