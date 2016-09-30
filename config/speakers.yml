@@ -136,8 +136,26 @@ speakers_2016:
          2014. Michael earned his MBA from Case Western Reserve University and
          his Bachelors degree from Xavier University. He currently lives in
          Lakewood, OH with his wife and their daughter.
+  - name: Ted Shorter
+    affiliation: CSS Security
+    title: "Public Key Infrastructure: What’s old is new again"
+    bio: >-
+      PKI and digital certificates have been around since the mid-90’s, and
+      although the adoption was slow and painful at first, the technology
+      continues to be used in new and interesting ways. This talk will provide a
+      brief introduction to PKI and digital certificates, a historical
+      progression of how the adoption of the technology has changed over the
+      years, and the challenges that organizations now face when using PKI. If
+      time permits, we may even explore what we’ve learned by trying to capture
+      and analyze every digital certificate on the Internet.
 
-
+       Ted Shorter is the chief technology officer at Certified Security
+       Solutions, Inc. (CSS). Ted has worked in the security arena for over 20
+       years, in the fields of cryptography, application security,
+       authentication and authorization services, and software vulnerability
+       analysis. His past experience includes 10 years at the National Security
+       Agency, a Master’s Degree in Computer Science from The Johns Hopkins
+       University, and an active CISSP certification.
   - name: Lynn Nickels
     affiliation: Rockwell Automation
     title: How to Brand YOU!
