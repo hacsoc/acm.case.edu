@@ -65,34 +65,20 @@
 
   %iframe{:width => '100%', :height => '320', :frameborder => '0', :src => 'https://eventbrite.com/tickets-external?eid=26134735698&ref=etckt', :target => 'HTML' }
 
-#callforspeakers
-
-  %h2 Call For Speakers
-  :markdown
-
-    Our call for speakers is still open! Contact [Stephen
-    Brennan](mailto:smb196@case.edu) if you're interested in speaking.
-
 #sponsors
   %h2 Sponsors
   %br
-  Sponsors have yet to be determined.  Check back soon!
-  %br
-  %br
 
   -# Render all of the sponsors loaded in Cabal (app.rb)
-  -# #main-sponsors
-  -#   - @sponsors.each do |sponsor|
-  -#     .sponsor
-  -#       %a{href: sponsor['website']}
-  -#         = image_tag sponsor['image'], height: '75px',
-  -#           alt: sponsor['name'], title: sponsor['name']
+  #main-sponsors
+    - @sponsors.each do |sponsor|
+      .sponsor
+        %a{href: sponsor['website']}
+          = image_tag sponsor['image'], height: '75px',
+            alt: sponsor['name'], title: sponsor['name']
 
 #schedule
 %h2 Speaker Schedule
-
-Here's our current schedule. It's subject to change, so check back every now and
-then.
 
 %table#schedule{border: 1, style: 'width: 100%'}
   %thead
@@ -141,9 +127,15 @@ then.
     %td
     %td
 
+:markdown
+
+  *This schedule is still subject to change!*
+
+  Note that there are still a few openings in the schedule. If you'd like to
+  schedule a last-minute talk, contact [Stephen Brennan](mailto:smb196@case.edu)
+
 #speakers
   %h2 Speakers
-  Our speaker list is still growing, but here are our confirmed speakers:
 
   %ul.speaker-list
     - @speakers.each do |s|
@@ -164,6 +156,3 @@ then.
               #{s['bio']}
           -if s['website']
             %a{ :href => s['website'] }= s['website']
-
--# Sponsors list, see: config/sponsors.yml, section sponsors_2015
--# Be sure to put logos under public/images/sponsors_ls_2015
