@@ -12,61 +12,26 @@
 # For talk content: (probably not used since 2012)
 # youtube, scribd_id (weird, grep down the page for it)
 speakers_2016:
-  - name: Nathan McKinley
-    affiliation: Google
-    title: Why do neural networks work so well?
-    bio: >
-      Neural networks are perhaps the most commonly-used commercial machine
-      learning algorithm. "Deep learning", which is another way of saying
-      "neural networks with a particular shape", has advanced the state of the
-      art in speech recognition, image recognition, machine translation, winning
-      at Go, and a surprising number of other fields. But unlike "good
-      old-fashioned AI" algorithms, which are usually hand-customized, fully
-      analyzed analytically, and understood by at least someone, almost all
-      neural networks used in practice are understood heuristically (at best).
-      Why is that? And given that, why do they work so well? For that matter,
-      why do they work at all? Talk begins with a brief introduction to neural
-      networks so that everyone can understand why these questions are
-      interesting, before we work on answering them.
+  - name: Ted Shorter
+    affiliation: Certified Security Solutions
+    title: "Public Key Infrastructure: What’s old is new again"
+    bio: >-
+      PKI and digital certificates have been around since the mid-90’s, and
+      although the adoption was slow and painful at first, the technology
+      continues to be used in new and interesting ways. This talk will provide a
+      brief introduction to PKI and digital certificates, a historical
+      progression of how the adoption of the technology has changed over the
+      years, and the challenges that organizations now face when using PKI. If
+      time permits, we may even explore what we’ve learned by trying to capture
+      and analyze every digital certificate on the Internet.
 
-       Nathan McKinley graduated from CWRU in 2013. His M.S. work was in natural
-       language processing, and he currently works in the research and machine
-       intelligence division at Google. He has returned to CWRU several times to
-       give talks on various AI-related topics, and this is his first time
-       presenting at Link-State.
-  - name: Scott Seighman
-    affiliation: Red Hat
-    title: Golang-a-Go-Go
-    bio: >
-      Join us as we dance through an introduction of the Go programming
-      language. Under the shimmering light of a disco ball, we'll discuss the
-      benefits (and drawbacks) of Go, explain use cases (including Docker &
-      Kubernetes) and even provide some code examples.
-
-       Scott Seighman is a Solutions Architect at Red Hat, the world’s leading
-       provider of open source software solutions. Based in Cleveland, Scott
-       roams the Ohio Valley creating possibilities, solving problems, and
-       establishing working relationships with Red Hat’s customers and partners.
-  - name: Jason Kuster
-    affiliation: Google
-    title: Distributed Data Processing with Apache Beam
-    twitter: '@JasonKuster'
-    bio: >
-      This talk gives an introduction to the Beam model, a unified batch and
-      streaming data processing model which evolved from Google's work on
-      technologies like MapReduce and FlumeJava. Used for running data
-      processing pipelines on systems like Apache Flink, Apache Spark, and
-      Google Cloud Dataflow, Beam represents the future of distributed data
-      processing technologies based on its ability to break data processing into
-      a set of fundamental questions.
-
-       Jason Kuster is a Software Engineer, Tools and Infrastructure (SETI) at
-       Google in Seattle. He graduated from CWRU in Spring 2015 with a double
-       major in Computer Science and Theater (Technical Concentration) and has
-       been with Google since October 2015, working with the data processing and
-       analytics group. Outside of software engineering, he enjoys woodworking,
-       metalworking, and camping. This is his second time speaking at Link
-       State.
+       Ted Shorter is the chief technology officer at Certified Security
+       Solutions, Inc. (CSS). Ted has worked in the security arena for over 20
+       years, in the fields of cryptography, application security,
+       authentication and authorization services, and software vulnerability
+       analysis. His past experience includes 10 years at the National Security
+       Agency, a Master’s Degree in Computer Science from The Johns Hopkins
+       University, and an active CISSP certification.
   - name: Michael Lalich
     affiliation: Health Tech Corridor
     title: Cleveland Health-Tech Corridor
@@ -100,6 +65,86 @@ speakers_2016:
        Science in 2010 and his Master’s Degree in Urban Planning, Design, and
        Development from Cleveland State University in 2014. He resides in
        Cleveland’s Little Italy neighborhood.
+  - name: Scott Seighman
+    affiliation: Red Hat
+    title: Golang-a-Go-Go
+    bio: >
+      Join us as we dance through an introduction of the Go programming
+      language. Under the shimmering light of a disco ball, we'll discuss the
+      benefits (and drawbacks) of Go, explain use cases (including Docker &
+      Kubernetes) and even provide some code examples.
+
+       Scott Seighman is a Solutions Architect at Red Hat, the world’s leading
+       provider of open source software solutions. Based in Cleveland, Scott
+       roams the Ohio Valley creating possibilities, solving problems, and
+       establishing working relationships with Red Hat’s customers and partners.
+  - name: Lynn Nickels
+    affiliation: Rockwell Automation
+    title: How to Brand YOU!
+    bio: >
+      Lynn has traveled a long and winding road in her career journey, meeting
+      many interesting and famous people along the way… Actress Linda Blair of
+      the Exorcist movies, singers and celebrities like Eddie Money, Metallica,
+      The Goo Goo Dolls, and Jeff Dunham, just to name a few. And you know what?
+      They all put their pants on just like we do! But one thing that they have
+      learned to do differently (or have paid to have done differently) is the
+      way they brand themselves!
+
+       Personal branding is a necessity in this job market and in the world we
+       live in. Branding yourself is vital to getting a job and is not always
+       something that comes second nature to everyone. What kinds of content
+       marketing tools can you use to BRAND YOU? What do hiring managers look
+       for? What is important in a portfolio? Let's find out!
+
+        Currently, Lynn is a Global Marketing Communications Representative for
+        Rockwell Automation with 18 years’ experience in the fields of marketing
+        (B2B and B2C), advertising, technical blogging, entertainment writing,
+        editing, public speaking, photography and events planning. A recent
+        presenter at Content Marketing World in Sidney, AU, and Singapore, she
+        also moonlights as an Academic Relations and STEM advocate. Free head
+        shots will be offered to attendees of this session.
+  - name: Nathan McKinley
+    affiliation: Google
+    title: Why do neural networks work so well?
+    bio: >
+      Neural networks are perhaps the most commonly-used commercial machine
+      learning algorithm. "Deep learning", which is another way of saying
+      "neural networks with a particular shape", has advanced the state of the
+      art in speech recognition, image recognition, machine translation, winning
+      at Go, and a surprising number of other fields. But unlike "good
+      old-fashioned AI" algorithms, which are usually hand-customized, fully
+      analyzed analytically, and understood by at least someone, almost all
+      neural networks used in practice are understood heuristically (at best).
+      Why is that? And given that, why do they work so well? For that matter,
+      why do they work at all? Talk begins with a brief introduction to neural
+      networks so that everyone can understand why these questions are
+      interesting, before we work on answering them.
+
+       Nathan McKinley graduated from CWRU in 2013. His M.S. work was in natural
+       language processing, and he currently works in the research and machine
+       intelligence division at Google. He has returned to CWRU several times to
+       give talks on various AI-related topics, and this is his first time
+       presenting at Link-State.
+  - name: Jason Kuster
+    affiliation: Google
+    title: Distributed Data Processing with Apache Beam
+    twitter: '@JasonKuster'
+    bio: >
+      This talk gives an introduction to the Beam model, a unified batch and
+      streaming data processing model which evolved from Google's work on
+      technologies like MapReduce and FlumeJava. Used for running data
+      processing pipelines on systems like Apache Flink, Apache Spark, and
+      Google Cloud Dataflow, Beam represents the future of distributed data
+      processing technologies based on its ability to break data processing into
+      a set of fundamental questions.
+
+       Jason Kuster is a Software Engineer, Tools and Infrastructure (SETI) at
+       Google in Seattle. He graduated from CWRU in Spring 2015 with a double
+       major in Computer Science and Theater (Technical Concentration) and has
+       been with Google since October 2015, working with the data processing and
+       analytics group. Outside of software engineering, he enjoys woodworking,
+       metalworking, and camping. This is his second time speaking at Link
+       State.
   - name: Michael DeAloia
     affiliation: The Plain Dealer
     twitter: '@techczarcle'
@@ -136,51 +181,6 @@ speakers_2016:
          2014. Michael earned his MBA from Case Western Reserve University and
          his Bachelors degree from Xavier University. He currently lives in
          Lakewood, OH with his wife and their daughter.
-  - name: Ted Shorter
-    affiliation: Certified Security Solutions
-    title: "Public Key Infrastructure: What’s old is new again"
-    bio: >-
-      PKI and digital certificates have been around since the mid-90’s, and
-      although the adoption was slow and painful at first, the technology
-      continues to be used in new and interesting ways. This talk will provide a
-      brief introduction to PKI and digital certificates, a historical
-      progression of how the adoption of the technology has changed over the
-      years, and the challenges that organizations now face when using PKI. If
-      time permits, we may even explore what we’ve learned by trying to capture
-      and analyze every digital certificate on the Internet.
-
-       Ted Shorter is the chief technology officer at Certified Security
-       Solutions, Inc. (CSS). Ted has worked in the security arena for over 20
-       years, in the fields of cryptography, application security,
-       authentication and authorization services, and software vulnerability
-       analysis. His past experience includes 10 years at the National Security
-       Agency, a Master’s Degree in Computer Science from The Johns Hopkins
-       University, and an active CISSP certification.
-  - name: Lynn Nickels
-    affiliation: Rockwell Automation
-    title: How to Brand YOU!
-    bio: >
-      Lynn has traveled a long and winding road in her career journey, meeting
-      many interesting and famous people along the way… Actress Linda Blair of
-      the Exorcist movies, singers and celebrities like Eddie Money, Metallica,
-      The Goo Goo Dolls, and Jeff Dunham, just to name a few. And you know what?
-      They all put their pants on just like we do! But one thing that they have
-      learned to do differently (or have paid to have done differently) is the
-      way they brand themselves!
-
-       Personal branding is a necessity in this job market and in the world we
-       live in. Branding yourself is vital to getting a job and is not always
-       something that comes second nature to everyone. What kinds of content
-       marketing tools can you use to BRAND YOU? What do hiring managers look
-       for? What is important in a portfolio? Let's find out!
-
-        Currently, Lynn is a Global Marketing Communications Representative for
-        Rockwell Automation with 18 years’ experience in the fields of marketing
-        (B2B and B2C), advertising, technical blogging, entertainment writing,
-        editing, public speaking, photography and events planning. A recent
-        presenter at Content Marketing World in Sidney, AU, and Singapore, she
-        also moonlights as an Academic Relations and STEM advocate. Free head
-        shots will be offered to attendees of this session.
 
 speakers_2015:
   - name: Eric Floehr
