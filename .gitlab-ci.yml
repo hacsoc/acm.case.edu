@@ -7,7 +7,7 @@ variables:
   CONTAINER_RELEASE_IMAGE: git.case.edu:4567/hacsoc/acm.case.edu:latest
 
 before_script:
- - docker login -u gitlab-ci -p $CI_BUILD_TOKEN git.case.edu:4567
+ - docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN git.case.edu:4567
 
 build:
   stage: build
