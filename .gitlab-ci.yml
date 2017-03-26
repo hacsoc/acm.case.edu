@@ -1,0 +1,23 @@
+stages:
+ - build
+ - release
+
+variables:
+  CONTAINER_TEST_IMAGE: registry.acm.case.edu/hacsoc/acm.case.edu:$CI_BUILD_REF_NAME
+  CONTAINER_RELEASE_IMAGE: registry.acm.case.edu/hacsoc/acm.case.edu:latest
+
+before_script:
+ - docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN registry.acm.case.edu
+
+build:
+  stage: build
+  script:
+    - docker build --pull -t $CONTAINER_TEST_IMAGE .
+    - docker push $CONTAINER_TEST_IMAGE
+
+release-image:
+  stage: release
+  script:
+    - docker pull $CONTAINER_TEST_IMAGE
+    - docker tag $CONTAINER_TEST_IMAGE $CONTAINER_RELEASE_IMAGE
+    - docker push $CONTAINER_RELEASE_IMAGE
