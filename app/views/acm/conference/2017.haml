@@ -1,0 +1,89 @@
+#{meta_tag "summary", :name => "twitter:card"}
+#{meta_tag "@cwruacm", :name => "twitter:site"}
+#{meta_tag "EECS @ CWRU -- Link-State 2017 Conference", :name => "twitter:title"}
+#{meta_tag "The fifth annual student-run tech conference at Case Western Reserve University taking place all day on Saturday October 8th, 2017.", :name => "twitter:description"}
+#{meta_tag "http://acm.case.edu" + "#{image_path 'LinkState175px.png'}", :name => "twitter:image"}
+%aside.right
+  = image_tag 'LinkState175px.png'
+  %h2 Important Info
+  %ul.aside-list
+    %li
+      %span.key Date:
+      .value Saturday, October 7th, 2017
+      %span.key Time:
+      .value 9:00AM - 5:00PM
+      %span.key Location:
+      .value
+        %a{:href => 'http://goo.gl/xsJQRd'} Hovorka Atrium
+        %br
+        Agnar Pytte Science Center
+        %br
+        Case Western Reserve University
+      %span.key Contact:
+      .value
+        #{mail_to "rlc131@case.edu", "Ramon Correa"}
+      %span.key Twitter:
+      .value
+        %a{:href => 'https://twitter.com/cwruacm'} @cwruacm
+      %span.key Hashtag:
+      .value
+        %a{:href => 'https://twitter.com/hashtag/linkstate'} #linkstate
+      %span.key Facebook Event:
+      .value
+        %a{:href => 'https://www.facebook.com/events/1608679746109185/'} Link-State 2017
+
+%h1 Link-State 2017
+:markdown
+
+  ACM at Case Western Reserve University is proud to present our *sixth annual*
+  Link-State conference. Every fall, we invite a group of awesome speakers to
+  talk about all sorts of tech-related topics, ranging from programming to
+  robotics to entrepreneurship. We welcome students and professionals to join us
+  on October 7 for a day full of great tech talks, free food, and networking with
+  awesome local tech companies.
+
+  You can learn about the history of the conference on the
+  [about](#{url_for('/acm/conference/about')}) page.  You can find our
+  conference code of conduct [here](#{url_for('/acm/conference/code')}).
+
+%ul.toci
+  %li
+    %a{:href => '#register'} Register
+  %li
+    %a{:href => '#sponsors'} Sponsors
+  %li
+    %a{:href => '#schedule'} Schedule
+  %li
+    %a{:href => '#speakers'} Speakers
+
+%h2 Parking
+:markdown
+
+  If you are driving to Link-State, you can park for free on campus! Please use
+  lot [S-53](https://goo.gl/maps/kfK4xgBsDgM2), also known as the Veale Parking
+  Garage. Take a ticket when you enter the garage, and be sure to ask for a
+  parking voucher when you check into the conference. As you leave the garage,
+  present the voucher to the parking attendant and you will not need to pay.
+
+#register
+  %h2 Register
+  :markdown
+    Tickets are free, but you must register in order to attend. Information regarding 
+    ticket's will be avaliable at a later date.
+    -# Check out our
+    -# [Eventbrite](https://linkstate2017.eventbrite.com) or use the form below.
+  -#%iframe{:width => '100%', :height => '320', :frameborder => '0', :src => 'https://eventbrite.com/tickets-external?eid=26134735698&ref=etckt', :target => 'HTML' }
+
+#sponsors
+  %h2 Sponsors-TBA
+  %br
+  -# Render all of the sponsors loaded in Cabal (app.rb)
+
+#schedule
+%h2 Speaker Schedule -TBA
+-#%table#schedule{border: 1, style: 'width: 100%'}
+  Note that there are still a few openings in the schedule. If you'd like to
+  schedule a last-minute talk, contact [Ramon Corra](mailto:rlc131@case.edu).
+
+#speakers
+  %h2 Speakers-TBA
