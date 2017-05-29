@@ -11,6 +11,8 @@
 # website (optional)
 # For talk content: (probably not used since 2012)
 # youtube, scribd_id (weird, grep down the page for it)
+
+speakers_2017:
 speakers_2016:
   - name: Ted Shorter
     affiliation: Certified Security Solutions
