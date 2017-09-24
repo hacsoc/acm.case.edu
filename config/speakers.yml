@@ -13,6 +13,91 @@
 # youtube, scribd_id (weird, grep down the page for it)
 
 speakers_2017:
+  - name: Ryan D. May 
+    affiliation: Intwine Connect, LLC
+    title: " Autonomous Control of a Deep Space Power System " 
+    bio: >-
+       Autonomy is required for manned spacecraft missions distant enough that
+       light-time communication delays make ground-based mission control infeasible.
+       Presently, ground controllers develop a complete schedule of power modes for
+       all spacecraft components based on a large number of factors and then remotely
+       execute those commands on the vehicle. Contrast this with a mission to Demos
+       and/or Phobos or a mission to the planet Mars that involves a total travel time
+       of 6 to 9 months, and communication delays that can vary anywhere from 6 to 44
+       minutes roundtrip. Because the communication delays are so long, the mission
+       control center on Earth will no longer have the ability to assist the astronauts
+       in real-time to diagnose and correct problems with the spacecraft. In addition,
+       it is expected that the astronauts that will undertake such missions will not be
+       domain experts in the respective subsystems required to operate the spacecraft.
+       Consequently, each of the subsystems will have to have built into it a substantial
+       amount of intelligence to permit its routine operation as well as fault diagnosis
+       and corrective actions. This talk will discuss the use of a Multi-Agent System
+       for the control of a spacecraft's electric power system to enable modular and
+       responsive autonomy. Parallels between the space-based power system and the
+       terrestrial power grid will be discussed and some in-progress examples of this
+       type of control will be shown.
+      
+         Ryan May the Chief Engineer of Intwine Connect, an IoT service provider in
+         Cleveland, Ohio.He has previously worked in automotive controls for Bendix 
+         as well as aeronautics and spacecraft controls while at NASA Glenn Research 
+         Center. His areas of research include mega-scale decentralized control systems,
+         control of electric power systems, autonomous systems, and nonlinear optimization. 
+         Ryan is currently pursuing his PhD at Case Western Reserve University.
+       
+       
+
+
+  - name: Ethan Hill 
+    affiliation: IBM
+    title: " The Situation of Context "  
+    bio: >-
+       
+       Word embeddings aim to capture the semantic representation of words in vector
+       space, and have been successfully used to enrich existing language models and
+       improve accuracy in some fundamental tasks in natural language processing. 
+       Popular tools for creating word embeddings examine a word’s surrounding context
+       of neighboring words to create a vector representation for that word. This approach
+       however, does not account for possibly relevant context information for a target 
+       word that exists far outside of the immediate window of neighboring words.  In this
+       talk we will explore using a more syntactically motivated context window to build 
+       word vectors with an aim to increase the accuracy of downstream syntactic NLP tasks.  
+       
+         Ethan Hill is a software engineer at IBM Watson Health (formerly Explorys) 
+         in Cleveland working on a health care analytics engine. After graduating 
+         from Ohio State University in 2015 with dual bachelors degrees in computer
+         science and German, he joined the IBM Watson group in Columbus Ohio and came
+         to Cleveland in 2016. Aside from language and computers, Ethan enjoys cycling
+         and cooking in his free time.
+
+
+  - name: Chet Ramey
+    title: " A Tour through Bash" 
+    bio: >- 
+        This talk will explore my involvement in Bash: its history, how I got involved,
+        highlights of its development, and lessons I've learned from the experience.
+
+         Chet Ramey is a long-time employee of Case Western Reserve University. He has 
+         been involved in GNU Bash and Readline development since 1989, and the primary 
+         maintainer of both since 1994. 
+
+  - name: Jesse Throwe 
+    title: "On Multi-Factor Authentication and Mixed-Use Enviroments: A retrospective " 
+    bio: >-
+        Over the last several years I’ve been a part of an initiative to implement a 
+        strong multi-factor enabled authentication scheme for access to our network
+        and its resources across a diverse set of software and operating systems. 
+        This talk will dive into a high level overview on what was implemented, 
+        why we did some of the things we did, and some of the things that I would do
+        differently today. Most of the custom software talked about in this talk is 
+        also available on github at https://github.com/covermymeds/mfa
+       
+         Jesse Throwe is a jack of all trades who's spent the last two decades exploring
+         various aspects of technology. In the past being a security, a systems and 
+         software engineer, Jesse has gotten to experience Information Security from 
+         multiple perspectives. These days he's been diving into analytics from a 
+         systems and security perspective in order to gain insight into potential 
+         threats to the enviroment 
+
 speakers_2016:
   - name: Ted Shorter
     affiliation: Certified Security Solutions
