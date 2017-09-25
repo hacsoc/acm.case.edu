@@ -54,7 +54,7 @@ Cabal.controller :acm do
   get 'conference/2017' do
     @name = 'Link-State'
     @speakers = Cabal.speakers_2017
-   # @sponsors = Cabal.sponsors_2017
+    @sponsors = Cabal.sponsors_2017
     # @keynote = @speakers.find{ |x| x['keynote'] }
     render 'acm/conference/2017'
   end

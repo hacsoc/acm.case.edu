@@ -76,9 +76,19 @@
       %a.powered-by-eb{:href => "http://www.eventbrite.com/", :style => "color: #ADB0B6; text-decoration: none;", :target => "_blank"}
 
 #sponsors
-  %h2 Sponsors - TBA 
-  %br
+  %h2 Sponsors
+  %br 
 
+-#render all of the sponsors loaded in cabal (app.rb) 
+
+#main-sponsors
+  -@sponsors.each do |sponsors|
+    .sponsors
+    %a{href:sponsors['website']}
+    = image_tag sponsors['image'],height: '75px',
+    alt: sponsors['name'], title: sponsors['name']
+
+  
 #schedule
   %h2 Speaker Schedule  
   :markdown   

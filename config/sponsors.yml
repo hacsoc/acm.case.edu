@@ -1,5 +1,10 @@
 ---
-sponsors_2017: 
+sponsors_2017:
+
+ - name: 'Cover My Meds '
+   website: 'https://www.covermymeds.com/main/' 
+   image: 'sponsors_ls_2017/coverMyMeds.png' 
+
 sponsors_2016:
   - name: 'Certified Security Solutions'
     website: 'https://www.css-security.com/'

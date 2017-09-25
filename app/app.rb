@@ -17,7 +17,7 @@ class Cabal < Padrino::Application
   set :sponsors_2014, YAML::load(File.read('config/sponsors.yml'))['sponsors_2014']
   set :sponsors_2015, YAML::load(File.read('config/sponsors.yml'))['sponsors_2015']
   set :sponsors_2016, YAML::load(File.read('config/sponsors.yml'))['sponsors_2016']
-
+  set :sponsors_2017, YAML::load(File.read('config/sponsors.yml'))['sponsors_2017']
   ##
   # Caching support
   #
