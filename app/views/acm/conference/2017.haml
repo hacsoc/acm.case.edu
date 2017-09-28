@@ -77,16 +77,14 @@
 
 #sponsors
   %h2 Sponsors
-  %br 
-
--#render all of the sponsors loaded in cabal (app.rb) 
-
-#main-sponsors
-  -@sponsors.each do |sponsors|
-    .sponsors
-    %a{href:sponsors['website']}
-    = image_tag sponsors['image'],height: '75px',
-    alt: sponsors['name'], title: sponsors['name']
+  %br
+  -#render all of the sponsors loaded in cabal (app.rb)
+  #main-sponsors
+  -@sponsors.each do |sponsor|
+    .sponsor
+    %a{href: sponsor['website'] }
+    = image_tag sponsor['image'],height: '75px',
+    alt: sponsor['name'], title: sponsor['name']
 
   
 #schedule
