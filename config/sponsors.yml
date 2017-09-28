@@ -1,13 +1,11 @@
 ---
 sponsors_2017:
-
   - name: 'Cover My Meds '
-    website: 'http://www.covermymeds.com/main/' 
-    image: 'sponsors_ls_2017/coverMyMeds.png' 
+    website: 'http://www.covermymeds.com/main/'
+    image: 'sponsors_ls_2017/coverMyMeds.png'
   - name: 'Freenome'
     website: 'http://www.freenome.com'
-    image: 'sponsors_ls_2017/freenome.png' 
-
+    image: 'sponsors_ls_2017/freenome.png'
 sponsors_2016:
   - name: 'Certified Security Solutions'
     website: 'https://www.css-security.com/'

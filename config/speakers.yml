@@ -13,142 +13,153 @@
 # youtube, scribd_id (weird, grep down the page for it)
 
 speakers_2017:
-  - name: Ryan D. May 
+  - name: Ryan D. May
     affiliation: Intwine Connect, LLC
-    title: " Autonomous Control of a Deep Space Power System " 
+    title: "Autonomous Control of a Deep Space Power System"
     bio: >-
-       Autonomy is required for manned spacecraft missions distant enough that
-       light-time communication delays make ground-based mission control infeasible.
-       Presently, ground controllers develop a complete schedule of power modes for
-       all spacecraft components based on a large number of factors and then remotely
-       execute those commands on the vehicle. Contrast this with a mission to Demos
-       and/or Phobos or a mission to the planet Mars that involves a total travel time
-       of 6 to 9 months, and communication delays that can vary anywhere from 6 to 44
-       minutes roundtrip. Because the communication delays are so long, the mission
-       control center on Earth will no longer have the ability to assist the astronauts
-       in real-time to diagnose and correct problems with the spacecraft. In addition,
-       it is expected that the astronauts that will undertake such missions will not be
-       domain experts in the respective subsystems required to operate the spacecraft.
-       Consequently, each of the subsystems will have to have built into it a substantial
-       amount of intelligence to permit its routine operation as well as fault diagnosis
-       and corrective actions. This talk will discuss the use of a Multi-Agent System
-       for the control of a spacecraft's electric power system to enable modular and
-       responsive autonomy. Parallels between the space-based power system and the
-       terrestrial power grid will be discussed and some in-progress examples of this
-       type of control will be shown.
-      
-         Ryan May the Chief Engineer of Intwine Connect, an IoT service provider in
-         Cleveland, Ohio.He has previously worked in automotive controls for Bendix 
-         as well as aeronautics and spacecraft controls while at NASA Glenn Research 
-         Center. His areas of research include mega-scale decentralized control systems,
-         control of electric power systems, autonomous systems, and nonlinear optimization. 
-         Ryan is currently pursuing his PhD at Case Western Reserve University.
-       
-       
+      Autonomy is required for manned spacecraft missions distant enough
+      that light-time communication delays make ground-based mission control
+      infeasible. Presently, ground controllers develop a complete schedule of
+      power modes for all spacecraft components based on a large number of
+      factors and then remotely execute those commands on the vehicle.
+      Contrast this with a mission to Demos and/or Phobos or a mission to the
+      planet Mars that involves a total travel time of 6 to 9 months, and
+      communication delays that can vary anywhere from 6 to 44 minutes
+      roundtrip. Because the communication delays are so long, the mission
+      control center on Earth will no longer have the ability to assist the
+      astronauts in real-time to diagnose and correct problems with the
+      spacecraft. In addition, it is expected that the astronauts that will
+      undertake such missions will not be domain experts in the respective
+      subsystems required to operate the spacecraft. Consequently, each of the
+      subsystems will have to have built into it a substantial amount of
+      intelligence to permit its routine operation as well as fault diagnosis
+      and corrective actions. This talk will discuss the use of a Multi-Agent
+      System for the control of a spacecraft's electric power system to enable
+      modular and responsive autonomy. Parallels between the space-based power
+      system and the terrestrial power grid will be discussed and some
+      in-progress examples of this type of control will be shown.
 
+       Ryan May the Chief Engineer of Intwine Connect, an IoT service
+       provider in Cleveland, Ohio.He has previously worked in automotive
+       controls for Bendix as well as aeronautics and spacecraft controls while
+       at NASA Glenn Research Center. His areas of research include mega-scale
+       decentralized control systems, control of electric power systems,
+       autonomous systems, and nonlinear optimization. Ryan is currently
+       pursuing his PhD at Case Western Reserve University.
 
-  - name: Ethan Hill 
+  - name: Ethan Hill
     affiliation: IBM
-    title: " The Situation of Context "  
+    title: "The Situation of Context"
     bio: >-
-       
-       Word embeddings aim to capture the semantic representation of words in vector
-       space, and have been successfully used to enrich existing language models and
-       improve accuracy in some fundamental tasks in natural language processing. 
-       Popular tools for creating word embeddings examine a word’s surrounding context
-       of neighboring words to create a vector representation for that word. This approach
-       however, does not account for possibly relevant context information for a target 
-       word that exists far outside of the immediate window of neighboring words.  In this
-       talk we will explore using a more syntactically motivated context window to build 
-       word vectors with an aim to increase the accuracy of downstream syntactic NLP tasks.  
-       
-         Ethan Hill is a software engineer at IBM Watson Health (formerly Explorys) 
-         in Cleveland working on a health care analytics engine. After graduating 
-         from Ohio State University in 2015 with dual bachelors degrees in computer
-         science and German, he joined the IBM Watson group in Columbus Ohio and came
-         to Cleveland in 2016. Aside from language and computers, Ethan enjoys cycling
-         and cooking in his free time.
+      Word embeddings aim to capture the semantic representation of words in
+      vector space, and have been successfully used to enrich existing language
+      models and improve accuracy in some fundamental tasks in natural language
+      processing. Popular tools for creating word embeddings examine a word’s
+      surrounding context of neighboring words to create a vector
+      representation for that word. This approach however, does not account for
+      possibly relevant context information for a target word that exists far
+      outside of the immediate window of neighboring words.  In this talk we
+      will explore using a more syntactically motivated context window to build
+      word vectors with an aim to increase the accuracy of downstream syntactic
+      NLP tasks.
 
+       Ethan Hill is a software engineer at IBM Watson Health (formerly
+       Explorys) in Cleveland working on a health care analytics engine. After
+       graduating from Ohio State University in 2015 with dual bachelors
+       degrees in computer science and German, he joined the IBM Watson group
+       in Columbus Ohio and came to Cleveland in 2016. Aside from language and
+       computers, Ethan enjoys cycling and cooking in his free time.
 
   - name: Chet Ramey
-    title: " A Tour through Bash" 
-    bio: >- 
-        This talk will explore my involvement in Bash: its history, how I got involved,
-        highlights of its development, and lessons I've learned from the experience.
-
-         Chet Ramey is a long-time employee of Case Western Reserve University. He has 
-         been involved in GNU Bash and Readline development since 1989, and the primary 
-         maintainer of both since 1994. 
-
-  - name: Jesse Throwe 
-    title: "On Multi-Factor Authentication and Mixed-Use Enviroments: A retrospective " 
+    title: "A Tour through Bash"
     bio: >-
-        Over the last several years I’ve been a part of an initiative to implement a 
-        strong multi-factor enabled authentication scheme for access to our network
-        and its resources across a diverse set of software and operating systems. 
-        This talk will dive into a high level overview on what was implemented, 
-        why we did some of the things we did, and some of the things that I would do
-        differently today. Most of the custom software talked about in this talk is 
-        also available on github at https://github.com/covermymeds/mfa
-       
-         Jesse Throwe is a jack of all trades who's spent the last two decades exploring
-         various aspects of technology. In the past being a security, a systems and 
-         software engineer, Jesse has gotten to experience Information Security from 
-         multiple perspectives. These days he's been diving into analytics from a 
-         systems and security perspective in order to gain insight into potential 
-         threats to the enviroment 
-  - name: Herbert W. Schlling & Calvin Robinson 
-    affiliation: NASA 
+      This talk will explore my involvement in Bash: its history, how I got
+      involved, highlights of its development, and lessons I've learned from
+      the experience.
+
+       Chet Ramey is a long-time employee of Case Western Reserve
+       University. He has been involved in GNU Bash and Readline development
+       since 1989, and the primary maintainer of both since 1994.
+
+  - name: Jesse Throwe
+    title: "On Multi-Factor Authentication and Mixed-Use Enviroments: A retrospective"
+    bio: >-
+      Over the last several years I’ve been a part of an initiative to
+      implement a strong multi-factor enabled authentication scheme for access
+      to our network and its resources across a diverse set of software and
+      operating systems. This talk will dive into a high level overview on what
+      was implemented, why we did some of the things we did, and some of the
+      things that I would do differently today. Most of the custom software
+      talked about in this talk is also available on github at
+      https://github.com/covermymeds/mfa
+
+       Jesse Throwe is a jack of all trades who's spent the last two decades
+       exploring various aspects of technology. In the past being a security, a
+       systems and software engineer, Jesse has gotten to experience
+       Information Security from multiple perspectives. These days he's been
+       diving into analytics from a systems and security perspective in order
+       to gain insight into potential threats to the enviroment
+
+  - name: Herbert W. Schlling & Calvin Robinson
+    affiliation: NASA
     title: "Powerful Explanation and Exploration Through Modern Visualization"
     bio: >-
-        Emerging technologies are contributing ground breaking advancements to visualization,
-        which has always been key to unlocking and sharing new insights. We invite you to 
-        please join us at our presentation where, through examples of augmented reality, 
-        virtual reality and natural user interfaces, we’ll explore the importance of historic 
-        and modern visualization. Our presentation will highlight recent achievements in 
-        visualization at NASA.
+      Emerging technologies are contributing ground breaking advancements
+      to visualization, which has always been key to unlocking and sharing
+      new insights. We invite you to please join us at our presentation
+      where, through examples of augmented reality, virtual reality and
+      natural user interfaces, we’ll explore the importance of historic and
+      modern visualization. Our presentation will highlight recent
+      achievements in visualization at NASA.
 
-         The Graphics and Visualization (GVIS) Lab at NASA Glenn Research Center provides 
-         services, expertise, and facilities for the visualization of scientific data, 
-         engineering analyses, and mission scenarios. GVIS specializes in developing 
-         custom data visualization solutions and houses the latest computer graphics and 
-         advanced interactive display technologies. Our mission is to apply the latest 
-         visualization and human interaction technologies to advance NASA missions.
-  - name: John Dulin 
+       The Graphics and Visualization (GVIS) Lab at NASA Glenn Research
+       Center provides services, expertise, and facilities for the
+       visualization of scientific data, engineering analyses, and mission
+       scenarios. GVIS specializes in developing custom data visualization
+       solutions and houses the latest computer graphics and advanced
+       interactive display technologies. Our mission is to apply the latest
+       visualization and human interaction technologies to advance NASA
+       missions.
+
+  - name: John Dulin
     affiliation: Freenome
     title: "Building Software For Cancer Diagnositcs When You Skipped Biology Class"
     bio: >-
-        
-        Freenome is a liquid biopsy cancer diagnostics platform based on classifying cell-free
-        DNA drawn from blood with machine learning.  So, when you are hired as a software engineer
-        and asked to build the services, storage, and UIs to track and study thousands of vials of
-        blood thru a complex wet lab process... What do you do?  You ask lots of questions and learn
-        very quickly.  This talk describes the intimidating design problem when building software for
-        experts in a different field. How do you know you're building the right thing? How do you 
-        learn what biology to learn and not learn? How do you build tools for a clinical lab and and
-        learn what biology to learn and not learn? How do you build tools for a clinical lab and an
-        your data and services to the lab and machine learning scientists? And how do you learn what
-        in the world you are building without being a laboratory scientist?  By the end, the audience
-        will also have learned a lot about the software needed to run a wet lab and a lot about 
-        modern gene-sequencing.
+      Freenome is a liquid biopsy cancer diagnostics platform based on
+      classifying cell-free DNA drawn from blood with machine learning. So,
+      when you are hired as a software engineer and asked to build the
+      services, storage, and UIs to track and study thousands of vials of blood
+      thru a complex wet lab process... What do you do? You ask lots of
+      questions and learn very quickly. This talk describes the intimidating
+      design problem when building software for experts in a different field.
+      How do you know you're building the right thing? How do you learn what
+      biology to learn and not learn? How do you build tools for a clinical lab
+      and and learn what biology to learn and not learn? How do you build tools
+      for a clinical lab and an your data and services to the lab and machine
+      learning scientists? And how do you learn what in the world you are
+      building without being a laboratory scientist? By the end, the audience
+      will also have learned a lot about the software needed to run a wet lab
+      and a lot about modern gene-sequencing.
 
-  - name: John Herraghty 
+  - name: John Herraghty
     affiliation: IBM
-    title: The Real World of Security Operations 
+    title: The Real World of Security Operations
     bio: >-
-        This talk will cover daily duties of an in-house infoSec guy. Topics to be discussed include
-        compliance, Probing/monitoring, Automatic Alerting, Chasing Abnormalities and role management        . The talk will also discuss what to lookf for when looking into a security job and qualifi-
-        caitons. 
+      This talk will cover daily duties of an in-house infoSec guy. Topics to
+      be discussed include compliance, Probing/monitoring, Automatic Alerting,
+      Chasing Abnormalities and role management. The talk will also discuss
+      what to look for when looking into a security job and qualificaitons.
 
-  - name: Brendan Higgins 
-    affiliation: Google 
-    title: " Rowhammer: Using Software to Hack Computers with Physics" 
+  - name: Brendan Higgins
+    affiliation: Google
+    title: "Rowhammer: Using Software to Hack Computers with Physics"
     bio: >-
-        I will explain how DRAM is structured, what memory refreshing is and why it needs to be done
-        how memory caching and flushing work, what memory paging is and how it works, and how x86's
-        flush instruction can be abused to force repeated reads and/or writes to DRAM and how that
-        can be used to create electromagnetic interference to manipulate adjacent memory rows and 
-        how that can be used to gain access to physical memory.
+      I will explain how DRAM is structured, what memory refreshing is and
+      why it needs to be done how memory caching and flushing work, what memory
+      paging is and how it works, and how x86's flush instruction can be abused
+      to force repeated reads and/or writes to DRAM and how that can be used to
+      create electromagnetic interference to manipulate adjacent memory rows
+      and how that can be used to gain access to physical memory.
 
 speakers_2016:
   - name: Ted Shorter

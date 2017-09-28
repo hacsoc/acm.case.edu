@@ -78,22 +78,23 @@
 #sponsors
   %h2 Sponsors
   %br
-  -#render all of the sponsors loaded in cabal (app.rb)
-  #main-sponsors
-  -@sponsors.each do |sponsor|
-    .sponsor
-    %a{href: sponsor['website'] }
-    = image_tag sponsor['image'],height: '75px',
-    alt: sponsor['name'], title: sponsor['name']
 
-  
+  -# Render all of the sponsors loaded in Cabal (app.rb)
+  #main-sponsors
+    - @sponsors.each do |sponsor|
+      .sponsor
+        %a{href: sponsor['website']}
+          = image_tag sponsor['image'], height: '75px',
+            alt: sponsor['name'], title: sponsor['name']
+
+
 #schedule
-  %h2 Speaker Schedule  
-  :markdown   
+  %h2 Speaker Schedule
+  :markdown
     If you'd like to schedule a talk, contact [Ramon Correa](mailto:rlc131@case.edu).
 
 #speakers
-  
+
   %h2 Speakers
   %ul.speaker-list
     - @speakers.each do |s|
