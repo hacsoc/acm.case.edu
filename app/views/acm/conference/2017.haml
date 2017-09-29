@@ -77,25 +77,74 @@
 
 #sponsors
   %h2 Sponsors
-  %br 
+  %br
 
--#render all of the sponsors loaded in cabal (app.rb) 
+  -# Render all of the sponsors loaded in Cabal (app.rb)
+  #main-sponsors
+    - @sponsors.each do |sponsor|
+      .sponsor
+        %a{href: sponsor['website']}
+          = image_tag sponsor['image'], height: '75px',
+            alt: sponsor['name'], title: sponsor['name']
 
-#main-sponsors
-  -@sponsors.each do |sponsors|
-    .sponsors
-    %a{href:sponsors['website']}
-    = image_tag sponsors['image'],height: '75px',
-    alt: sponsors['name'], title: sponsors['name']
 
-  
 #schedule
-  %h2 Speaker Schedule  
-  :markdown   
-    If you'd like to schedule a talk, contact [Ramon Correa](mailto:rlc131@case.edu).
+  %h2 Speaker Schedule
+%table#schedule{border: 1, style: 'width: 100%'}
+  %thead
+    %th time 
+    %th Havorka Atrium 
+    %th Millis-Schmitt Auditorium 
+    %th Clapp Lecutre Hall 
+  %tr 
+    %td 9:00am 
+    %td Check-In and Breakfast
+    %td 
+    %td 
+  %tr 
+    %td 10:00am 
+    %td 
+    %td 
+    %td Ethan Hill 
+  %tr  
+    %td 11:00am  
+    %td 
+    %td 
+    %td Chet Ramey  
+  %tr 
+    %td 12:00pm
+    %td Lunch + Networking  
+    %td 
+    %td 
+  %tr 
+    %td 1:00pm 
+    %td 
+    %td Ryan May  
+    %td Jesse Throwe
+  %tr
+    %td 2:00pm 
+    %td 
+    %td John Dulin 
+    %td Calvin Robinson  
+  %tr 
+    %td 3:00pm 
+    %td 
+    %td John Herraghty   
+    %td Brendan Higgins 
+  %tr 
+    %td 4:00pm  
+    %td 
+    %td 
+    %td Mick Miller    
+  %tr 
+    %td 5:00pm 
+    %td Closing Remarks 
+    %td 
+    %td 
 
+ 
 #speakers
-  
+
   %h2 Speakers
   %ul.speaker-list
     - @speakers.each do |s|
