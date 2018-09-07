@@ -1,0 +1,167 @@
+#{meta_tag "summary", :name => "twitter:card"}
+#{meta_tag "@cwruacm", :name => "twitter:site"}
+#{meta_tag "EECS @ CWRU -- Link-State 2018 Conference", :name => "twitter:title"}
+#{meta_tag "The fifth annual student-run tech conference at Case Western Reserve University taking place all day on Saturday October 7th, 2018.", :name => "twitter:description"}
+#{meta_tag "http://acm.case.edu" + "#{image_path 'LinkState175px.png'}", :name => "twitter:image"}
+%aside.right
+  = image_tag 'LinkState175px.png'
+  %h2 Important Info
+  %ul.aside-list
+    %li
+      %span.key Date:
+      .value Saturday, October 6th, 2018
+      %span.key Time:
+      .value 9:00AM - 5:00PM
+      %span.key Location:
+      .value
+        %a{:href => 'http://goo.gl/xsJQRd'} Hovorka Atrium
+        %br
+        Agnar Pytte Science Center
+        %br
+        Case Western Reserve University
+      %span.key Contact:
+      .value
+        #{mail_to "rlc131@case.edu", "Ramon Correa"}
+      %span.key Twitter:
+      .value
+        %a{:href => 'https://twitter.com/cwruacm'} @cwruacm
+      %span.key Hashtag:
+      .value
+        %a{:href => 'https://twitter.com/hashtag/linkstate'} #linkstate
+      %span.key Facebook Event:
+      .value
+        %a{:href => 'https://www.facebook.com/events/466158480392746/'} Link-State 2018
+
+%h1 Link-State 2018
+:markdown
+
+  ACM at Case Western Reserve University is proud to present our *sixth annual*
+  Link-State conference. Every fall, we invite a group of awesome speakers to
+  talk about all sorts of tech-related topics, ranging from programming to
+  robotics to entrepreneurship. We welcome students and professionals to join us
+  on October 7 for a day full of great tech talks, free food, and networking with
+  awesome local tech companies.
+
+  You can learn about the history of the conference on the
+  [about](#{url_for('/acm/conference/about')}) page.  You can find our
+  conference code of conduct [here](#{url_for('/acm/conference/code')}).
+
+%ul.toci
+  %li
+    %a{:href => '#register'} Register
+  %li
+    %a{:href => '#sponsors'} Sponsors
+  %li
+    %a{:href => '#schedule'} Schedule
+  %li
+    %a{:href => '#speakers'} Speakers
+
+%h2 Parking
+:markdown
+
+  If you are driving to Link-State, you can park in lot [S-53](https://goo.gl/maps/kfK4xgBsDgM2), also known as the Veale Parking
+  Garage. We are currently working on obtaining parking vouchers. 
+
+#register
+  %h2 Register
+  :markdown
+    Tickets are free, but you must register in order to attend.
+
+%div{:style => "width:100%; text-align:left;"}
+  %iframe{:allowtransparency => "true", :frameborder => "0", :height => "275", :hspace => "0", :marginheight => "5", :marginwidth => "5", :scrolling => "auto", :src => "//eventbrite.com/tickets-external?eid=36801598572&ref=etckt", :vspace => "0", :width => "100%"}
+    %div{:style => "font-family:Helvetica, Arial; font-size:12px; padding:10px 0 5px; margin:2px; width:100%; text-align:left;"}
+      %a.powered-by-eb{:href => "http://www.eventbrite.com/", :style => "color: #ADB0B6; text-decoration: none;", :target => "_blank"}
+
+#sponsors
+  %h2 Sponsors
+  %br
+
+  -# Render all of the sponsors loaded in Cabal (app.rb)
+  -##main-sponsors 
+    - @sponsors.each do |sponsor|
+      .sponsor
+        %a{href: sponsor['website']}
+          = image_tag sponsor['image'], height: '75px',
+            alt: sponsor['name'], title: sponsor['name']
+
+
+#schedule
+  %h2 Speaker Schedule-TBA
+-#
+%table#schedule{border: 1, style: 'width: 100%'}
+-#this is a comment. 
+  %thead
+    %th time 
+    %th Havorka Atrium 
+    %th Millis-Schmitt Auditorium 
+    %th Clapp Lecutre Hall 
+  %tr 
+    %td 9:00am 
+    %td Check-In and Breakfast
+    %td 
+    %td 
+  %tr 
+    %td 10:00am 
+    %td 
+    %td 
+    %td Ethan Hill 
+  %tr  
+    %td 11:00am  
+    %td 
+    %td 
+    %td Chet Ramey  
+  %tr 
+    %td 12:00pm
+    %td Lunch + Networking  
+    %td 
+    %td 
+  %tr 
+    %td 1:00pm 
+    %td 
+    %td Ryan May  
+    %td Jesse Throwe
+  %tr
+    %td 2:00pm 
+    %td 
+    %td John Dulin 
+    %td Calvin Robinson  
+  %tr 
+    %td 3:00pm 
+    %td 
+    %td John Herraghty   
+    %td Brendan Higgins 
+  %tr 
+    %td 4:00pm  
+    %td 
+    %td 
+    %td Mick Miller    
+  %tr 
+    %td 5:00pm 
+    %td Closing Remarks 
+    %td 
+    %td 
+
+ 
+#speakers-TBA
+-#
+  %h2 Speakers
+  %ul.speaker-list
+    - @speakers.each do |s|
+      - unless s['keynote']
+        -last_name = s['name'].split.last.gsub(/\W/,'').gsub(/\W/,'')
+        %li{ :id => "#{last_name}-desc" }
+          - if s['email']
+            %a{ href: "mailto:#{s['email']}"}
+              %h3= s['name']
+          - else
+            %h3= s['name']
+          -if s['twitter']
+            %a{href: "https://twitter.com/#{s['twitter']}", class: 'twitter'}= s['twitter']
+          .affiliation= s['affiliation']
+          .title= s['title']
+          .bio
+            :markdown
+              #{s['bio']}
+          -if s['website']
+            %a{ :href => s['website'] }= s['website']
+
