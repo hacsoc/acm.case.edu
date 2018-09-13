@@ -1,4 +1,4 @@
-FROM ruby:2-alpine
+FROM ruby:2.5-alpine
 
 RUN apk add --update gcc g++ make linux-headers && rm -rf /var/cache/apk/*
 
