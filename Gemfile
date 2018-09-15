@@ -17,7 +17,7 @@ gem 'haml'
 # Test requirements
 
 # Padrino Stable Gem
-gem 'padrino', '0.10.7'
+gem 'padrino', '0.14.3'
 
 group :development do
   gem 'shotgun'
