@@ -9,7 +9,7 @@ Cabal.controller :acm do
   end
 
   get :conference do
-    redirect url_for('acm/conference/2017')
+    redirect url_for('acm/conference/2018')
   end
 
   get 'conference/2012' do
@@ -57,6 +57,14 @@ Cabal.controller :acm do
     @sponsors = Cabal.sponsors_2017
     # @keynote = @speakers.find{ |x| x['keynote'] }
     render 'acm/conference/2017'
+  end
+
+  get 'conference/2018' do
+    @name = 'Link-State'
+    @speakers = Cabal.speakers_2018
+    @sponsors = Cabal.sponsors_2018
+    # @keynote = @speakers.find{ |x| x['keynote'] }
+    render 'acm/conference/2018'
   end
 
   get 'conference/about' do

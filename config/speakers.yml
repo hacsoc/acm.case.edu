@@ -12,6 +12,9 @@
 # For talk content: (probably not used since 2012)
 # youtube, scribd_id (weird, grep down the page for it)
 
+speakers_2018:
+
+
 speakers_2017:
   - name: Ryan D. May
     affiliation: Intwine Connect, LLC
